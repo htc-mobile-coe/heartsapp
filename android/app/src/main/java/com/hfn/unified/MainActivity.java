@@ -17,6 +17,7 @@ public class MainActivity extends ReactActivity {
     getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
     SplashScreen.show(this);
     super.onCreate(savedInstanceState);
+    //Checking Git Commit
   }
 
   @Override
