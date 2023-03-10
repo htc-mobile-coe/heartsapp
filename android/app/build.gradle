@@ -399,14 +399,14 @@ tasks.each {
 
 protobuf {
     protoc {
-        artifact = 'com.google.protobuf:protoc:3.3.0'
+        artifact = 'com.google.protobuf:protoc:3.3.0:osx-x86_64'
     }
     plugins {
         javalite {
-            artifact = "com.google.protobuf:protoc-gen-javalite:3.0.0"
+            artifact = "com.google.protobuf:protoc-gen-javalite:3.0.0:osx-x86_64"
         }
         grpc {
-            artifact = 'io.grpc:protoc-gen-grpc-java:1.14.0' // CURRENT_GRPC_VERSION
+            artifact = 'io.grpc:protoc-gen-grpc-java:1.14.0:osx-x86_64' // CURRENT_GRPC_VERSION
         }
     }
     generateProtoTasks {
