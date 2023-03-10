@@ -1,0 +1,77 @@
+import { StyleSheet } from 'react-native';
+export const styles = props =>
+    StyleSheet.create({
+        container: { marginBottom: 30 },
+        cardContainer: {
+            backgroundColor: 'white',
+            padding: 16,
+            paddingVertical: 25,
+            shadowColor: props.lightGrayColor,
+            shadowRadius: 6,
+            shadowOpacity: 0.1,
+            borderRadius: 26,
+            elevation: 8,
+            shadowOffset: { width: 0, height: 2 },
+        },
+        bottomCardShadow1: {
+            position: 'absolute',
+            top: 20,
+            left: 60,
+            right: 60,
+            bottom: -30,
+            alignSelf: 'stretch',
+            backgroundColor: '#D1D3DB',
+            padding: 16,
+            borderBottomLeftRadius: 26,
+            borderBottomRightRadius: 26,
+        },
+        bottomCardShadow2: {
+            position: 'absolute',
+            top: 20,
+            left: 25,
+            right: 25,
+            bottom: -15,
+            alignSelf: 'stretch',
+            backgroundColor: '#DCE0EC',
+            padding: 16,
+            borderBottomLeftRadius: 26,
+            borderBottomRightRadius: 26,
+        },
+        containerImage: {
+            aspectRatio: 1.4,
+        },
+        image: {
+            resizeMode: 'contain',
+            width: '100%',
+            height: '100%',
+        },
+        title: {
+            textAlign: 'center',
+            color: '#605F5F',
+            fontFamily: props.normalFont,
+            fontSize: 14,
+            paddingVertical: 6,
+        },
+        headingSuffixHighlighted: {
+            color: '#000000',
+        },
+        heading: {
+            textAlign: 'center',
+            color: '#BF3129',
+            fontSize: 20,
+            paddingVertical: 6,
+        },
+        description: {
+            textAlign: 'center',
+            lineHeight: 20,
+            color: '#605F5F',
+            fontFamily: props.normalFont,
+            fontSize: 14,
+        },
+        showTextButton: { justifyContent: 'center', alignItems: 'center' },
+        showMoreText: {
+            color: props.brandPrimary,
+            margin: 5,
+        },
+        showLessText: { color: props.brandPrimary, margin: 5 },
+    });

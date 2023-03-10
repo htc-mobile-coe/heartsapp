@@ -1,0 +1,82 @@
+platform :ios, '14.4.2'
+require_relative '../node_modules/react-native/scripts/react_native_pods'
+require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
+
+project 'heartsapp',
+'QA Debug' => :debug,
+'QA Release' => :release,
+'QADebug' => :debug,
+'DevDebug' => :debug
+
+def available_pods
+  # Pods for heartsapp
+	# React Native Maps dependencies
+  rn_maps_path = '../node_modules/react-native-maps'
+  pod 'react-native-google-maps', :path => rn_maps_path
+  pod 'GoogleMaps'
+  pod 'Google-Maps-iOS-Utils'
+
+  permissions_path = '../node_modules/react-native-permissions/ios'
+  pod 'Permission-Camera', :path => "#{permissions_path}/Camera"
+  pod 'Permission-PhotoLibrary', :path => "#{permissions_path}/PhotoLibrary"
+  pod 'Permission-LocationWhenInUse', :path => "#{permissions_path}/LocationWhenInUse"
+
+  config = use_native_modules!
+
+  # Flags change depending on the env values.
+  flags = get_default_flags()
+
+	#     use_frameworks! :linkage => :static
+  pod 'Firebase', :modular_headers => true
+  pod 'FirebaseCore', :modular_headers => true
+  pod 'GoogleUtilities', :modular_headers => true
+  $RNFirebaseAsStaticFramework = true
+  # Flags change depending on the env values.
+
+  use_react_native!(
+    :path => config[:reactNativePath],
+    # to enable hermes on iOS, change `false` to `true` and then install pods
+    :hermes_enabled => false,
+    :fabric_enabled => flags[:fabric_enabled],
+    # An absolute path to your application root.
+    :app_path => "#{Pod::Config.instance.installation_root}/.."
+  )  
+
+  #GRPC
+  pod 'HeartsappGRPC', :path => '.'
+  pod 'gRPC-Core', '=1.25.0'
+  #pod 'KeychainSwift'
+  pod 'SwiftyJSON', '~> 4.0'
+
+end
+
+target 'heartsapp' do
+  available_pods
+end
+
+target 'heartsapp-development' do
+  available_pods
+end
+
+target 'heartsapp-staging' do
+  available_pods
+end
+
+target 'heartsapp-prod' do
+  available_pods
+end
+
+target 'heartsappTests' do
+  inherit! :search_paths
+  # Pods for testing
+end
+
+target 'heartsapp-tvOS' do
+  # Pods for heartsapp-tvOS
+
+  target 'heartsapp-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

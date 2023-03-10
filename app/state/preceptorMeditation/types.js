@@ -1,0 +1,5 @@
+export const SET_STATE = 'app/preceptorMeditation/SET_STATE';
+export const SET_ELAPSED_MEDITATION_DURATION =
+    'app/preceptorMeditation/SET_ELAPSED_MEDITATION_DURATION';
+export const SET_OPTED_POST_MEDITATION_EXPERIENCE_RECORDING =
+    'app/preceptorMeditation/SET_OPTED_POST_MEDITATION_EXPERIENCE_RECORDING';

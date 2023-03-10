@@ -1,0 +1,244 @@
+{
+    "common": {
+        "next": "下一页"
+    },
+    "validations": {
+        "required": "必填项目",
+        "invalidEmail": "邮箱无效",
+        "invalidMobileNo": "手机号码无效",
+        "maxAllowedCharacters": "最多允许{{max}}个字符",
+        "invalidValue": "无效值"
+    },
+    "offlineNotice": {
+        "unableToReachServer": "正在连接服务器",
+        "noInternetConnection": "没有网络连接"
+    },
+    "appTabs": {
+        "home": "主页",
+        "more": "更多",
+        "locate": "寻找"
+    },
+    "firstTimeLandingScreen": {
+        "newToHeartfulness": "新人",
+        "existingPractitioner": "满心修习者",
+        "trainer": "满心培训员",
+        "heading": "心App",
+        "subheading": "伴你走向内心的平静"
+    },
+    "newbieMasterClassScreen": {
+        "heading": "与达济一起学习方法",
+        "aboutHeartfulness": "关于满心冥想",
+        "introductionToHeartfulness": "满心方法简介",
+        "day1": "第1天",
+        "day2": "第2天",
+        "day3": "第3天",
+        "relax": "放松",
+        "rejuvenate": "复原",
+        "connect": "连接",
+        "continue": "继续",
+        "explore": "探索",
+        "introductionToHeartfulnessDescription": "在这段视频中，达济，满心冥想的全球向导会向观众介绍四大满心方法以及引导式冥想，这也是满心冥想独特之处。",
+        "day1Description": "在第一个环节中，您将体验满心放松，这个方法可以促进身体和精神平静，然后会学习如何以心中的光源为对象进行冥想。",
+        "day2Description": "在第二环节中，达济将介绍并引导您学习满心清心的方法，这个简单的方法旨在净化心思，放下压力、沉重感以及情绪。",
+        "day3Description": "在第三个，也是最后一个环节中，您将学习以心为中心的冥想如何让您与您的内心本我连接，学会观察内心深处的感觉并编织自己的命运。",
+        "exploreMore": "主页",
+        "videoLockedError": "观看视频后请等一天再观看下一个视频。每天一节课将给您时间去练习和内化所学到的内容。",
+        "ok": "好"
+    },
+    "signInScreen": {
+        "heading": "登录",
+        "connectWith": "连接",
+        "or": "或",
+        "login": "登录",
+        "registerWithEmail": "邮箱注册",
+        "skip": "跳过",
+        "email": "电子邮件",
+        "password": "密码",
+        "forgotPassword": "忘记密码？",
+        "newToHeartfulness": "新人？",
+        "createAccount": "创建账号",
+        "issuesWithLogin": "登录遇到问题？",
+        "helpDesk": "帮助",
+        "byUsingApp": "使用这个程序，您同意满心学员的",
+        "termsOfUse": "使用条款",
+        "and": "及",
+        "privacyPolicy": "隐私政策"
+    },
+    "seekerMeditationSessionScreen": {
+        "sitComfortably": "采取舒适的坐姿，放松，不被外界打扰",
+        "pleaseWait": "请稍等...\n \n 您将被连接到一个教练\n 中",
+        "waitingForTrainerToAccept": "已连接到培训员，等待培训员接受",
+        "waitingForTrainerToStart": "已连接到培训员。等待培训员启动",
+        "inProgress": "已与 '{{preceptorName}}'连接，\n 冥想在进行中...",
+        "masterSittingInProgress": "已与达济连接，冥想在进行中",
+        "completed": "冥想已经完成",
+        "sittingLimitExceeded": "您前不久进行过冥想，两次引导式冥想之间应保持8个小时间隔",
+        "goToHome": "主页",
+        "connectingToATrainer": "正在连接培训员",
+        "waitingTime": "需要等待约4分钟",
+        "meditationSessionHasEnded": "引导式冥想已经结束",
+        "modalGoToHome": "回到主页",
+        "noteObservations": "记下体验",
+        "fourMinutes": "4分钟"
+    },
+    "preceptorMeditationSessionScreen": {
+        "requestForMeditation": "申请冥想",
+        "canUAcceptRequest": "你能否接受申请",
+        "seekersRequestingMeditation": "请求一对一的修习者：{{totalNoOfSeekers}}",
+        "pressStartToBeginSession": "想开始主持冥想，请按开始",
+        "pressEndToEndSession": "想终止冥想，请按终止",
+        "sessionInProgress": "与{{totalNoOfSeekers}}位修习者的冥想在进行中",
+        "notNow": "暂时不方便",
+        "accept": "接受",
+        "start": "开始",
+        "pressStart": "按开始以便进入冥想",
+        "end": "终止",
+        "meditationCompleted": "冥想已完成",
+        "goToHome": "主页",
+        "endConfirmation": "确定要终止冥想？",
+        "endSession": "终止",
+        "continue": "继续"
+    },
+    "signUpScreen": {
+        "heading": "创建账号",
+        "subHeading": "个人情况",
+        "name": "姓名",
+        "scrmId": "满心或自然之道会员号码",
+        "dob": "出生日期 DD/MM/YYYY",
+        "doj": "入门日期（MM / YY）",
+        "email": "请输入您的邮箱地址",
+        "mobileNo": "手机号码",
+        "password": "密码",
+        "rePassword": "重新输入密码",
+        "submit": "提交",
+        "dobValidationMsg": "请用 DD / MM / YYYY 格式",
+        "dojValidationMsg": "请用 MM / YYYY 格式",
+        "passwordsDidNotMatch": "密码不相符",
+        "successModalHeading": "账户创建成功",
+        "verificationLinkSentMessage": "验证连结已发送到您的邮箱。请点击链接，以启动账户。",
+        "login": "登录",
+        "continueWithoutLogin": "不登录而继续"
+    },
+    "helpDeskScreen": {
+        "heading": "帮助",
+        "subHeading": "遇到的问题",
+        "name": "姓名",
+        "email": "邮箱地址",
+        "mobileNo": "手机号码",
+        "issue": "有什么可以帮到你？",
+        "submit": "提交",
+        "reachUsAt": "联系我们",
+        "supportTollFree": "免费热线",
+        "supportMobile": "移动电话",
+        "supportEmail": "电子邮件",
+        "availableTiming": "（印度标准时间上午8点 - 下午8点）"
+    },
+    "dataDoesNotMatchScreen": {
+        "subHeading": "数据不相符",
+        "infoText1": "您输入的会员号与我们记录的数据不相符。",
+        "infoText2": "请重新输入，并再次提交。",
+        "infoText3": "如果你认为你输入了正确的信息，但你仍然无法注册，请联系帮助台。",
+        "tryAgainButton": "重试",
+        "contactHelpDeskButton": "联系帮助台"
+    },
+    "forgotPasswordScreen": {
+        "heading": "重设密码",
+        "successModalHeading": "发送电子邮件",
+        "sentResetPasswordEmailMessage": "密码重设邮件已发到您所提供的电子邮件邮箱。请检查您的收件箱，并按指示办理",
+        "ok": "好",
+        "email": "输入注册邮箱地址",
+        "send": "发送"
+    },
+    "preceptorDashboardCard": {
+        "availableForSittings": "活跃状态",
+        "notAvailableForSittings": "休眠状态",
+        "yourCurrentStatus": "状态："
+    },
+    "onlineMetrics": {
+        "abhyasisWaiting": "等候中",
+        "trainersAvailable": "在线培训员",
+        "sessionsInProgress": "进行中"
+    },
+    "HomeScreen": {
+        "heading": "满心资源",
+        "meditate": "冥想",
+        "withTrainer": "请培训员引导",
+        "basicPractice": "引导式修习",
+        "introductorySession": "入门冥想",
+        "masterClasses": "向导开课",
+        "welcome": "您好，{{userName}}",
+        "signIn": "登录",
+        "signOut": "退出",
+        "attestationPopupHeading": "完成三次入门冥想才建议与培训员一起冥想。",
+        "completedIntro": "我已经与培训员或在工作坊完成三次入门冥想",
+        "completedIntroWithMasterClasses": "我已经看完达济的三节课",
+        "takeIntro": "我想上达济的三节课",
+        "connectWithTrainer": "与培训员连接",
+        "numberOfAbhyasis": "一同冥想的人数",
+        "submit": "提交",
+        "availableForSittingsWarning": "你已在线。请更改状态，然后再试一次",
+        "ok": "好",
+        "cancel": "取消",
+        "guest": "访客",
+        "lifeStyle": "生活方式",
+        "lifeStyleInHeartfulnessWay": "满心生活方式"
+    },
+    "resourcesScreen": {
+        "readAndReflect": "阅读",
+        "explore": "探索",
+        "engage": "联系",
+        "title": "资源",
+        "books": "图书",
+        "whispers": "呼唤",
+        "audio": "音讯",
+        "video": "视频"
+    },
+    "readAndReflectScreen": {
+        "title": "阅读与反思",
+        "blog": "博客",
+        "articles": "文章",
+        "magazine": "杂志",
+        "quote": "语录",
+        "books": "图书",
+        "whispers": "呼唤"
+    },
+    "exploreScreen": {
+        "title": "探索",
+        "heartfulnessOfferings": "满心项目",
+        "daajisDesk": "出自达济之笔",
+        "kanhaShantiVanam": "甘哈静园",
+        "kanhaMeditationHall": "甘哈冥想大厅",
+        "brighterMinds": "光明思维",
+        "theHeartFulnessWay": "满心之道",
+        "heartSpots": "心点",
+        "liveBroadcast": "现场直播（即将推出）",
+        "a_Whisper_A_Day": "每日一则呼唤",
+        "heartfulnessInstitute": "满心学员"
+    },
+    "moreScreen": {
+        "title": "更多",
+        "updateProfile": "个人情况",
+        "privacyPolicy": "隐私政策",
+        "termsAndConditions": "条款",
+        "helpAndSupport": "帮助与支持",
+        "deactivateAccount": "取消账户"
+    },
+    "preceptorsNeededPopup": {
+        "title": "需要导师",
+        "description": "有修习者等待一对一。",
+        "snooze": "忽略{{hours}}小时",
+        "makeMeAvailable": "我已经准备好"
+    },
+    "dndPermissionsNeededPopup": {
+        "title": "需要免打扰权限",
+        "description": "我们需要权限以将手机自动置入免打扰模式，以免干扰冥想。",
+        "allow": "接受",
+        "doNotAllow": "拒绝"
+    },
+    "deactivateAccountConfirmationPopup": {
+        "title": "关闭账户",
+        "description": "确定要删除账户",
+        "yes": "是",
+        "no": "不"
+    }
+}

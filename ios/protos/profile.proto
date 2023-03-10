@@ -1,0 +1,439 @@
+syntax = "proto3";
+import "federatedIdentity.proto";
+import "google/protobuf/timestamp.proto";
+import "google/protobuf/wrappers.proto";
+import "google/protobuf/struct.proto";
+
+package unifiedplatform.profile;
+
+option java_package = "org.heartfulness.unifiedplatform.interfaces.grpc.profile";
+option java_multiple_files = true;
+option objc_class_prefix = "Platform_Profile_";
+
+enum Version {
+    PROFILE_SERVICE_API_1_0_4 = 0;
+}
+
+enum Gender {
+    MALE = 0;
+    FEMALE = 1;
+    UNKNOWN = 2;
+}
+
+enum Stage {
+    NEWBIE = 0; // not taken three sittings yet
+    SEEKER = 1;
+    ABHYASI = 2; // regular abhyasi
+    PRECEPTOR = 3;
+}
+
+enum ShareablePinIntent {
+     UPGRADE_ROLE_TO_ABHYASI = 0;
+     UPGRADE_ROLE_TO_SEEKER = 1;
+     VERIFY_AND_LINK_SRCMID = 2;
+}
+
+enum IntroSittingChannel {
+    NONE = 0;
+    MASTER_CLASSES = 1;
+    MASTER_SITTING = 2;
+    PRECEPTOR_SITTING = 3;
+    EVENT = 4;
+    WEBSITE_OR_YOUTUBE = 5;
+    HEARTSAPP = 6;
+}
+
+message NullableBool {
+    oneof kind {
+        bool data = 1;
+    }
+}
+
+message Preferences {
+    bool emailSubscribe = 1;
+    bool mobileAppAlerts = 2;
+    bool smsSubscribe = 3;
+}
+//Each profile will be identified by a UUIID in the backend and will have a 1:1 correspondence with the firebase uId;
+//We need UUID for Seekers whose data is either pre-existing or has been ingested via the events channel but have never
+//signed up
+message Profile {
+    string profileId = 1; //uuId of the user
+    string email = 2;
+    string firstName = 3;
+    string lastName = 4;
+    string profession = 5;
+    Gender gender = 6;
+    Stage stage = 7;
+    Preferences preferences = 8;
+    string uId = 9; //Firebase uId
+    bool isTrainer = 10;
+    string phone = 11;
+    string addressLine1 = 12;
+    string addressLine2 = 13;
+    string addressLine3 = 14;
+    string city = 15;
+    string stateCode = 16;
+    string postalCode = 17;
+    string countryCode = 18;
+    string photoURL = 19;
+    double latitude = 20;
+    double longitude = 21;
+    string zone = 22;
+    string emergencyContact = 23;
+    string printName = 24;
+
+    string aimsId = 25;
+    int64 nodalCenter = 26;
+    string firstSittingDate = 27;
+    string secondSittingDate = 28;
+    string thirdSittingDate = 29;
+    string introducedBy = 30;
+    string citizenship = 31;
+    string prefect = 32;
+    string dob = 33;
+    string doj = 34;
+    string volunteer = 35;
+    string skills = 36;
+    string abhyasiId = 37;
+    string currentPreceptor = 38;
+    string landline = 39;
+    bool anonymous = 40;
+    string countryName = 41;
+    string stateName = 42;
+    string cityPlaceId = 43;
+    bool introSittingSelfAttestDone = 44;
+    string introSittingSelfAttestNotes = 45;
+    IntroSittingChannel introSittingChannel = 46;
+    NullableBool isLocationVisibleToPublic = 47;
+    NullableBool isNameVisibleToPublic = 48;
+    NullableBool isPhotoVisibleToPublic = 49;
+}
+
+message ProfileProximity {
+    Profile profile = 1;
+    double distanceInKm = 2;
+}
+
+message ProfileProximityList {
+    repeated ProfileProximity profileProximity = 1;
+}
+
+message SearchProfile {
+    double latitude = 1;
+    double longitude = 2;
+    double distanceInKm = 3;
+    bool trainersOnly = 4;
+}
+
+//Details will be used to Push Notifications to Device
+message DeviceDetailRequest {
+    string uId = 1;
+    string idToken = 2;
+    string deviceId = 3;
+    string fcmToken = 4;
+    string appVersion = 5;
+    string deviceMake = 6;
+    string deviceModel = 7;
+    string deviceName = 8;
+    string platform = 9; // Android, iOS, etc..
+    string osVersion = 10;
+    string buildCodeVersion = 11;
+}
+
+enum DevicePlatform {
+    IOS = 0;
+    ANDROID = 1;
+    WEB = 2;
+}
+
+message DeviceDetail {
+    string uId = 1;
+    string deviceId = 3;
+    string fcmToken = 4;
+    string appVersion = 5;
+    string deviceMake = 6;
+    string deviceModel = 7;
+    string deviceName = 8;
+    string platform = 9; // Android, iOS, etc.. use DevicePlatform.name()
+    string osVersion = 10;
+    string buildCodeVersion = 11;
+}
+
+message GetFCMTokensResponse {
+    string uId = 1;
+    repeated DeviceDetail deviceDetail = 2;
+}
+
+message RegisteredDeviceIdForUserRequest {
+    string uId = 1;
+    string idToken = 2;
+    string deviceId = 3;
+}
+message GetRegisteredDeviceIdsRequest {
+    string uId = 1;
+    string idToken = 2;
+}
+
+message GetRegisteredDeviceIdResponse {
+    string uId = 1;
+    repeated string deviceId = 2;
+}
+
+message BooleanResponse {
+    bool response = 1;
+}
+
+message GetUnAuthenticatedProfileRequest {
+    string profileId = 1;
+}
+
+message SaveAuthenticatedProfileRequest {
+    string uId = 1;
+    string idToken = 2;
+    Profile profile = 3;
+}
+
+message GetAuthenticatedProfileRequest {
+    string uId = 1;
+    string idToken = 2;
+    string profileId = 3;
+    string email = 4;
+}
+
+message IsTrainerRequest {
+    string uId = 1;
+    string idToken = 2;
+    string profileId = 3;
+}
+
+message IsTrainerResponse {
+    bool isTrainer = 1;
+    string profileId = 2;
+}
+
+message TransitionStageRequest {
+    string uId = 1;
+    Stage stage = 2;
+}
+
+message SelfAttestIntroSittingRequest {
+    string uId = 1;
+    string idToken = 2;
+    string notes = 3;
+    IntroSittingChannel channel = 4;
+}
+
+//Empty response indicates success
+message TransitionStageResponse {
+}
+
+message SittingDateRequest {
+    string uId = 1;
+    int32 sittingNumber = 2; // 1, 2, 3
+    string sittingDate = 3; // yyyy-MM-dd e.g. 2018-07-01
+}
+
+message DeactivateProfileRequest {
+    string uId = 1;
+}
+
+message ZipCodeRequest {
+    string uId = 1;
+    string profileId = 2;
+    string postalCode = 3;
+}
+
+message AddressRequest {
+    string uId = 1;
+    string profileId = 2;
+    string addressLine1 = 3;
+    string addressLine2 = 4;
+    string addressLine3 = 5;
+    string city = 6;
+    string stateCode = 7;
+    string postalCode = 8;
+    string countryCode = 9;
+}
+
+
+message CountryCodes {
+    int32 countryId = 1;
+    string countryCode = 2;
+    string countryDesc = 3;
+}
+
+message StateCodes {
+    int32 countryId = 1;
+    int32 stateId = 2;
+    string stateDesc = 3;
+    string stateCode = 4;
+}
+
+message CityCodes {
+    int32 stateId = 1;
+    string cityDesc = 2;
+}
+
+message CountryCodesList {
+    repeated CountryCodes countryCodes = 1;
+}
+
+message StateCodesList {
+    repeated StateCodes stateCodes = 1;
+}
+
+message CityCodesList {
+    repeated CityCodes cityCodes = 1;
+}
+
+message UpdateProfilePictureRequest {
+    string uId = 1;
+    bytes pictureData = 2;
+    string pictureName = 3;
+}
+
+message FeedbackRequest {
+    string problemType = 1;
+    string priority = 2;
+    string comments = 3;
+}
+
+message NewAbhyasiRequest {
+    Profile abhyasiProfile = 1;
+
+    bytes profilePictureData = 2;
+    string profilePictureName = 3;
+}
+
+message VerifyAndLinkAbhyasiIDRequest {
+    string abhyasiId = 1;
+
+    string dateOfBirthInYYYYMMFormat = 2; // Should be YYYY-MM format
+    int32 yearOfJoining = 3;
+    string nameOnIDCard = 4;
+    string mobileNo = 5;
+    string sharedPin = 6;
+}
+
+message GenerateShareablePinRequest {
+    ShareablePinIntent intent = 1;
+
+    // validityInSeconds, usageCount field will be considered based on the intent.
+    // For ex: If intent is to verify SRCM ID,
+    // validityInSeconds will be 5 mins and usage count is 1
+    int32 validityInSeconds = 2;
+    int32 maxUsageCount = 3;
+}
+
+message UpgradeUserStageRequest {
+    string firstSittingDateInYYYYMMDDFormat = 1;
+    string cityName = 2;
+    string stateName = 3;
+    string countryName = 4;
+    string cityPlaceId = 5;
+    string sharedPin = 6;
+}
+
+
+message SupportRequest {
+    string uId = 1;
+    string userName = 2;
+    string userEmail = 3;
+    string userPhone = 4;
+    string comment = 5;
+    map<string, string> extras = 6;
+}
+
+message SaveUserPreferencesRequest {
+    string uId = 1;
+    bool shouldPlayRelaxationAudioBeforeMeditation = 2;
+    string language = 3;
+    bool isSubscribedToWeeklyInspiration = 4;
+    google.protobuf.Timestamp timeOfConsent = 5;
+    bool isMorningMeditationReminderEnabled = 6;
+    google.protobuf.Timestamp morningMeditationTime = 7;
+    bool isEveningMeditationReminderEnabled = 8;
+    google.protobuf.Timestamp eveningCleaningTime = 9;
+    bool isReminderForNextSittingEnabled = 10;
+    int32 nextSittingReminderIntervalInDays = 11;
+}
+
+message UserPreferences {
+    string uId = 1;
+    NullableBool shouldPlayRelaxationAudioBeforeMeditation = 2;
+    NullableBool isSubscribedToWeeklyInspiration = 3;
+    string language = 4;
+    google.protobuf.Timestamp timeOfConsent = 5;
+    bool isMorningMeditationReminderEnabled = 6;
+    google.protobuf.Timestamp morningMeditationTime = 7;
+    bool isEveningMeditationReminderEnabled = 8;
+    google.protobuf.Timestamp eveningCleaningTime = 9;
+    bool isReminderForNextSittingEnabled = 10;
+    int32 nextSittingReminderIntervalInDays = 11;
+}
+
+message Log {
+    google.protobuf.Timestamp time = 1;
+    string message = 2;
+    map<string, string> payload = 3;
+}
+
+message LogRequest {
+    string uId = 1;
+    repeated Log logs = 2;
+}
+
+service ProfileService {
+    // Called by mobile app for registering fcm token on every app launch
+    rpc RegisterFCMTokenAndDeviceDetails (DeviceDetailRequest) returns (google.protobuf.BoolValue);
+
+    // Called by mobile app for delinking the fcm token from the user and device after logout.
+    rpc DeRegisterFCMToken (DeviceDetailRequest) returns (google.protobuf.BoolValue);
+
+    // Called by meditation service for sending notifications - when sitting is scheduled, cancelled or sitting about to start
+    rpc GetFCMTokensForUser (google.protobuf.StringValue) returns (GetFCMTokensResponse);
+    rpc SaveProfile (SaveAuthenticatedProfileRequest) returns (Profile);
+    rpc GetProfile (GetAuthenticatedProfileRequest) returns (Profile);
+
+    // this is called by mobile on authentication.
+    rpc SaveFederatedIdentity (unifiedplatform.federatedIdentity.FederatedIdentity) returns (Profile);
+
+    // Called by Meditation Service
+    rpc GetNearbyProfiles (SearchProfile) returns (ProfileProximityList);
+
+    // For Debugging
+    rpc GetUserIdByEmailAddress (google.protobuf.StringValue) returns (google.protobuf.StringValue);
+
+    //TODO: remove this after cityPlaceId widget is implemented in android and ios
+    rpc getCountryCodes (google.protobuf.StringValue) returns (CountryCodesList);
+    rpc getStateCodes (CountryCodes) returns (StateCodesList);
+    rpc getCityCodes (StateCodes) returns (CityCodesList);
+    rpc GetFederatedIdentityProvider (google.protobuf.StringValue) returns (unifiedplatform.federatedIdentity.IdentityTypeList);
+    rpc DeactivateProfile (DeactivateProfileRequest) returns (google.protobuf.BoolValue);
+    rpc UpdateMeditationSittingDates (SittingDateRequest) returns (google.protobuf.BoolValue);
+    rpc updateProfilePicture (UpdateProfilePictureRequest) returns (google.protobuf.StringValue);
+    rpc deleteProfilePicture (google.protobuf.StringValue) returns (google.protobuf.BoolValue);
+
+    // Preceptor can add a new abhyasi
+    rpc addNewAbhyasi (NewAbhyasiRequest) returns (Profile);
+
+    rpc GetEmailLinkedToAbhyasiID (google.protobuf.StringValue) returns (google.protobuf.StringValue);
+
+    // Verifies if provided details are matching and updates SRCMID in profile
+    rpc VerifyAndLinkAbhyasiID (VerifyAndLinkAbhyasiIDRequest) returns (google.protobuf.BoolValue);
+
+    rpc GenerateShareablePin (GenerateShareablePinRequest) returns (google.protobuf.StringValue);
+
+    rpc UpgradeUserStage (UpgradeUserStageRequest) returns (google.protobuf.BoolValue);
+
+    rpc SelfAttestForIntroSitting (SelfAttestIntroSittingRequest) returns (google.protobuf.BoolValue);
+
+    rpc AddSupportRequest (SupportRequest) returns (google.protobuf.BoolValue);
+
+    rpc SaveUserPreferences (SaveUserPreferencesRequest) returns (google.protobuf.BoolValue);
+
+    rpc GetUserPreferences (google.protobuf.StringValue) returns (UserPreferences);
+
+    rpc LogOnServer (LogRequest) returns (google.protobuf.BoolValue);
+}

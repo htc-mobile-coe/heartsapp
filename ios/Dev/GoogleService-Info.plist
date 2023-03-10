@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+  <string>ca-app-pub-3940256099942544/2934735716</string>
+  <key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+  <string>ca-app-pub-3940256099942544/4411468910</string>
+  <key>CLIENT_ID</key>
+  <string>583201066445-n9l4pa76v25o3f2a17llvjfpivc9h0fn.apps.googleusercontent.com</string>
+  <key>REVERSED_CLIENT_ID</key>
+  <string>com.googleusercontent.apps.583201066445-n9l4pa76v25o3f2a17llvjfpivc9h0fn</string>
+  <key>ANDROID_CLIENT_ID</key>
+  <string>583201066445-1akhegsi3nstp1e6sl14krsld03ilc8o.apps.googleusercontent.com-hp2Y0</string>
+  <key>API_KEY</key>
+  <string>AIzaSyDJ8dKi2w8Ed9XUG4-pZo2ySanOZRKtCcw</string>
+  <key>GCM_SENDER_ID</key>
+  <string>583201066445</string>
+  <key>PLIST_VERSION</key>
+  <string>1</string>
+  <key>BUNDLE_ID</key>
+  <string>org.heartsapp.heartsapp.dev</string>
+  <key>PROJECT_ID</key>
+  <string>unifiedplatform-dev</string>
+  <key>STORAGE_BUCKET</key>
+  <string>unifiedplatform-dev.appspot.com</string>
+  <key>IS_ADS_ENABLED</key>
+  <false></false>
+  <key>IS_ANALYTICS_ENABLED</key>
+  <false></false>
+  <key>IS_APPINVITE_ENABLED</key>
+  <true></true>
+  <key>IS_GCM_ENABLED</key>
+  <true></true>
+  <key>IS_SIGNIN_ENABLED</key>
+  <true></true>
+  <key>GOOGLE_APP_ID</key>
+  <string>1:583201066445:ios:715da3b892793e019b8884</string>
+  <key>DATABASE_URL</key>
+  <string>https://unifiedplatform-dev.firebaseio.com</string>
+  <key>NSLocationWhenInUseUsageDescription</key>
+  <string>This will let you search for a trainer near you</string>
+</dict>
+</plist>

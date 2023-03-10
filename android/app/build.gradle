@@ -1,0 +1,431 @@
+apply plugin: "com.android.application"
+apply plugin: 'io.fabric'
+apply plugin: 'com.google.protobuf'
+
+import com.android.build.OutputFile
+
+/**
+ * The react.gradle file registers a task for each build variant (e.g. bundleDebugJsAndAssets
+ * and bundleReleaseJsAndAssets).
+ * These basically call `react-native bundle` with the correct arguments during the Android build
+ * cycle. By default, bundleDebugJsAndAssets is skipped, as in debug/dev mode we prefer to load the
+ * bundle directly from the development server. Below you can see all the possible configurations
+ * and their defaults. If you decide to add a configuration block, make sure to add it before the
+ * `apply from: "../../node_modules/react-native/react.gradle"` line.
+ *
+ * project.ext.react = [
+ *   // the name of the generated asset file containing your JS bundle
+ *   bundleAssetName: "index.android.bundle",
+ *
+ *   // the entry file for bundle generation
+ *   entryFile: "index.android.js",
+ *
+ *   // https://facebook.github.io/react-native/docs/performance#enable-the-ram-format
+ *   bundleCommand: "ram-bundle",
+ *
+ *   // whether to bundle JS and assets in debug mode
+ *   bundleInDebug: false,
+ *
+ *   // whether to bundle JS and assets in release mode
+ *   bundleInRelease: true,
+ *
+ *   // whether to bundle JS and assets in another build variant (if configured).
+ *   // See http://tools.android.com/tech-docs/new-build-system/user-guide#TOC-Build-Variants
+ *   // The configuration property can be in the following formats
+ *   //         'bundleIn${productFlavor}${buildType}'
+ *   //         'bundleIn${buildType}'
+ *   // bundleInFreeDebug: true,
+ *   // bundleInPaidRelease: true,
+ *   // bundleInBeta: true,
+ *
+ *   // whether to disable dev mode in custom build variants (by default only disabled in release)
+ *   // for example: to disable dev mode in the staging build type (if configured)
+ *   devDisabledInStaging: true,
+ *   // The configuration property can be in the following formats
+ *   //         'devDisabledIn${productFlavor}${buildType}'
+ *   //         'devDisabledIn${buildType}'
+ *
+ *   // the root of your project, i.e. where "package.json" lives
+ *   root: "../../",
+ *
+ *   // where to put the JS bundle asset in debug mode
+ *   jsBundleDirDebug: "$buildDir/intermediates/assets/debug",
+ *
+ *   // where to put the JS bundle asset in release mode
+ *   jsBundleDirRelease: "$buildDir/intermediates/assets/release",
+ *
+ *   // where to put drawable resources / React Native assets, e.g. the ones you use via
+ *   // require('./image.png')), in debug mode
+ *   resourcesDirDebug: "$buildDir/intermediates/res/merged/debug",
+ *
+ *   // where to put drawable resources / React Native assets, e.g. the ones you use via
+ *   // require('./image.png')), in release mode
+ *   resourcesDirRelease: "$buildDir/intermediates/res/merged/release",
+ *
+ *   // by default the gradle tasks are skipped if none of the JS files or assets change; this means
+ *   // that we don't look at files in android/ or ios/ to determine whether the tasks are up to
+ *   // date; if you have any other folders that you want to ignore for performance reasons (gradle
+ *   // indexes the entire tree), add them here. Alternatively, if you have JS files in android/
+ *   // for example, you might want to remove it from here.
+ *   inputExcludes: ["android/**", "ios/**"],
+ *
+ *   // override which node gets called and with what additional arguments
+ *   nodeExecutableAndArgs: ["node"],
+ *
+ *   // supply additional arguments to the packager
+ *   extraPackagerArgs: []
+ * ]
+ */
+
+project.ext.react = [
+    entryFile: "index.js",
+    enableHermes: false,  // clean and rebuild if changing
+]
+
+apply from: "../../node_modules/react-native/react.gradle"
+
+/**
+ * Set this to true to create two separate APKs instead of one:
+ *   - An APK that only works on ARM devices
+ *   - An APK that only works on x86 devices
+ * The advantage is the size of the APK is reduced by about 4MB.
+ * Upload all the APKs to the Play Store and people will download
+ * the correct one based on the CPU architecture of their device.
+ */
+def enableSeparateBuildPerCPUArchitecture = false
+
+/**
+ * Run Proguard to shrink the Java bytecode in release builds.
+ */
+def enableProguardInReleaseBuilds = false
+
+/**
+ * The preferred build flavor of JavaScriptCore.
+ *
+ * For example, to use the international variant, you can use:
+ * `def jscFlavor = 'org.webkit:android-jsc-intl:+'`
+ *
+ * The international variant includes ICU i18n library and necessary data
+ * allowing to use e.g. `Date.toLocaleString` and `String.localeCompare` that
+ * give correct results when using with locales other than en-US.  Note that
+ * this variant is about 6MiB larger per architecture than default.
+ */
+def jscFlavor = 'org.webkit:android-jsc-intl:+'
+
+/**
+ * Whether to enable the Hermes VM.
+ *
+ * This should be set on project.ext.react and mirrored here.  If it is not set
+ * on project.ext.react, JavaScript will not be compiled to Hermes Bytecode
+ * and the benefits of using Hermes will therefore be sharply reduced.
+ */
+def enableHermes = project.ext.react.get("enableHermes", false);
+
+android {
+    compileSdkVersion 28
+    compileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
+    }
+
+    dexOptions {
+        incremental true
+    }
+
+    lintOptions {
+        warning 'DuplicatePlatformClasses'
+        warning 'InvalidPackage'
+    }
+
+    defaultConfig {
+        applicationId "com.hfn.unified"
+        minSdkVersion 21
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode 181
+        multiDexEnabled true
+        versionName "3.11.0"
+        testBuildType System.getProperty('testBuildType', 'debug')  // This will later be used to control the test apk build type
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+        archivesBaseName = "hfn-app-$versionName-$versionCode"
+        missingDimensionStrategy 'react-native-camera', 'general'
+    }
+    splits {
+        abi {
+            reset()
+            enable enableSeparateBuildPerCPUArchitecture
+            universalApk false  // If true, also generate a universal APK
+            include "armeabi-v7a", "x86", "arm64-v8a", "x86_64"
+        }
+    }
+    signingConfigs {
+        debug {
+            storeFile file('debug.keystore')
+            storePassword 'android'
+            keyAlias 'hfn-we-qa'
+            keyPassword 'android'
+        }
+        release {
+            storeFile file("release.keystore")
+            storePassword "Master247"
+            keyAlias "release"
+            keyPassword "Master247"
+        }
+    }
+    buildTypes {
+        debug {
+            signingConfig signingConfigs.debug
+            debuggable true
+        }
+        release {
+            // Caution! In production, you need to generate your own keystore file.
+            // see https://facebook.github.io/react-native/docs/signed-apk-android.
+            debuggable false
+            signingConfig signingConfigs.release
+            minifyEnabled enableProguardInReleaseBuilds
+            proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+
+
+        }
+    }
+    // applicationVariants are e.g. debug, release
+    applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            // For each separate APK per architecture, set a unique version code as described here:
+            // https://developer.android.com/studio/build/configure-apk-splits.html
+            def versionCodes = ["armeabi-v7a": 1, "x86": 2, "arm64-v8a": 3, "x86_64": 4]
+            def abi = output.getFilter(OutputFile.ABI)
+            if (abi != null) {  // null for the universal-debug, universal-release variants
+                output.versionCodeOverride =
+                        versionCodes.get(abi) * 1048576 + defaultConfig.versionCode
+            }
+
+        }
+    }
+
+    flavorDimensions "env"
+    productFlavors {
+        dev {
+            resValue "string", "app_name", "Dev heartsapp"
+            applicationIdSuffix ".dev"
+            buildConfigField('String', 'ENVIRONMENT', '"DEV"')
+
+            buildConfigField 'String', 'PROFILESERVICE_HOST', '"profile-service-grpc.dev.heartfulnessinstitute.in"'
+            buildConfigField 'int', 'PROFILESERVICE_PORT', '443'
+
+            buildConfigField 'String', 'MEDITATIONSERVICE_HOST', '"meditation-service-grpc.dev.heartfulnessinstitute.in"'
+            buildConfigField 'int', 'MEDITATIONSERVICE_PORT', '443'
+
+            buildConfigField 'String', 'CONTENTSERVICE_HOST', '"content-service-grpc.dev.heartfulnessinstitute.in"'
+            buildConfigField 'int', 'CONTENTSERVICE_PORT', '443'
+
+            buildConfigField 'String', 'SUBSCRIPTIONSERVICE_HOST', '"subscription-service-grpc.dev.heartfulnessinstitute.in"'
+            buildConfigField 'int', 'SUBSCRIPTIONSERVICE_PORT', '443'
+
+            buildConfigField 'String', 'DONATION_HOST', '"donation-service-grpc.dev.heartfulnessinstitute.in"'
+            buildConfigField 'int', 'DONATION_PORT', '443'
+            buildConfigField 'String', 'GOOGLE_APP_ID', '"583201066445-v93p9s7k4r2t5hpkl68pq5ptn67acsgj.apps.googleusercontent.com"'
+            buildConfigField 'String', 'PUSH_NOTIFICATION_SENDER_ID', '"583201066445"'
+
+            resValue 'string', 'facebook_app_id', '"213144272863960"'
+
+            resValue 'string', 'fb_login_protocol_scheme', '"fb213144272863960"'
+
+            resValue 'string', 'facebook_client_token', '"b8c45c38fc6b5f23e464c44d27f84229"'
+            
+            buildConfigField 'String', 'DONATION_URL', '"donation-service.dev.heartfulnessinstitute.in/"'
+            buildConfigField 'String', 'RECURRING_DONATION_URL', '"https://donations-staging-hfi.web.app"'
+            buildConfigField 'String', 'STATES_IN_COUNTRY_URL', '"https://profile.srcm.net/api/v2/states"'
+            buildConfigField 'String', 'GOOGLE_PLACE_API_KEY', '"AIzaSyCqiA_-mMY9TgDosF0WU4KN77s4sDb7DUk"'
+            buildConfigField 'String', 'GOOGLE_GEOCODE_URL', '"https://maps.googleapis.com/maps/api/geocode/json"'
+            buildConfigField 'String', 'GOOGLE_PLACE_DETAILS_URL', '"https://maps.googleapis.com/maps/api/place/details/json"'
+            buildConfigField 'String', 'MY_SRCM_CITIES_URL', '"https://static-gatsby-qa.web.app/srcmapi/cities"'
+            buildConfigField 'String', 'SEARCH_SEEKER_URL', '"https://profile.srcm.net/api/v2/abhyasis/search"'
+            buildConfigField 'String', 'MYSRCM_CLIENT_ID', '"zyiiw9lAK0j56F9uTda3RB0rJEKHPGfzawiYHbCm"'
+        }
+        qa {
+            resValue "string", "app_name", "QA heartsapp"
+            applicationIdSuffix ".qa"
+            buildConfigField('String', 'ENVIRONMENT', '"QA"')
+
+            buildConfigField 'String', 'PROFILESERVICE_HOST', '"profile-service-grpc.qa.heartfulnessinstitute.in"'
+            buildConfigField 'int', 'PROFILESERVICE_PORT', '443'
+
+            buildConfigField 'String', 'MEDITATIONSERVICE_HOST', '"meditation-service-grpc.qa.heartfulnessinstitute.in"'
+            buildConfigField 'int', 'MEDITATIONSERVICE_PORT', '443'
+
+            buildConfigField 'String', 'CONTENTSERVICE_HOST', '"content-service-grpc.qa.heartfulnessinstitute.in"'
+            buildConfigField 'int', 'CONTENTSERVICE_PORT', '443'
+
+            buildConfigField 'String', 'SUBSCRIPTIONSERVICE_HOST', '"subscription-service-grpc.qa.heartfulnessinstitute.in"'
+            buildConfigField 'int', 'SUBSCRIPTIONSERVICE_PORT', '443'
+
+            buildConfigField 'String', 'DONATION_HOST', '"donation-service-grpc.qa.heartfulnessinstitute.in"'
+            buildConfigField 'int', 'DONATION_PORT', '443'
+
+            buildConfigField 'String', 'GOOGLE_APP_ID', '"498241637356-44ehu89b78tomj2t1tl0iiaiunanqime.apps.googleusercontent.com"'
+            buildConfigField 'String', 'PUSH_NOTIFICATION_SENDER_ID', '"498241637356"'
+
+            resValue 'string', 'facebook_app_id', '"213144272863960"'
+
+            resValue 'string', 'fb_login_protocol_scheme', '"fb213144272863960"'
+
+            resValue 'string', 'facebook_client_token', '"b8c45c38fc6b5f23e464c44d27f84229"'
+            
+            buildConfigField 'String', 'DONATION_URL', '"donation-service.qa.heartfulnessinstitute.in/"'
+            buildConfigField 'String', 'RECURRING_DONATION_URL', '"https://donations-staging-hfi.web.app"'
+            buildConfigField 'String', 'STATES_IN_COUNTRY_URL', '"https://profile.srcm.net/api/v2/states"'
+            buildConfigField 'String', 'GOOGLE_PLACE_API_KEY', '"AIzaSyBoQusyWz7Y1QocplQZjJQL8H27PomA-_g"'
+            buildConfigField 'String', 'GOOGLE_GEOCODE_URL', '"https://maps.googleapis.com/maps/api/geocode/json"'
+            buildConfigField 'String', 'GOOGLE_PLACE_DETAILS_URL', '"https://maps.googleapis.com/maps/api/place/details/json"'
+            buildConfigField 'String', 'MY_SRCM_CITIES_URL', '"https://static-gatsby-qa.web.app/srcmapi/cities"'
+            buildConfigField 'String', 'SEARCH_SEEKER_URL', '"https://profile.srcm.net/api/v2/abhyasis/search"'
+            buildConfigField 'String', 'MYSRCM_CLIENT_ID', '"zyiiw9lAK0j56F9uTda3RB0rJEKHPGfzawiYHbCm"'
+        }
+        prod {
+            resValue "string", "app_name", "heartsapp"
+            buildConfigField('String', 'ENVIRONMENT', '"PROD"')
+
+            buildConfigField 'String', 'PROFILESERVICE_HOST', '"profile-service-grpc.heartfulnessinstitute.in"'
+            buildConfigField 'int', 'PROFILESERVICE_PORT', '443'
+
+            buildConfigField 'String', 'MEDITATIONSERVICE_HOST', '"meditation-service-grpc.heartfulnessinstitute.in"'
+            buildConfigField 'int', 'MEDITATIONSERVICE_PORT', '443'
+
+            buildConfigField 'String', 'CONTENTSERVICE_HOST', '"content-service-grpc.heartfulnessinstitute.in"'
+            buildConfigField 'int', 'CONTENTSERVICE_PORT', '443'
+
+            buildConfigField 'String', 'SUBSCRIPTIONSERVICE_HOST', '"subscription-service-grpc.heartfulnessinstitute.in"'
+            buildConfigField 'int', 'SUBSCRIPTIONSERVICE_PORT', '443'
+
+            buildConfigField 'String', 'DONATION_HOST', '"donation-service-grpc.heartfulnessinstitute.in"'
+            buildConfigField 'int', 'DONATION_PORT', '443'
+
+            buildConfigField 'String', 'GOOGLE_APP_ID', '"995463456479-u0lg7dtthkp9uloaedtbs643nh0d87tk.apps.googleusercontent.com"'
+            buildConfigField 'String', 'PUSH_NOTIFICATION_SENDER_ID', '"995463456479"'
+
+            resValue 'string', 'facebook_app_id', '"2025088351087141"'
+
+            resValue 'string', 'fb_login_protocol_scheme', '"fb2025088351087141"'
+
+            resValue 'string', 'facebook_client_token', '"5423e64814e66383fdfbf62b1293b0ec"'
+            
+            buildConfigField 'String', 'DONATION_URL', '"donation-service.heartfulnessinstitute.in/"'
+            buildConfigField 'String', 'RECURRING_DONATION_URL', '"https://donations.heartfulness.org"'
+            buildConfigField 'String', 'STATES_IN_COUNTRY_URL', '"https://profile.sahajmarg.org/api/v2/states"'
+            buildConfigField 'String', 'GOOGLE_PLACE_API_KEY', '"AIzaSyAUNC8vHqBq0IzrJknKAlpQaB64lphNTO4"'
+            buildConfigField 'String', 'GOOGLE_GEOCODE_URL', '"https://maps.googleapis.com/maps/api/geocode/json"'
+            buildConfigField 'String', 'GOOGLE_PLACE_DETAILS_URL', '"https://maps.googleapis.com/maps/api/place/details/json"'
+            buildConfigField 'String', 'MY_SRCM_CITIES_URL', '"http://static-gatsby.web.app/srcmapi/cities"'
+            buildConfigField 'String', 'SEARCH_SEEKER_URL', '"https://profile.sahajmarg.org/api/v2/abhyasis/search"'
+            buildConfigField 'String', 'MYSRCM_CLIENT_ID', '"Z1zZmoQfhftyDhK5LSNQCfB6wDRTFlBXHmpLczMo"'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation "com.android.support:appcompat-v7:23.0.1"
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0-alpha02'
+    implementation "com.facebook.react:react-native:0.69.2!!"
+    implementation 'com.facebook.android:facebook-marketing:latest.release'
+    if (enableHermes) {
+        def hermesPath = "../../node_modules/hermes-engine/android/";
+        debugImplementation files(hermesPath + "hermes-debug.aar")
+        releaseImplementation files(hermesPath + "hermes-release.aar")
+    } else {
+        implementation jscFlavor
+    }
+
+    implementation "androidx.annotation:annotation:1.1.0"
+    implementation 'javax.annotation:javax.annotation-api:1.2'
+    implementation 'com.android.support:multidex:2.0.1'
+    implementation 'com.jakewharton:butterknife:10.2.0'
+
+    implementation('com.crashlytics.sdk.android:crashlytics:2.9.9@aar') {
+        transitive = true
+    }
+
+    implementation 'me.leolin:ShortcutBadger:1.1.21@aar'
+
+    //Protobuff
+    implementation 'io.grpc:grpc-okhttp:1.42.1'
+    protobuf 'com.google.protobuf:protobuf-java:3.0.2'
+    implementation 'io.grpc:grpc-protobuf-lite:1.14.0'
+    implementation 'io.grpc:grpc-stub:1.42.1'
+    implementation 'io.grpc:grpc-android:1.42.1'
+    implementation "io.grpc:grpc-auth:1.42.1"
+    implementation "com.google.auth:google-auth-library-credentials:0.9.0"
+    implementation "com.google.auth:google-auth-library-oauth2-http:0.9.0"
+    implementation "com.google.code.gson:gson:2.3.1"
+    //Proto
+    protobuf(group: 'org.heartfulness.unifiedplatform', name: 'profile-service-api', version: '1.0.17-SNAPSHOT', changing: true)
+    protobuf group: 'org.heartfulness.unifiedplatform', name: 'content-service-api', version: '1.0-SNAPSHOT', changing: true
+    protobuf group: 'org.heartfulness.unifiedplatform', name: 'meditation-service-api', version: '1.1.13', changing: true
+    protobuf group: 'org.heartfulness.unifiedplatform', name: 'subscription-service-api', version: '1.0-SNAPSHOT', changing: true
+    protobuf group: 'org.heartfulness.unifiedplatform', name: 'donation-service-api', version: '1.0-SNAPSHOT', changing: true
+
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.3'
+
+    androidTestImplementation 'junit:junit:4.12'
+}
+
+// Run this once to be able to run the application with BUCK
+// puts all compile dependencies into folder libs for BUCK to use
+task copyDownloadableDepsToLibs(type: Copy) {
+    from configurations.compile
+    into 'libs'
+}
+
+// task responsible to create the extracted-include-protos/main dir
+task prepareDirs {
+    mustRunAfter clean
+    doLast {
+        mkdir "$buildDir/extracted-include-protos/main"
+        mkdir "$buildDir/extracted-include-protos/debug"
+        mkdir "$buildDir/extracted-include-protos/release"
+        mkdir "$buildDir/extracted-include-protos/dev"
+        mkdir "$buildDir/extracted-include-protos/qa"
+        mkdir "$buildDir/extracted-include-protos/prod"
+    }
+}
+
+// make all tasks depend on the prepareDirs task
+// exept 'clean' and 'prepareDirs' (avoid circular dependency)
+tasks.each {
+    if (it != prepareDirs && it != clean) {
+        it.dependsOn prepareDirs
+    }
+}
+
+protobuf {
+    protoc {
+        artifact = 'com.google.protobuf:protoc:3.3.0'
+    }
+    plugins {
+        javalite {
+            artifact = "com.google.protobuf:protoc-gen-javalite:3.0.0"
+        }
+        grpc {
+            artifact = 'io.grpc:protoc-gen-grpc-java:1.14.0' // CURRENT_GRPC_VERSION
+        }
+    }
+    generateProtoTasks {
+        all().each { task ->
+            task.plugins {
+                javalite {}
+                grpc {
+                    // Options added to --grpc_out
+                    option 'lite'
+                }
+            }
+        }
+    }
+}
+
+crashlytics {
+    enableNdk true
+}
+
+apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
+apply from: file("../../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesAppBuildGradle(project)
+apply plugin: 'com.google.gms.google-services'

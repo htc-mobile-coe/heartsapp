@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>CLIENT_ID</key>
+  <string>498241637356-l295gtln60afcdt9sjrtf5ttcouimo3v.apps.googleusercontent.com</string>
+  <key>REVERSED_CLIENT_ID</key>
+  <string>com.googleusercontent.apps.498241637356-l295gtln60afcdt9sjrtf5ttcouimo3v</string>
+  <key>ANDROID_CLIENT_ID</key>
+  <string>498241637356-3na8oju2ahpj35e9r93cmsprh4cuch6g.apps.googleusercontent.com</string>
+  <key>API_KEY</key>
+  <string>AIzaSyBt2w7n7Vi6CG0q4wsSIRKH3BY4kEBzy9w</string>
+  <key>GCM_SENDER_ID</key>
+  <string>498241637356</string>
+  <key>PLIST_VERSION</key>
+  <string>1</string>
+  <key>BUNDLE_ID</key>
+  <string>org.heartsapp.heartsapp.qa</string>
+  <key>PROJECT_ID</key>
+  <string>unifiedplatform-qa</string>
+  <key>STORAGE_BUCKET</key>
+  <string>unifiedplatform-qa.appspot.com</string>
+  <key>IS_ADS_ENABLED</key>
+  <false/>
+  <key>IS_ANALYTICS_ENABLED</key>
+  <false/>
+  <key>IS_APPINVITE_ENABLED</key>
+  <true/>
+  <key>IS_GCM_ENABLED</key>
+  <true/>
+  <key>IS_SIGNIN_ENABLED</key>
+  <true/>
+  <key>GOOGLE_APP_ID</key>
+  <string>1:498241637356:ios:5dad89459949b484</string>
+  <key>DATABASE_URL</key>
+  <string>https://unifiedplatform-qa.firebaseio.com</string>
+  <key>NSLocationWhenInUseUsageDescription</key>
+  <string>This will let you search for a trainer near you</string>
+</dict>
+</plist>

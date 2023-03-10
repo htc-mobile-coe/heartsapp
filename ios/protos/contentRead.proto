@@ -1,0 +1,414 @@
+
+syntax = "proto3";
+
+import "google/protobuf/wrappers.proto";
+import "contentCommon.proto";
+
+
+package unifiedplatform.service.content;
+
+option java_package = "org.heartfulness.unifiedplatform.interfaces.grpc.content.read";
+option java_multiple_files = true;
+option objc_class_prefix = "contentRead";
+
+message PaginationConfig {
+	int32 pageIndex = 1;
+	int32 pageSize = 2;
+}
+
+enum SORT_KEY {
+	RELEVANCE = 0;
+	DATE = 1;
+	TITLE = 2;
+}
+
+enum SORT_DIRECTION {
+	ASCENDING = 0;
+	DESCENDING = 1;
+}
+
+message SortingConfig {
+	SORT_KEY sortKey = 1;
+	SORT_DIRECTION sortDir= 2;
+}
+
+enum FILTER_KEY_DOCUMENT_CATEGORY_VALUE {
+	FILTER_KEY_DOCUMENT_CATEGORY_VALUE_BOOKS = 0;
+	FILTER_KEY_DOCUMENT_CATEGORY_VALUE_VIDEOS = 1;
+	FILTER_KEY_DOCUMENT_CATEGORY_VALUE_AUDIOS = 2;
+	FILTER_KEY_DOCUMENT_CATEGORY_VALUE_WHISPERS = 3;
+	FILTER_KEY_DOCUMENT_CATEGORY_VALUE_QUESTION_AND_ANSWERS = 4;
+	FILTER_KEY_DOCUMENT_CATEGORY_VALUE_DAILY_TIPS = 5;
+	FILTER_KEY_DOCUMENT_CATEGORY_VALUE_DAILY_REFLECTIONS = 6;
+	FILTER_KEY_DOCUMENT_CATEGORY_VALUE_QUOTES = 7;
+}
+
+enum FILTER_KEY {
+	FILTER_KEY_AUTHORS = 0;
+	FILTER_KEY_TAGS = 1;
+	FILTER_KEY_VOLUMES = 2;
+	FILTER_KEY_DATE = 3;
+	FILTER_KEY_YEAR = 4;
+	FILTER_KEY_MONTH = 5;
+	FILTER_KEY_WEEKDAY = 6;
+	FILTER_KEY_DOCUMENT_CLASS_NAME = 7;
+	FILTER_KEY_DOCUMENT_CATEGORY = 8;
+}
+
+enum SCREEN_SIZE {
+	SCREEN_SIZE_EXTRA_SMALL = 0; //Phones (<768px)
+	SCREEN_SIZE_SMALL = 1; //Tablets (>= 768px)
+	SCREEN_SIZE_MEDIUM = 2;//Desktops (>= 992px)
+	SCREEN_SIZE_LARGE = 3;//Desktops (>= 1200px)
+}
+
+enum IMAGE_DIMENSION {
+	IMAGE_DIMENSION_ANY = 0;
+	IMAGE_DIMENSION_THUMBNAIL = 1;
+	IMAGE_DIMENSION_SMALL = 2;
+	IMAGE_DIMENSION_MEDIUM = 3;
+	IMAGE_DIMENSION_FULLHD = 4;
+	IMAGE_DIMENSION_ORIGINAL = 5;
+}
+
+enum VIDEO_QUALITY {
+	VIDEO_QUALITY_ANY = 0;
+	VIDEO_QUALITY_480P = 1;
+	VIDEO_QUALITY_360P = 2;
+	VIDEO_QUALITY_240P = 3;
+	VIDEO_QUALITY_ORIGINAL = 4;
+}
+
+enum SEARCH_RESULT_METADATA_KEY {
+	SEARCH_RESULT_METADATA_KEY_AUTHOR = 0;
+	SEARCH_RESULT_METADATA_KEY_DATE = 1;
+	SEARCH_RESULT_METADATA_KEY_VOLUME = 2;
+	SEARCH_RESULT_METADATA_DURATION = 3;
+}
+
+
+enum RESPONSE_TYPE {
+	RESPONSE_TYPE_OBJECT = 0;
+	RESPONSE_TYPE_JSON = 1;
+}
+
+message Filter {
+	FILTER_KEY key = 1; //This is string because, it can be filled from FILTER_KEY or from facets
+	string value = 2;
+}
+
+message SearchRequest {
+	repeated string query = 1;
+	PaginationConfig paging = 2;
+	SortingConfig sorting = 3;
+	repeated Filter filters = 4;
+	SCREEN_SIZE screenSize = 5;
+	bool includeFacetsInResult = 6;
+	string userId = 7;
+	unifiedplatform.service.content.common.Language resultsLanguage = 9;
+	RESPONSE_TYPE responseType = 10;
+	int32 snippetLengthInNoOfChars = 11;
+	bool searchOnSubscribedContentOnly = 12;
+}
+
+message SearchResult {
+	enum SEARCH_RESULT_CONTENT_TYPE {
+		SEARCH_RESULT_CONTENT_TYPE_TEXT = 0;
+		SEARCH_RESULT_CONTENT_TYPE_TEXT_WITH_IMAGE = 1;
+		SEARCH_RESULT_CONTENT_TYPE_IMAGE = 2;
+	}
+
+	enum SEARCH_RESULT_DETAIL_TYPE {
+		SEARCH_RESULT_DETAIL_TYPE_TEXT = 0;
+		SEARCH_RESULT_DETAIL_TYPE_AUDIO = 1;
+		SEARCH_RESULT_DETAIL_TYPE_VIDEO = 2;
+	}
+
+	message Metadata {
+		SEARCH_RESULT_METADATA_KEY key = 1;
+		string keyDisplay = 2;
+		string value = 3;
+		string valueDisplay = 4; //Contains bold tags to highlight <b> </b>
+	}
+
+	string resourceId = 1;
+	string title = 2;
+	string subTitle = 3;
+	string previewImageUrl = 4;
+	string snippetText = 5; //Contains bold tags to highlight <b> </b> if matched
+	SEARCH_RESULT_CONTENT_TYPE type = 6;
+	repeated Metadata metadata = 7;
+	bool requiresSubscriptionToViewDetail = 8;
+	string contentLength = 9;
+	SEARCH_RESULT_DETAIL_TYPE detailType = 10;
+	string documentType = 11;
+}
+
+message Facet {
+	repeated Facet children = 1;
+
+	string id = 2;
+	string displayName = 3;
+	int64 count = 4;
+	bool isSelected = 5;
+}
+
+message SearchResponse {
+	repeated string query = 1;
+	PaginationConfig paging = 2;
+	SortingConfig sorting = 3;
+	repeated Filter filters = 4;
+	SCREEN_SIZE screenSize = 5;
+
+	int64 totalNoOfResults = 6;
+	repeated SearchResult results = 7;
+	repeated Facet facets = 8;
+	string responseString = 9;
+}
+
+message GetTipsOfTheDayRequest {
+	string userId = 1;
+	unifiedplatform.service.content.common.Language resultsLanguage = 2;
+}
+
+message GetTipsOfTheDayResponse {
+	message TipOfTheDay {
+		string resourceId = 1;
+		string title = 2;
+		string tipText = 3;
+	}
+
+	repeated TipOfTheDay tipsOfTheDay = 1;
+}
+
+message GetVideosOfTheDayRequest {
+	string userId = 1;
+	unifiedplatform.service.content.common.Language resultsLanguage = 2;
+	SCREEN_SIZE screenSize = 3;
+}
+
+message GetVideosOfTheDayResponse {
+	message VideoOfTheDay {
+		string resourceId = 1;
+		string title = 2;
+		string previewImageUrl = 3;
+		string contentLength = 4;
+	}
+
+	repeated VideoOfTheDay videoOfTheDay = 1;
+}
+
+message GetSuggestionsRequest {
+	string userId = 1;
+	string query = 2;
+	PaginationConfig pagination = 3;
+	bool startsWith = 4;
+	bool onlyPhrases = 5;
+	PaginationConfig phrasesPagination = 6;
+	unifiedplatform.service.content.common.Language language = 8;
+	repeated Filter filters = 7;
+	RESPONSE_TYPE responseType = 9;
+}
+
+message GetSuggestionsResponse {
+	message Suggestion {
+		string text = 1;
+		int64 count = 2;
+		string groupDisplayName = 3;
+		string groupId = 4;
+	}
+
+	message SuggestionGroup {
+		string groupId = 1;
+		string groupDisplayName = 2;
+		repeated Suggestion suggestions = 3;
+	}
+
+	repeated SuggestionGroup suggestions = 1;
+	string responseString = 2;
+}
+
+message GetSearchResultDetailRequest {
+	string userId = 1;
+	string resourceId = 2;
+	SCREEN_SIZE screenSize = 3;
+	RESPONSE_TYPE responseType = 4;
+	PaginationConfig pagination = 5;
+	bool onlyDisplayObjects = 6;
+	string parentCollectionId = 7;
+	int64 indexInParentCollectionId = 8;
+	SortingConfig sorting = 9;
+}
+
+enum ACCESSIBILITY_STATUS {
+	ACCESSIBILITY_STATUS_ACCESSIBLE = 0;
+	ACCESSIBILITY_STATUS_DENIED_NOT_SUBSCRIBED = 1;
+	ACCESSIBILITY_STATUS_DENIED_NOT_ACCESSIBLE = 2;
+}
+
+message DisplayObject {
+	string tag = 1;
+	string content = 2;
+	repeated DisplayObject children = 3;
+	map<string, string> attributes = 4;
+}
+
+message BreadCrumb {
+	string displayString = 1;
+	string resourceId = 2;
+}
+
+message GetSearchResultDetailResponse {
+	repeated BreadCrumb breadCrumbs = 1;
+	repeated DisplayObject displayObjects = 2;
+	string title = 3;
+	string avatarLink = 4;
+	ACCESSIBILITY_STATUS accessibilityStatus = 5;
+	int64 totalNoOfDisplayObjects = 7;
+	string responseString = 6;
+	string documentType = 8;
+	BreadCrumb nextSibling = 9;
+	BreadCrumb previousSibling = 10;
+}
+
+message GetCollectionDetailRequest {
+	string userId = 1;
+	string collectionId = 2;
+	PaginationConfig pagination = 3;
+	SCREEN_SIZE screenSize = 4;
+	RESPONSE_TYPE responseType = 5;
+	bool onlyDisplayObjects = 6;
+	SortingConfig sorting = 7;
+}
+
+message GetCollectionDetailResponse {
+	repeated BreadCrumb breadCrumbs = 1;
+	repeated DisplayObject displayObjects = 2;
+	string title = 3;
+	string avatarLink = 4;
+	ACCESSIBILITY_STATUS accessibilityStatus = 5;
+	string responseString = 6;
+	int64 totalNoOfDisplayObjects = 9;
+
+	//The collection that will there before the current collection for
+	//eg: The chapter that comes next to the current chapter in the current book
+	BreadCrumb nextSiblingCollection = 7;
+
+	//The collection that will there before the current collection for
+	//eg: The chapter that comes before the current chapter in the current book
+	BreadCrumb previousSiblingCollection = 8;
+	string documentType = 10;
+}
+
+message GetResourceListRequest {
+	enum LIST_RESOURCE_TYPE {
+		LIST_RESOURCE_TYPE_BOOK = 0;
+		LIST_RESOURCE_TYPE_VIDEO = 1;
+		LIST_RESOURCE_TYPE_AUDIO = 2;
+		LIST_RESOURCE_TYPE_WHISPER = 3;
+	}
+
+	string userId = 1;
+	string query = 2;
+	PaginationConfig pagination = 3;
+	SortingConfig sorting = 9;
+	repeated LIST_RESOURCE_TYPE resourceTypes = 4;
+
+	SCREEN_SIZE screenSize = 5;
+	RESPONSE_TYPE responseType = 6;
+	unifiedplatform.service.content.common.Language resultsLanguage = 7;
+	bool isOnlySubscribedContent = 8;
+}
+
+message GetResourceListResponse {
+	message Metadata {
+		SEARCH_RESULT_METADATA_KEY key = 1;
+		string keyDisplay = 2;
+		string value = 3;
+		string valueDisplay = 4; //Contains bold tags to highlight <b> </b>
+	}
+
+	message ListItem {
+		string resourceId = 1;
+		repeated string authors = 2;
+		string previewImageLink = 3;
+		string title = 4;
+		repeated Metadata metadatas = 5;
+		bool requiresSubscriptionToViewDetail = 6;
+	}
+
+	int64 totalNoOfItems = 1;
+	repeated ListItem listItems = 2;
+	string responseString = 3;
+}
+
+message GetResourceSuggestionsRequest {
+	enum DOCUMENT_SUGGESTION_FIELD{
+		TITLE = 0;
+	}
+
+	string query = 1;
+	int32 pageSize = 2;
+	DOCUMENT_SUGGESTION_FIELD suggestionField = 3;
+}
+
+message GetWhispersOfTheDayRequest {
+	string userId = 1;
+	unifiedplatform.service.content.common.Language resultsLanguage = 2;
+	RESPONSE_TYPE responseType = 3;
+	SCREEN_SIZE screenSize = 4;
+}
+
+message GetWhispersOfTheDayResponse {
+	message WhisperDetail {
+		repeated DisplayObject displayObjects = 2;
+		string title = 3;
+		string avatarLink = 4;
+	}
+
+	message WhisperItem {
+		DisplayObject infoDisplayObject = 1;
+		WhisperDetail detail = 2;
+	}
+
+	repeated WhisperItem whisperItems = 1;
+	string responseString = 2;
+}
+
+message DetectIntentRequest {
+	string userId = 1;
+	string command = 2;
+}
+
+message DetectIntentResponse {
+	enum INTENT {
+		INTENT_SCHEDULE_SITTING = 0;
+		INTENT_SEARCH_CONTENT = 1;
+	}
+	
+	
+	INTENT intent = 1;
+	map<string, string> parameters = 2;
+}
+
+message GetStaticContentRequest {
+	repeated string key = 1;
+    string userId = 2;
+}
+
+message GetStaticContentResponse {
+	map<string, string> values = 1;
+}
+
+service ContentService {
+	rpc search(SearchRequest) returns (SearchResponse) {}
+	rpc getTipsOfTheDay(GetTipsOfTheDayRequest) returns (GetTipsOfTheDayResponse) {}
+	rpc getVideosOfTheDay(GetVideosOfTheDayRequest) returns (GetVideosOfTheDayResponse) {}
+	rpc getSuggestions(GetSuggestionsRequest) returns (GetSuggestionsResponse) {}
+	rpc getSearchResultDetail(GetSearchResultDetailRequest) returns (GetSearchResultDetailResponse) {}
+	rpc getCollectionDetail(GetCollectionDetailRequest) returns (GetCollectionDetailResponse) {}
+	rpc getResourceList(GetResourceListRequest) returns (GetResourceListResponse) {}
+	rpc getWhispersOfTheDay(GetWhispersOfTheDayRequest) returns (GetWhispersOfTheDayResponse) {}
+	rpc detectIntent(DetectIntentRequest) returns (DetectIntentResponse) {}
+	rpc getStaticContent(GetStaticContentRequest) returns (GetStaticContentResponse) {}
+}

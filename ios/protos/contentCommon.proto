@@ -1,0 +1,39 @@
+syntax = "proto3";
+
+package unifiedplatform.service.content.common;
+
+option java_package = "org.heartfulness.unifiedplatform.interfaces.grpc.content.common";
+option java_multiple_files = true;
+option objc_class_prefix = "contentCommon";
+
+enum Language {
+	ENGLISH = 0;
+	HINDI = 1;
+	TAMIL = 2;
+	FRENCH = 3;
+	RUSSIAN = 4;
+	TELUGU = 5;
+	CHINESE = 6;
+}
+
+enum AbhyasStage {
+	SEEKER = 0;
+	ABHYASI = 1;
+	PREFECT = 2;
+	NEWBIE = 3;//Person who hasn't taken three sittings
+}
+
+enum AuthorType {
+	AUTHOR_TYPE_NOT_DEFINED = 0;
+	SRCM_MASTER = 1;
+	OTHER_MASTER = 2;
+	ABHYASY = 3;
+	WRITER = 4;
+	RESEARCHER = 5;
+	PSYCHOLOGIST = 6;
+	DOCTOR = 7;
+}
+
+message Empty {
+
+}

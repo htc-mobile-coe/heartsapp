@@ -1,0 +1,3847 @@
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libc++_shared.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libc++_shared.so
+new file mode 100644
+index 0000000..83acd19
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libc++_shared.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libfabricjni.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libfabricjni.so
+new file mode 100644
+index 0000000..3cd0acc
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libfabricjni.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libfb.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libfb.so
+new file mode 100644
+index 0000000..841d222
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libfb.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libfbjni.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libfbjni.so
+new file mode 100644
+index 0000000..5603650
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libfbjni.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libfolly_runtime.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libfolly_runtime.so
+new file mode 100644
+index 0000000..f73cc89
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libfolly_runtime.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libglog.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libglog.so
+new file mode 100644
+index 0000000..ed60902
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libglog.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libglog_init.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libglog_init.so
+new file mode 100644
+index 0000000..10ea387
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libglog_init.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libhermes-executor-debug.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libhermes-executor-debug.so
+new file mode 100644
+index 0000000..c358336
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libhermes-executor-debug.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libjscexecutor.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libjscexecutor.so
+new file mode 100644
+index 0000000..bc0ac7c
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libjscexecutor.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libjsi.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libjsi.so
+new file mode 100644
+index 0000000..467c592
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libjsi.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libjsijniprofiler.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libjsijniprofiler.so
+new file mode 100644
+index 0000000..b1ab0c4
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libjsijniprofiler.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libjsinspector.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libjsinspector.so
+new file mode 100644
+index 0000000..acfbe08
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libjsinspector.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/liblogger.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/liblogger.so
+new file mode 100644
+index 0000000..f2e7f7c
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/liblogger.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libmapbufferjni.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libmapbufferjni.so
+new file mode 100644
+index 0000000..dcc03f2
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libmapbufferjni.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_codegen_rncore.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_codegen_rncore.so
+new file mode 100644
+index 0000000..07c1c3b
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_codegen_rncore.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_config.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_config.so
+new file mode 100644
+index 0000000..38d4613
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_config.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_debug.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_debug.so
+new file mode 100644
+index 0000000..4a4c9c4
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_debug.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_nativemodule_core.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_nativemodule_core.so
+new file mode 100644
+index 0000000..a953450
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_nativemodule_core.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_render_animations.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_render_animations.so
+new file mode 100644
+index 0000000..47a3899
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_render_animations.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_render_attributedstring.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_render_attributedstring.so
+new file mode 100644
+index 0000000..3195bec
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_render_attributedstring.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_render_componentregistry.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_render_componentregistry.so
+new file mode 100644
+index 0000000..fe0cc0c
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_render_componentregistry.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_render_core.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_render_core.so
+new file mode 100644
+index 0000000..1221f60
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_render_core.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_render_debug.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_render_debug.so
+new file mode 100644
+index 0000000..59bd7a0
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_render_debug.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_render_graphics.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_render_graphics.so
+new file mode 100644
+index 0000000..adf960c
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_render_graphics.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_render_imagemanager.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_render_imagemanager.so
+new file mode 100644
+index 0000000..8c1c0d1
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_render_imagemanager.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_render_leakchecker.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_render_leakchecker.so
+new file mode 100644
+index 0000000..78a0764
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_render_leakchecker.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_render_mapbuffer.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_render_mapbuffer.so
+new file mode 100644
+index 0000000..f9bf651
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_render_mapbuffer.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_render_mounting.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_render_mounting.so
+new file mode 100644
+index 0000000..e8fec49
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_render_mounting.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_render_runtimescheduler.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_render_runtimescheduler.so
+new file mode 100644
+index 0000000..12628d1
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_render_runtimescheduler.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_render_scheduler.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_render_scheduler.so
+new file mode 100644
+index 0000000..e54cd03
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_render_scheduler.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_render_telemetry.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_render_telemetry.so
+new file mode 100644
+index 0000000..afedf5c
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_render_telemetry.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_render_templateprocessor.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_render_templateprocessor.so
+new file mode 100644
+index 0000000..fb7a4ce
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_render_templateprocessor.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_render_textlayoutmanager.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_render_textlayoutmanager.so
+new file mode 100644
+index 0000000..846e107
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_render_textlayoutmanager.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_render_uimanager.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_render_uimanager.so
+new file mode 100644
+index 0000000..9f94638
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_render_uimanager.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_utils.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_utils.so
+new file mode 100644
+index 0000000..2a246b4
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreact_utils.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreactnativeblob.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreactnativeblob.so
+new file mode 100644
+index 0000000..bf2b7c9
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreactnativeblob.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreactnativejni.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreactnativejni.so
+new file mode 100644
+index 0000000..ffa17d2
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreactnativejni.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreactnativeutilsjni.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreactnativeutilsjni.so
+new file mode 100644
+index 0000000..b64d29d
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreactnativeutilsjni.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreactperfloggerjni.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreactperfloggerjni.so
+new file mode 100644
+index 0000000..bc5b60a
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libreactperfloggerjni.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/librrc_image.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/librrc_image.so
+new file mode 100644
+index 0000000..a463af5
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/librrc_image.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/librrc_root.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/librrc_root.so
+new file mode 100644
+index 0000000..73dd5aa
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/librrc_root.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/librrc_scrollview.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/librrc_scrollview.so
+new file mode 100644
+index 0000000..ba44ff0
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/librrc_scrollview.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/librrc_text.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/librrc_text.so
+new file mode 100644
+index 0000000..1d87105
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/librrc_text.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/librrc_textinput.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/librrc_textinput.so
+new file mode 100644
+index 0000000..d9d03ee
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/librrc_textinput.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/librrc_unimplementedview.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/librrc_unimplementedview.so
+new file mode 100644
+index 0000000..2e70cae
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/librrc_unimplementedview.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/librrc_view.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/librrc_view.so
+new file mode 100644
+index 0000000..7de6118
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/librrc_view.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libruntimeexecutor.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libruntimeexecutor.so
+new file mode 100644
+index 0000000..9559f4a
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libruntimeexecutor.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libturbomodulejsijni.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libturbomodulejsijni.so
+new file mode 100644
+index 0000000..c47f9fe
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libturbomodulejsijni.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libyoga.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libyoga.so
+new file mode 100644
+index 0000000..b4acc62
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/arm64-v8a/libyoga.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libc++_shared.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libc++_shared.so
+new file mode 100644
+index 0000000..dd2cc28
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libc++_shared.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libfabricjni.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libfabricjni.so
+new file mode 100644
+index 0000000..c1fda42
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libfabricjni.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libfb.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libfb.so
+new file mode 100644
+index 0000000..9059c6f
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libfb.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libfbjni.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libfbjni.so
+new file mode 100644
+index 0000000..98c12eb
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libfbjni.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libfolly_runtime.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libfolly_runtime.so
+new file mode 100644
+index 0000000..a7cc01e
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libfolly_runtime.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libglog.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libglog.so
+new file mode 100644
+index 0000000..4431ef6
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libglog.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libglog_init.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libglog_init.so
+new file mode 100644
+index 0000000..65e77ab
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libglog_init.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libhermes-executor-debug.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libhermes-executor-debug.so
+new file mode 100644
+index 0000000..304fc03
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libhermes-executor-debug.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libjscexecutor.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libjscexecutor.so
+new file mode 100644
+index 0000000..068ff03
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libjscexecutor.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libjsi.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libjsi.so
+new file mode 100644
+index 0000000..9755ffc
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libjsi.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libjsijniprofiler.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libjsijniprofiler.so
+new file mode 100644
+index 0000000..d9fea8a
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libjsijniprofiler.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libjsinspector.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libjsinspector.so
+new file mode 100644
+index 0000000..f95ce54
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libjsinspector.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/liblogger.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/liblogger.so
+new file mode 100644
+index 0000000..9ee2a7b
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/liblogger.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libmapbufferjni.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libmapbufferjni.so
+new file mode 100644
+index 0000000..0065614
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libmapbufferjni.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_codegen_rncore.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_codegen_rncore.so
+new file mode 100644
+index 0000000..d735514
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_codegen_rncore.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_config.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_config.so
+new file mode 100644
+index 0000000..8eed412
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_config.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_debug.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_debug.so
+new file mode 100644
+index 0000000..9c8498c
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_debug.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_nativemodule_core.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_nativemodule_core.so
+new file mode 100644
+index 0000000..7dbfcb6
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_nativemodule_core.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_render_animations.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_render_animations.so
+new file mode 100644
+index 0000000..3bced33
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_render_animations.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_render_attributedstring.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_render_attributedstring.so
+new file mode 100644
+index 0000000..118e1c0
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_render_attributedstring.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_render_componentregistry.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_render_componentregistry.so
+new file mode 100644
+index 0000000..0b738f8
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_render_componentregistry.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_render_core.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_render_core.so
+new file mode 100644
+index 0000000..1582810
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_render_core.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_render_debug.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_render_debug.so
+new file mode 100644
+index 0000000..3162da2
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_render_debug.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_render_graphics.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_render_graphics.so
+new file mode 100644
+index 0000000..d3719b1
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_render_graphics.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_render_imagemanager.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_render_imagemanager.so
+new file mode 100644
+index 0000000..ce0cdbb
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_render_imagemanager.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_render_leakchecker.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_render_leakchecker.so
+new file mode 100644
+index 0000000..2b77a7e
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_render_leakchecker.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_render_mapbuffer.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_render_mapbuffer.so
+new file mode 100644
+index 0000000..855db85
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_render_mapbuffer.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_render_mounting.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_render_mounting.so
+new file mode 100644
+index 0000000..8e225db
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_render_mounting.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_render_runtimescheduler.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_render_runtimescheduler.so
+new file mode 100644
+index 0000000..6600e15
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_render_runtimescheduler.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_render_scheduler.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_render_scheduler.so
+new file mode 100644
+index 0000000..bd8273b
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_render_scheduler.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_render_telemetry.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_render_telemetry.so
+new file mode 100644
+index 0000000..3995c32
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_render_telemetry.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_render_templateprocessor.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_render_templateprocessor.so
+new file mode 100644
+index 0000000..575f333
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_render_templateprocessor.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_render_textlayoutmanager.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_render_textlayoutmanager.so
+new file mode 100644
+index 0000000..a26ef86
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_render_textlayoutmanager.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_render_uimanager.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_render_uimanager.so
+new file mode 100644
+index 0000000..edb0530
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_render_uimanager.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_utils.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_utils.so
+new file mode 100644
+index 0000000..6a3b703
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreact_utils.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreactnativeblob.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreactnativeblob.so
+new file mode 100644
+index 0000000..78c07dc
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreactnativeblob.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreactnativejni.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreactnativejni.so
+new file mode 100644
+index 0000000..271bace
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreactnativejni.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreactnativeutilsjni.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreactnativeutilsjni.so
+new file mode 100644
+index 0000000..3580c58
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreactnativeutilsjni.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreactperfloggerjni.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreactperfloggerjni.so
+new file mode 100644
+index 0000000..311cdd4
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libreactperfloggerjni.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/librrc_image.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/librrc_image.so
+new file mode 100644
+index 0000000..a43c851
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/librrc_image.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/librrc_root.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/librrc_root.so
+new file mode 100644
+index 0000000..5b6d32b
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/librrc_root.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/librrc_scrollview.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/librrc_scrollview.so
+new file mode 100644
+index 0000000..be1a61f
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/librrc_scrollview.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/librrc_text.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/librrc_text.so
+new file mode 100644
+index 0000000..458796a
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/librrc_text.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/librrc_textinput.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/librrc_textinput.so
+new file mode 100644
+index 0000000..432822e
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/librrc_textinput.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/librrc_unimplementedview.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/librrc_unimplementedview.so
+new file mode 100644
+index 0000000..8165c51
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/librrc_unimplementedview.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/librrc_view.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/librrc_view.so
+new file mode 100644
+index 0000000..aa52be5
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/librrc_view.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libruntimeexecutor.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libruntimeexecutor.so
+new file mode 100644
+index 0000000..754e385
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libruntimeexecutor.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libturbomodulejsijni.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libturbomodulejsijni.so
+new file mode 100644
+index 0000000..35992ac
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libturbomodulejsijni.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libyoga.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libyoga.so
+new file mode 100644
+index 0000000..e44fd9e
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/armeabi-v7a/libyoga.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libc++_shared.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libc++_shared.so
+new file mode 100644
+index 0000000..2668c34
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libc++_shared.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libfabricjni.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libfabricjni.so
+new file mode 100644
+index 0000000..f654f61
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libfabricjni.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libfb.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libfb.so
+new file mode 100644
+index 0000000..bb84083
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libfb.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libfbjni.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libfbjni.so
+new file mode 100644
+index 0000000..92a8695
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libfbjni.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libfolly_runtime.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libfolly_runtime.so
+new file mode 100644
+index 0000000..fd3687d
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libfolly_runtime.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libglog.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libglog.so
+new file mode 100644
+index 0000000..e429fe5
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libglog.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libglog_init.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libglog_init.so
+new file mode 100644
+index 0000000..97276a8
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libglog_init.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libhermes-executor-debug.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libhermes-executor-debug.so
+new file mode 100644
+index 0000000..fa1a417
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libhermes-executor-debug.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libjscexecutor.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libjscexecutor.so
+new file mode 100644
+index 0000000..a203f0d
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libjscexecutor.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libjsi.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libjsi.so
+new file mode 100644
+index 0000000..3ce8602
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libjsi.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libjsijniprofiler.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libjsijniprofiler.so
+new file mode 100644
+index 0000000..60baaf5
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libjsijniprofiler.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libjsinspector.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libjsinspector.so
+new file mode 100644
+index 0000000..879ff90
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libjsinspector.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/liblogger.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/liblogger.so
+new file mode 100644
+index 0000000..8261a8a
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/liblogger.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libmapbufferjni.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libmapbufferjni.so
+new file mode 100644
+index 0000000..934cf5d
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libmapbufferjni.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_codegen_rncore.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_codegen_rncore.so
+new file mode 100644
+index 0000000..266aa84
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_codegen_rncore.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_config.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_config.so
+new file mode 100644
+index 0000000..17c5cda
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_config.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_debug.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_debug.so
+new file mode 100644
+index 0000000..3d6ebc8
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_debug.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_nativemodule_core.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_nativemodule_core.so
+new file mode 100644
+index 0000000..f7db797
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_nativemodule_core.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_render_animations.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_render_animations.so
+new file mode 100644
+index 0000000..f866dbd
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_render_animations.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_render_attributedstring.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_render_attributedstring.so
+new file mode 100644
+index 0000000..165e904
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_render_attributedstring.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_render_componentregistry.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_render_componentregistry.so
+new file mode 100644
+index 0000000..82e93de
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_render_componentregistry.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_render_core.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_render_core.so
+new file mode 100644
+index 0000000..26d5462
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_render_core.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_render_debug.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_render_debug.so
+new file mode 100644
+index 0000000..8c7d99a
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_render_debug.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_render_graphics.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_render_graphics.so
+new file mode 100644
+index 0000000..3999ef2
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_render_graphics.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_render_imagemanager.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_render_imagemanager.so
+new file mode 100644
+index 0000000..8a736e7
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_render_imagemanager.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_render_leakchecker.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_render_leakchecker.so
+new file mode 100644
+index 0000000..b1fe519
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_render_leakchecker.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_render_mapbuffer.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_render_mapbuffer.so
+new file mode 100644
+index 0000000..82d43fe
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_render_mapbuffer.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_render_mounting.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_render_mounting.so
+new file mode 100644
+index 0000000..c4255f7
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_render_mounting.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_render_runtimescheduler.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_render_runtimescheduler.so
+new file mode 100644
+index 0000000..00483ce
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_render_runtimescheduler.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_render_scheduler.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_render_scheduler.so
+new file mode 100644
+index 0000000..d73cb7d
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_render_scheduler.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_render_telemetry.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_render_telemetry.so
+new file mode 100644
+index 0000000..8e5b4c7
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_render_telemetry.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_render_templateprocessor.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_render_templateprocessor.so
+new file mode 100644
+index 0000000..64e47f9
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_render_templateprocessor.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_render_textlayoutmanager.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_render_textlayoutmanager.so
+new file mode 100644
+index 0000000..f649fc0
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_render_textlayoutmanager.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_render_uimanager.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_render_uimanager.so
+new file mode 100644
+index 0000000..72879e5
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_render_uimanager.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_utils.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_utils.so
+new file mode 100644
+index 0000000..3a807f9
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreact_utils.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreactnativeblob.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreactnativeblob.so
+new file mode 100644
+index 0000000..73700ab
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreactnativeblob.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreactnativejni.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreactnativejni.so
+new file mode 100644
+index 0000000..0b2ec48
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreactnativejni.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreactnativeutilsjni.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreactnativeutilsjni.so
+new file mode 100644
+index 0000000..1ffe39f
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreactnativeutilsjni.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreactperfloggerjni.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreactperfloggerjni.so
+new file mode 100644
+index 0000000..823d0a5
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libreactperfloggerjni.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/librrc_image.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/librrc_image.so
+new file mode 100644
+index 0000000..1a80601
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/librrc_image.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/librrc_root.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/librrc_root.so
+new file mode 100644
+index 0000000..2f4a264
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/librrc_root.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/librrc_scrollview.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/librrc_scrollview.so
+new file mode 100644
+index 0000000..69fd3ca
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/librrc_scrollview.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/librrc_text.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/librrc_text.so
+new file mode 100644
+index 0000000..88021cc
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/librrc_text.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/librrc_textinput.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/librrc_textinput.so
+new file mode 100644
+index 0000000..e2349c6
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/librrc_textinput.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/librrc_unimplementedview.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/librrc_unimplementedview.so
+new file mode 100644
+index 0000000..1c1bcef
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/librrc_unimplementedview.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/librrc_view.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/librrc_view.so
+new file mode 100644
+index 0000000..54c4a22
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/librrc_view.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libruntimeexecutor.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libruntimeexecutor.so
+new file mode 100644
+index 0000000..91aa4f7
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libruntimeexecutor.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libturbomodulejsijni.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libturbomodulejsijni.so
+new file mode 100644
+index 0000000..72c122d
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libturbomodulejsijni.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libyoga.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libyoga.so
+new file mode 100644
+index 0000000..07f6a38
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86/libyoga.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libc++_shared.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libc++_shared.so
+new file mode 100644
+index 0000000..a869cf3
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libc++_shared.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libfabricjni.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libfabricjni.so
+new file mode 100644
+index 0000000..5ad50d5
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libfabricjni.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libfb.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libfb.so
+new file mode 100644
+index 0000000..a82d154
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libfb.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libfbjni.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libfbjni.so
+new file mode 100644
+index 0000000..4c99ca1
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libfbjni.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libfolly_runtime.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libfolly_runtime.so
+new file mode 100644
+index 0000000..2cfae0a
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libfolly_runtime.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libglog.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libglog.so
+new file mode 100644
+index 0000000..951269c
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libglog.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libglog_init.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libglog_init.so
+new file mode 100644
+index 0000000..3f183be
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libglog_init.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libhermes-executor-debug.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libhermes-executor-debug.so
+new file mode 100644
+index 0000000..789663a
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libhermes-executor-debug.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libjscexecutor.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libjscexecutor.so
+new file mode 100644
+index 0000000..8ae2a5d
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libjscexecutor.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libjsi.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libjsi.so
+new file mode 100644
+index 0000000..fdfaa5c
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libjsi.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libjsijniprofiler.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libjsijniprofiler.so
+new file mode 100644
+index 0000000..d673963
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libjsijniprofiler.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libjsinspector.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libjsinspector.so
+new file mode 100644
+index 0000000..f17e53e
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libjsinspector.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/liblogger.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/liblogger.so
+new file mode 100644
+index 0000000..2e54d60
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/liblogger.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libmapbufferjni.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libmapbufferjni.so
+new file mode 100644
+index 0000000..6c359d4
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libmapbufferjni.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_codegen_rncore.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_codegen_rncore.so
+new file mode 100644
+index 0000000..f4c8144
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_codegen_rncore.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_config.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_config.so
+new file mode 100644
+index 0000000..90b91c5
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_config.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_debug.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_debug.so
+new file mode 100644
+index 0000000..ede2586
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_debug.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_nativemodule_core.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_nativemodule_core.so
+new file mode 100644
+index 0000000..5906671
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_nativemodule_core.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_render_animations.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_render_animations.so
+new file mode 100644
+index 0000000..a2ab806
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_render_animations.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_render_attributedstring.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_render_attributedstring.so
+new file mode 100644
+index 0000000..f7f13a3
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_render_attributedstring.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_render_componentregistry.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_render_componentregistry.so
+new file mode 100644
+index 0000000..f4d7780
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_render_componentregistry.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_render_core.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_render_core.so
+new file mode 100644
+index 0000000..541f5a1
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_render_core.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_render_debug.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_render_debug.so
+new file mode 100644
+index 0000000..d5e4cc9
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_render_debug.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_render_graphics.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_render_graphics.so
+new file mode 100644
+index 0000000..3625bfd
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_render_graphics.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_render_imagemanager.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_render_imagemanager.so
+new file mode 100644
+index 0000000..528dd5f
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_render_imagemanager.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_render_leakchecker.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_render_leakchecker.so
+new file mode 100644
+index 0000000..22ddf67
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_render_leakchecker.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_render_mapbuffer.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_render_mapbuffer.so
+new file mode 100644
+index 0000000..a5640ec
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_render_mapbuffer.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_render_mounting.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_render_mounting.so
+new file mode 100644
+index 0000000..0627f03
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_render_mounting.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_render_runtimescheduler.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_render_runtimescheduler.so
+new file mode 100644
+index 0000000..c1ec0fb
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_render_runtimescheduler.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_render_scheduler.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_render_scheduler.so
+new file mode 100644
+index 0000000..c84bce0
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_render_scheduler.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_render_telemetry.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_render_telemetry.so
+new file mode 100644
+index 0000000..496c01c
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_render_telemetry.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_render_templateprocessor.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_render_templateprocessor.so
+new file mode 100644
+index 0000000..54efb01
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_render_templateprocessor.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_render_textlayoutmanager.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_render_textlayoutmanager.so
+new file mode 100644
+index 0000000..45293bf
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_render_textlayoutmanager.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_render_uimanager.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_render_uimanager.so
+new file mode 100644
+index 0000000..187e18e
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_render_uimanager.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_utils.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_utils.so
+new file mode 100644
+index 0000000..ab733a4
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreact_utils.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreactnativeblob.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreactnativeblob.so
+new file mode 100644
+index 0000000..190b550
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreactnativeblob.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreactnativejni.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreactnativejni.so
+new file mode 100644
+index 0000000..6a2155a
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreactnativejni.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreactnativeutilsjni.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreactnativeutilsjni.so
+new file mode 100644
+index 0000000..cac6bdf
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreactnativeutilsjni.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreactperfloggerjni.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreactperfloggerjni.so
+new file mode 100644
+index 0000000..eee1a98
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libreactperfloggerjni.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/librrc_image.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/librrc_image.so
+new file mode 100644
+index 0000000..15d93f2
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/librrc_image.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/librrc_root.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/librrc_root.so
+new file mode 100644
+index 0000000..3571328
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/librrc_root.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/librrc_scrollview.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/librrc_scrollview.so
+new file mode 100644
+index 0000000..bf734ec
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/librrc_scrollview.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/librrc_text.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/librrc_text.so
+new file mode 100644
+index 0000000..d71ef23
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/librrc_text.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/librrc_textinput.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/librrc_textinput.so
+new file mode 100644
+index 0000000..0247688
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/librrc_textinput.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/librrc_unimplementedview.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/librrc_unimplementedview.so
+new file mode 100644
+index 0000000..205005c
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/librrc_unimplementedview.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/librrc_view.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/librrc_view.so
+new file mode 100644
+index 0000000..a9b8ba6
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/librrc_view.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libruntimeexecutor.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libruntimeexecutor.so
+new file mode 100644
+index 0000000..3f3bd68
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libruntimeexecutor.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libturbomodulejsijni.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libturbomodulejsijni.so
+new file mode 100644
+index 0000000..7b898c1
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libturbomodulejsijni.so differ
+diff --git a/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libyoga.so b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libyoga.so
+new file mode 100644
+index 0000000..7a5c24e
+Binary files /dev/null and b/node_modules/react-native/ReactAndroid/src/main/jni/first-party/react/jni/x86_64/libyoga.so differ
+diff --git a/node_modules/react-native/index.js b/node_modules/react-native/index.js
+index d59ba34..a592d2f 100644
+--- a/node_modules/react-native/index.js
++++ b/node_modules/react-native/index.js
+@@ -87,16 +87,16 @@ import typeof Vibration from './Libraries/Vibration/Vibration';
+ import typeof YellowBox from './Libraries/YellowBox/YellowBoxDeprecated';
+ 
+ // Plugins
+-import typeof {DynamicColorIOS} from './Libraries/StyleSheet/PlatformColorValueTypesIOS';
++import typeof { DynamicColorIOS } from './Libraries/StyleSheet/PlatformColorValueTypesIOS';
+ import typeof NativeModules from './Libraries/BatchedBridge/NativeModules';
+ import typeof Platform from './Libraries/Utilities/Platform';
+-import typeof {PlatformColor} from './Libraries/StyleSheet/PlatformColorValueTypes';
++import typeof { PlatformColor } from './Libraries/StyleSheet/PlatformColorValueTypes';
+ import typeof processColor from './Libraries/StyleSheet/processColor';
+ import typeof RCTDeviceEventEmitter from './Libraries/EventEmitter/RCTDeviceEventEmitter';
+ import typeof RCTNativeAppEventEmitter from './Libraries/EventEmitter/RCTNativeAppEventEmitter';
+-import typeof {RootTagContext} from './Libraries/ReactNative/RootTag';
++import typeof { RootTagContext } from './Libraries/ReactNative/RootTag';
+ 
+-import type {HostComponent as _HostComponentInternal} from './Libraries/Renderer/shims/ReactNativeTypes';
++import type { HostComponent as _HostComponentInternal } from './Libraries/Renderer/shims/ReactNativeTypes';
+ 
+ export type HostComponent<T> = _HostComponentInternal<T>;
+ 
+@@ -120,8 +120,8 @@ module.exports = {
+     warnOnce(
+       'DatePickerIOS-merged',
+       'DatePickerIOS has been merged with DatePickerAndroid and will be removed in a future release. ' +
+-        "It can now be installed and imported from '@react-native-community/datetimepicker' instead of 'react-native'. " +
+-        'See https://github.com/react-native-datetimepicker/datetimepicker',
++      "It can now be installed and imported from '@react-native-community/datetimepicker' instead of 'react-native'. " +
++      'See https://github.com/react-native-datetimepicker/datetimepicker',
+     );
+     return require('./Libraries/Components/DatePicker/DatePickerIOS');
+   },
+@@ -149,8 +149,8 @@ module.exports = {
+     warnOnce(
+       'maskedviewios-moved',
+       'MaskedViewIOS has been extracted from react-native core and will be removed in a future release. ' +
+-        "It can now be installed and imported from '@react-native-masked-view/masked-view' instead of 'react-native'. " +
+-        'See https://github.com/react-native-masked-view/masked-view',
++      "It can now be installed and imported from '@react-native-masked-view/masked-view' instead of 'react-native'. " +
++      'See https://github.com/react-native-masked-view/masked-view',
+     );
+     return require('./Libraries/Components/MaskedView/MaskedViewIOS');
+   },
+@@ -165,8 +165,8 @@ module.exports = {
+     warnOnce(
+       'progress-bar-android-moved',
+       'ProgressBarAndroid has been extracted from react-native core and will be removed in a future release. ' +
+-        "It can now be installed and imported from '@react-native-community/progress-bar-android' instead of 'react-native'. " +
+-        'See https://github.com/react-native-progress-view/progress-bar-android',
++      "It can now be installed and imported from '@react-native-community/progress-bar-android' instead of 'react-native'. " +
++      'See https://github.com/react-native-progress-view/progress-bar-android',
+     );
+     return require('./Libraries/Components/ProgressBarAndroid/ProgressBarAndroid');
+   },
+@@ -175,8 +175,8 @@ module.exports = {
+     warnOnce(
+       'progress-view-ios-moved',
+       'ProgressViewIOS has been extracted from react-native core and will be removed in a future release. ' +
+-        "It can now be installed and imported from '@react-native-community/progress-view' instead of 'react-native'. " +
+-        'See https://github.com/react-native-progress-view/progress-view',
++      "It can now be installed and imported from '@react-native-community/progress-view' instead of 'react-native'. " +
++      'See https://github.com/react-native-progress-view/progress-view',
+     );
+     return require('./Libraries/Components/ProgressViewIOS/ProgressViewIOS');
+   },
+@@ -196,8 +196,8 @@ module.exports = {
+     warnOnce(
+       'slider-moved',
+       'Slider has been extracted from react-native core and will be removed in a future release. ' +
+-        "It can now be installed and imported from '@react-native-community/slider' instead of 'react-native'. " +
+-        'See https://github.com/callstack/react-native-slider',
++      "It can now be installed and imported from '@react-native-community/slider' instead of 'react-native'. " +
++      'See https://github.com/callstack/react-native-slider',
+     );
+     return require('./Libraries/Components/Slider/Slider');
+   },
+@@ -262,8 +262,8 @@ module.exports = {
+     warnOnce(
+       'async-storage-moved',
+       'AsyncStorage has been extracted from react-native core and will be removed in a future release. ' +
+-        "It can now be installed and imported from '@react-native-async-storage/async-storage' instead of 'react-native'. " +
+-        'See https://github.com/react-native-async-storage/async-storage',
++      "It can now be installed and imported from '@react-native-async-storage/async-storage' instead of 'react-native'. " +
++      'See https://github.com/react-native-async-storage/async-storage',
+     );
+     return require('./Libraries/Storage/AsyncStorage');
+   },
+@@ -274,8 +274,8 @@ module.exports = {
+     warnOnce(
+       'clipboard-moved',
+       'Clipboard has been extracted from react-native core and will be removed in a future release. ' +
+-        "It can now be installed and imported from '@react-native-clipboard/clipboard' instead of 'react-native'. " +
+-        'See https://github.com/react-native-clipboard/clipboard',
++      "It can now be installed and imported from '@react-native-clipboard/clipboard' instead of 'react-native'. " +
++      'See https://github.com/react-native-clipboard/clipboard',
+     );
+     return require('./Libraries/Components/Clipboard/Clipboard');
+   },
+@@ -301,9 +301,9 @@ module.exports = {
+     warnOnce(
+       'imagePickerIOS-moved',
+       'ImagePickerIOS has been extracted from react-native core and will be removed in a future release. ' +
+-        "Please upgrade to use either '@react-native-community/react-native-image-picker' or 'expo-image-picker'. " +
+-        "If you cannot upgrade to a different library, please install the deprecated '@react-native-community/image-picker-ios' package. " +
+-        'See https://github.com/rnc-archive/react-native-image-picker-ios',
++      "Please upgrade to use either '@react-native-community/react-native-image-picker' or 'expo-image-picker'. " +
++      "If you cannot upgrade to a different library, please install the deprecated '@react-native-community/image-picker-ios' package. " +
++      'See https://github.com/rnc-archive/react-native-image-picker-ios',
+     );
+     return require('./Libraries/Image/ImagePickerIOS');
+   },
+@@ -345,8 +345,8 @@ module.exports = {
+     warnOnce(
+       'pushNotificationIOS-moved',
+       'PushNotificationIOS has been extracted from react-native core and will be removed in a future release. ' +
+-        "It can now be installed and imported from '@react-native-community/push-notification-ios' instead of 'react-native'. " +
+-        'See https://github.com/react-native-push-notification-ios/push-notification-ios',
++      "It can now be installed and imported from '@react-native-community/push-notification-ios' instead of 'react-native'. " +
++      'See https://github.com/react-native-push-notification-ios/push-notification-ios',
+     );
+     return require('./Libraries/PushNotificationIOS/PushNotificationIOS');
+   },
+@@ -375,7 +375,7 @@ module.exports = {
+   get unstable_batchedUpdates(): $PropertyType<
+     ReactNative,
+     'unstable_batchedUpdates',
+-  > {
++    > {
+     return require('./Libraries/Renderer/shims/ReactNative')
+       .unstable_batchedUpdates;
+   },
+@@ -435,32 +435,16 @@ module.exports = {
+   },
+   // Deprecated Prop Types
+   get ColorPropType(): $FlowFixMe {
+-    invariant(
+-      false,
+-      'ColorPropType has been removed from React Native. Migrate to ' +
+-        "ColorPropType exported from 'deprecated-react-native-prop-types'.",
+-    );
++    return require('deprecated-react-native-prop-types').ColorPropType;
+   },
+   get EdgeInsetsPropType(): $FlowFixMe {
+-    invariant(
+-      false,
+-      'EdgeInsetsPropType has been removed from React Native. Migrate to ' +
+-        "EdgeInsetsPropType exported from 'deprecated-react-native-prop-types'.",
+-    );
++    return require('deprecated-react-native-prop-types').EdgeInsetsPropType;
+   },
+   get PointPropType(): $FlowFixMe {
+-    invariant(
+-      false,
+-      'PointPropType has been removed from React Native. Migrate to ' +
+-        "PointPropType exported from 'deprecated-react-native-prop-types'.",
+-    );
++    return require('deprecated-react-native-prop-types').PointPropType;
+   },
+   get ViewPropTypes(): $FlowFixMe {
+-    invariant(
+-      false,
+-      'ViewPropTypes has been removed from React Native. Migrate to ' +
+-        "ViewPropTypes exported from 'deprecated-react-native-prop-types'.",
+-    );
++    return require('deprecated-react-native-prop-types').ViewPropTypes;
+   },
+ };
+ 
+@@ -475,8 +459,8 @@ if (__DEV__) {
+       invariant(
+         false,
+         'ART has been removed from React Native. ' +
+-          "It can now be installed and imported from '@react-native-community/art' instead of 'react-native'. " +
+-          'See https://github.com/react-native-art/art',
++        "It can now be installed and imported from '@react-native-community/art' instead of 'react-native'. " +
++        'See https://github.com/react-native-art/art',
+       );
+     },
+   });
+@@ -491,8 +475,8 @@ if (__DEV__) {
+       invariant(
+         false,
+         'ListView has been removed from React Native. ' +
+-          'See https://fb.me/nolistview for more information or use ' +
+-          '`deprecated-react-native-listview`.',
++        'See https://fb.me/nolistview for more information or use ' +
++        '`deprecated-react-native-listview`.',
+       );
+     },
+   });
+@@ -507,8 +491,8 @@ if (__DEV__) {
+       invariant(
+         false,
+         'SwipeableListView has been removed from React Native. ' +
+-          'See https://fb.me/nolistview for more information or use ' +
+-          '`deprecated-react-native-swipeable-listview`.',
++        'See https://fb.me/nolistview for more information or use ' +
++        '`deprecated-react-native-swipeable-listview`.',
+       );
+     },
+   });
+@@ -523,8 +507,8 @@ if (__DEV__) {
+       invariant(
+         false,
+         'WebView has been removed from React Native. ' +
+-          "It can now be installed and imported from 'react-native-webview' instead of 'react-native'. " +
+-          'See https://github.com/react-native-webview/react-native-webview',
++        "It can now be installed and imported from 'react-native-webview' instead of 'react-native'. " +
++        'See https://github.com/react-native-webview/react-native-webview',
+       );
+     },
+   });
+@@ -539,8 +523,8 @@ if (__DEV__) {
+       invariant(
+         false,
+         'NetInfo has been removed from React Native. ' +
+-          "It can now be installed and imported from '@react-native-community/netinfo' instead of 'react-native'. " +
+-          'See https://github.com/react-native-netinfo/react-native-netinfo',
++        "It can now be installed and imported from '@react-native-community/netinfo' instead of 'react-native'. " +
++        'See https://github.com/react-native-netinfo/react-native-netinfo',
+       );
+     },
+   });
+@@ -555,8 +539,8 @@ if (__DEV__) {
+       invariant(
+         false,
+         'CameraRoll has been removed from React Native. ' +
+-          "It can now be installed and imported from '@react-native-community/cameraroll' instead of 'react-native'. " +
+-          'See https://github.com/react-native-cameraroll/react-native-cameraroll',
++        "It can now be installed and imported from '@react-native-community/cameraroll' instead of 'react-native'. " +
++        'See https://github.com/react-native-cameraroll/react-native-cameraroll',
+       );
+     },
+   });
+@@ -571,9 +555,9 @@ if (__DEV__) {
+       invariant(
+         false,
+         'ImageStore has been removed from React Native. ' +
+-          'To get a base64-encoded string from a local image use either of the following third-party libraries:' +
+-          "* expo-file-system: `readAsStringAsync(filepath, 'base64')`" +
+-          "* react-native-fs: `readFile(filepath, 'base64')`",
++        'To get a base64-encoded string from a local image use either of the following third-party libraries:' +
++        "* expo-file-system: `readAsStringAsync(filepath, 'base64')`" +
++        "* react-native-fs: `readFile(filepath, 'base64')`",
+       );
+     },
+   });
+@@ -588,8 +572,8 @@ if (__DEV__) {
+       invariant(
+         false,
+         'ImageEditor has been removed from React Native. ' +
+-          "It can now be installed and imported from '@react-native-community/image-editor' instead of 'react-native'. " +
+-          'See https://github.com/callstack/react-native-image-editor',
++        "It can now be installed and imported from '@react-native-community/image-editor' instead of 'react-native'. " +
++        'See https://github.com/callstack/react-native-image-editor',
+       );
+     },
+   });
+@@ -604,8 +588,8 @@ if (__DEV__) {
+       invariant(
+         false,
+         'TimePickerAndroid has been removed from React Native. ' +
+-          "It can now be installed and imported from '@react-native-community/datetimepicker' instead of 'react-native'. " +
+-          'See https://github.com/react-native-datetimepicker/datetimepicker',
++        "It can now be installed and imported from '@react-native-community/datetimepicker' instead of 'react-native'. " +
++        'See https://github.com/react-native-datetimepicker/datetimepicker',
+       );
+     },
+   });
+@@ -620,8 +604,8 @@ if (__DEV__) {
+       invariant(
+         false,
+         'ToolbarAndroid has been removed from React Native. ' +
+-          "It can now be installed and imported from '@react-native-community/toolbar-android' instead of 'react-native'. " +
+-          'See https://github.com/react-native-toolbar-android/toolbar-android',
++        "It can now be installed and imported from '@react-native-community/toolbar-android' instead of 'react-native'. " +
++        'See https://github.com/react-native-toolbar-android/toolbar-android',
+       );
+     },
+   });
+@@ -636,8 +620,8 @@ if (__DEV__) {
+       invariant(
+         false,
+         'ViewPagerAndroid has been removed from React Native. ' +
+-          "It can now be installed and imported from 'react-native-pager-view' instead of 'react-native'. " +
+-          'See https://github.com/callstack/react-native-pager-view',
++        "It can now be installed and imported from 'react-native-pager-view' instead of 'react-native'. " +
++        'See https://github.com/callstack/react-native-pager-view',
+       );
+     },
+   });
+@@ -652,8 +636,8 @@ if (__DEV__) {
+       invariant(
+         false,
+         'CheckBox has been removed from React Native. ' +
+-          "It can now be installed and imported from '@react-native-community/checkbox' instead of 'react-native'. " +
+-          'See https://github.com/react-native-checkbox/react-native-checkbox',
++        "It can now be installed and imported from '@react-native-community/checkbox' instead of 'react-native'. " +
++        'See https://github.com/react-native-checkbox/react-native-checkbox',
+       );
+     },
+   });
+@@ -668,8 +652,8 @@ if (__DEV__) {
+       invariant(
+         false,
+         'SegmentedControlIOS has been removed from React Native. ' +
+-          "It can now be installed and imported from '@react-native-community/segmented-checkbox' instead of 'react-native'." +
+-          'See https://github.com/react-native-segmented-control/segmented-control',
++        "It can now be installed and imported from '@react-native-community/segmented-checkbox' instead of 'react-native'." +
++        'See https://github.com/react-native-segmented-control/segmented-control',
+       );
+     },
+   });
+@@ -684,8 +668,8 @@ if (__DEV__) {
+       invariant(
+         false,
+         'StatusBarIOS has been removed from React Native. ' +
+-          'Has been merged with StatusBar. ' +
+-          'See https://reactnative.dev/docs/statusbar',
++        'Has been merged with StatusBar. ' +
++        'See https://reactnative.dev/docs/statusbar',
+       );
+     },
+   });
+@@ -700,8 +684,8 @@ if (__DEV__) {
+       invariant(
+         false,
+         'PickerIOS has been removed from React Native. ' +
+-          "It can now be installed and imported from '@react-native-picker/picker' instead of 'react-native'. " +
+-          'See https://github.com/react-native-picker/picker',
++        "It can now be installed and imported from '@react-native-picker/picker' instead of 'react-native'. " +
++        'See https://github.com/react-native-picker/picker',
+       );
+     },
+   });
+@@ -716,8 +700,8 @@ if (__DEV__) {
+       invariant(
+         false,
+         'Picker has been removed from React Native. ' +
+-          "It can now be installed and imported from '@react-native-picker/picker' instead of 'react-native'. " +
+-          'See https://github.com/react-native-picker/picker',
++        "It can now be installed and imported from '@react-native-picker/picker' instead of 'react-native'. " +
++        'See https://github.com/react-native-picker/picker',
+       );
+     },
+   });
+@@ -731,8 +715,8 @@ if (__DEV__) {
+       invariant(
+         false,
+         'DatePickerAndroid has been removed from React Native. ' +
+-          "It can now be installed and imported from '@react-native-community/datetimepicker' instead of 'react-native'. " +
+-          'See https://github.com/react-native-datetimepicker/datetimepicker',
++        "It can now be installed and imported from '@react-native-community/datetimepicker' instead of 'react-native'. " +
++        'See https://github.com/react-native-datetimepicker/datetimepicker',
+       );
+     },
+   });
+diff --git a/node_modules/react-native/scripts/.packager.env b/node_modules/react-native/scripts/.packager.env
+new file mode 100644
+index 0000000..21a13cf
+--- /dev/null
++++ b/node_modules/react-native/scripts/.packager.env
+@@ -0,0 +1 @@
++export RCT_METRO_PORT=8081
+\ No newline at end of file
+diff --git a/node_modules/react-native/template/ios/HelloWorld.xcodeproj/project.pbxproj b/node_modules/react-native/template/ios/HelloWorld.xcodeproj/project.pbxproj
+index 70234ff..1c47025 100644
+--- a/node_modules/react-native/template/ios/HelloWorld.xcodeproj/project.pbxproj
++++ b/node_modules/react-native/template/ios/HelloWorld.xcodeproj/project.pbxproj
+@@ -664,6 +664,2602 @@
+ 			};
+ 			name = Release;
+ 		};
++		85F56C4691A44E2A88231470 /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-HelloWorld-HelloWorldTests.debug.xcconfig */;
++			buildSettings = {
++				BUNDLE_LOADER = "$(TEST_HOST)";
++				GCC_PREPROCESSOR_DEFINITIONS = (
++					"DEBUG=1",
++					"$(inherited)",
++				);
++				INFOPLIST_FILE = HelloWorldTests/Info.plist;
++				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
++				LD_RUNPATH_SEARCH_PATHS = (
++					"$(inherited)",
++					"@executable_path/Frameworks",
++					"@loader_path/Frameworks",
++				);
++				OTHER_LDFLAGS = (
++					"-ObjC",
++					"-lc++",
++					"$(inherited)",
++				);
++				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
++				PRODUCT_NAME = "$(TARGET_NAME)";
++				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloWorld.app/HelloWorld";
++			};
++			name = "heartsapp";
++		};
++		D5FDF8F7CD4E416CB5153B87 /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-HelloWorld.debug.xcconfig */;
++			buildSettings = {
++				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
++				CLANG_ENABLE_MODULES = YES;
++				CURRENT_PROJECT_VERSION = 1;
++				ENABLE_BITCODE = NO;
++				INFOPLIST_FILE = HelloWorld/Info.plist;
++				LD_RUNPATH_SEARCH_PATHS = (
++					"$(inherited)",
++					"@executable_path/Frameworks",
++				);
++				OTHER_LDFLAGS = (
++					"$(inherited)",
++					"-ObjC",
++					"-lc++",
++				);
++				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
++				PRODUCT_NAME = HelloWorld;
++				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
++				SWIFT_VERSION = 5.0;
++				VERSIONING_SYSTEM = "apple-generic";
++			};
++			name = "heartsapp";
++		};
++		30B438CED711483A96AB6075 /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			buildSettings = {
++				ALWAYS_SEARCH_USER_PATHS = NO;
++				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
++				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
++				CLANG_CXX_LIBRARY = "libc++";
++				CLANG_ENABLE_MODULES = YES;
++				CLANG_ENABLE_OBJC_ARC = YES;
++				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
++				CLANG_WARN_BOOL_CONVERSION = YES;
++				CLANG_WARN_COMMA = YES;
++				CLANG_WARN_CONSTANT_CONVERSION = YES;
++				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
++				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
++				CLANG_WARN_EMPTY_BODY = YES;
++				CLANG_WARN_ENUM_CONVERSION = YES;
++				CLANG_WARN_INFINITE_RECURSION = YES;
++				CLANG_WARN_INT_CONVERSION = YES;
++				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
++				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
++				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
++				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
++				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
++				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
++				CLANG_WARN_STRICT_PROTOTYPES = YES;
++				CLANG_WARN_SUSPICIOUS_MOVE = YES;
++				CLANG_WARN_UNREACHABLE_CODE = YES;
++				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
++				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
++				COPY_PHASE_STRIP = NO;
++				ENABLE_STRICT_OBJC_MSGSEND = YES;
++				ENABLE_TESTABILITY = YES;
++				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
++				GCC_C_LANGUAGE_STANDARD = gnu99;
++				GCC_DYNAMIC_NO_PIC = NO;
++				GCC_NO_COMMON_BLOCKS = YES;
++				GCC_OPTIMIZATION_LEVEL = 0;
++				GCC_PREPROCESSOR_DEFINITIONS = (
++					"DEBUG=1",
++					"$(inherited)",
++				);
++				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
++				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
++				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
++				GCC_WARN_UNDECLARED_SELECTOR = YES;
++				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
++				GCC_WARN_UNUSED_FUNCTION = YES;
++				GCC_WARN_UNUSED_VARIABLE = YES;
++				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
++				LD_RUNPATH_SEARCH_PATHS = (
++					/usr/lib/swift,
++					"$(inherited)",
++				);
++				LIBRARY_SEARCH_PATHS = (
++					"\"$(SDKROOT)/usr/lib/swift\"",
++					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
++					"\"$(inherited)\"",
++				);
++				MTL_ENABLE_DEBUG_INFO = YES;
++				ONLY_ACTIVE_ARCH = YES;
++				OTHER_CPLUSPLUSFLAGS = (
++					"$(OTHER_CFLAGS)",
++					"-DFOLLY_NO_CONFIG",
++					"-DFOLLY_MOBILE=1",
++					"-DFOLLY_USE_LIBCPP=1",
++				);
++				SDKROOT = iphoneos;
++			};
++			name = "heartsapp";
++		};
++		7A1130E7EF1341BC9AA2CC56 /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-HelloWorld-HelloWorldTests.release.xcconfig */;
++			buildSettings = {
++				BUNDLE_LOADER = "$(TEST_HOST)";
++				COPY_PHASE_STRIP = NO;
++				INFOPLIST_FILE = HelloWorldTests/Info.plist;
++				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
++				LD_RUNPATH_SEARCH_PATHS = (
++					"$(inherited)",
++					"@executable_path/Frameworks",
++					"@loader_path/Frameworks",
++				);
++				OTHER_LDFLAGS = (
++					"-ObjC",
++					"-lc++",
++					"$(inherited)",
++				);
++				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
++				PRODUCT_NAME = "$(TARGET_NAME)";
++				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloWorld.app/HelloWorld";
++			};
++			name = "heartsapp";
++		};
++		D0A303BFF4E542E6AF0E1363 /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-HelloWorld.release.xcconfig */;
++			buildSettings = {
++				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
++				CLANG_ENABLE_MODULES = YES;
++				CURRENT_PROJECT_VERSION = 1;
++				INFOPLIST_FILE = HelloWorld/Info.plist;
++				LD_RUNPATH_SEARCH_PATHS = (
++					"$(inherited)",
++					"@executable_path/Frameworks",
++				);
++				OTHER_LDFLAGS = (
++					"$(inherited)",
++					"-ObjC",
++					"-lc++",
++				);
++				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
++				PRODUCT_NAME = HelloWorld;
++				SWIFT_VERSION = 5.0;
++				VERSIONING_SYSTEM = "apple-generic";
++			};
++			name = "heartsapp";
++		};
++		0CF12BFD25284E4D9E7A9177 /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			buildSettings = {
++				ALWAYS_SEARCH_USER_PATHS = NO;
++				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
++				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
++				CLANG_CXX_LIBRARY = "libc++";
++				CLANG_ENABLE_MODULES = YES;
++				CLANG_ENABLE_OBJC_ARC = YES;
++				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
++				CLANG_WARN_BOOL_CONVERSION = YES;
++				CLANG_WARN_COMMA = YES;
++				CLANG_WARN_CONSTANT_CONVERSION = YES;
++				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
++				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
++				CLANG_WARN_EMPTY_BODY = YES;
++				CLANG_WARN_ENUM_CONVERSION = YES;
++				CLANG_WARN_INFINITE_RECURSION = YES;
++				CLANG_WARN_INT_CONVERSION = YES;
++				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
++				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
++				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
++				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
++				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
++				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
++				CLANG_WARN_STRICT_PROTOTYPES = YES;
++				CLANG_WARN_SUSPICIOUS_MOVE = YES;
++				CLANG_WARN_UNREACHABLE_CODE = YES;
++				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
++				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
++				COPY_PHASE_STRIP = YES;
++				ENABLE_NS_ASSERTIONS = NO;
++				ENABLE_STRICT_OBJC_MSGSEND = YES;
++				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
++				GCC_C_LANGUAGE_STANDARD = gnu99;
++				GCC_NO_COMMON_BLOCKS = YES;
++				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
++				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
++				GCC_WARN_UNDECLARED_SELECTOR = YES;
++				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
++				GCC_WARN_UNUSED_FUNCTION = YES;
++				GCC_WARN_UNUSED_VARIABLE = YES;
++				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
++				LD_RUNPATH_SEARCH_PATHS = (
++					/usr/lib/swift,
++					"$(inherited)",
++				);
++				LIBRARY_SEARCH_PATHS = (
++					"\"$(SDKROOT)/usr/lib/swift\"",
++					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
++					"\"$(inherited)\"",
++				);
++				MTL_ENABLE_DEBUG_INFO = NO;
++				OTHER_CPLUSPLUSFLAGS = (
++					"$(OTHER_CFLAGS)",
++					"-DFOLLY_NO_CONFIG",
++					"-DFOLLY_MOBILE=1",
++					"-DFOLLY_USE_LIBCPP=1",
++				);
++				SDKROOT = iphoneos;
++				VALIDATE_PRODUCT = YES;
++			};
++			name = "heartsapp";
++		};
++		740638E8C2074112B3B6CE35 /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-HelloWorld-HelloWorldTests.debug.xcconfig */;
++			buildSettings = {
++				BUNDLE_LOADER = "$(TEST_HOST)";
++				GCC_PREPROCESSOR_DEFINITIONS = (
++					"DEBUG=1",
++					"$(inherited)",
++				);
++				INFOPLIST_FILE = HelloWorldTests/Info.plist;
++				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
++				LD_RUNPATH_SEARCH_PATHS = (
++					"$(inherited)",
++					"@executable_path/Frameworks",
++					"@loader_path/Frameworks",
++				);
++				OTHER_LDFLAGS = (
++					"-ObjC",
++					"-lc++",
++					"$(inherited)",
++				);
++				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
++				PRODUCT_NAME = "$(TARGET_NAME)";
++				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloWorld.app/HelloWorld";
++			};
++			name = "heartsapp";
++		};
++		E9D46B7B06094C8D9295740E /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-HelloWorld.debug.xcconfig */;
++			buildSettings = {
++				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
++				CLANG_ENABLE_MODULES = YES;
++				CURRENT_PROJECT_VERSION = 1;
++				ENABLE_BITCODE = NO;
++				INFOPLIST_FILE = HelloWorld/Info.plist;
++				LD_RUNPATH_SEARCH_PATHS = (
++					"$(inherited)",
++					"@executable_path/Frameworks",
++				);
++				OTHER_LDFLAGS = (
++					"$(inherited)",
++					"-ObjC",
++					"-lc++",
++				);
++				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
++				PRODUCT_NAME = HelloWorld;
++				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
++				SWIFT_VERSION = 5.0;
++				VERSIONING_SYSTEM = "apple-generic";
++			};
++			name = "heartsapp";
++		};
++		46073FD6889143EAA6BED706 /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			buildSettings = {
++				ALWAYS_SEARCH_USER_PATHS = NO;
++				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
++				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
++				CLANG_CXX_LIBRARY = "libc++";
++				CLANG_ENABLE_MODULES = YES;
++				CLANG_ENABLE_OBJC_ARC = YES;
++				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
++				CLANG_WARN_BOOL_CONVERSION = YES;
++				CLANG_WARN_COMMA = YES;
++				CLANG_WARN_CONSTANT_CONVERSION = YES;
++				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
++				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
++				CLANG_WARN_EMPTY_BODY = YES;
++				CLANG_WARN_ENUM_CONVERSION = YES;
++				CLANG_WARN_INFINITE_RECURSION = YES;
++				CLANG_WARN_INT_CONVERSION = YES;
++				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
++				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
++				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
++				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
++				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
++				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
++				CLANG_WARN_STRICT_PROTOTYPES = YES;
++				CLANG_WARN_SUSPICIOUS_MOVE = YES;
++				CLANG_WARN_UNREACHABLE_CODE = YES;
++				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
++				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
++				COPY_PHASE_STRIP = NO;
++				ENABLE_STRICT_OBJC_MSGSEND = YES;
++				ENABLE_TESTABILITY = YES;
++				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
++				GCC_C_LANGUAGE_STANDARD = gnu99;
++				GCC_DYNAMIC_NO_PIC = NO;
++				GCC_NO_COMMON_BLOCKS = YES;
++				GCC_OPTIMIZATION_LEVEL = 0;
++				GCC_PREPROCESSOR_DEFINITIONS = (
++					"DEBUG=1",
++					"$(inherited)",
++				);
++				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
++				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
++				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
++				GCC_WARN_UNDECLARED_SELECTOR = YES;
++				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
++				GCC_WARN_UNUSED_FUNCTION = YES;
++				GCC_WARN_UNUSED_VARIABLE = YES;
++				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
++				LD_RUNPATH_SEARCH_PATHS = (
++					/usr/lib/swift,
++					"$(inherited)",
++				);
++				LIBRARY_SEARCH_PATHS = (
++					"\"$(SDKROOT)/usr/lib/swift\"",
++					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
++					"\"$(inherited)\"",
++				);
++				MTL_ENABLE_DEBUG_INFO = YES;
++				ONLY_ACTIVE_ARCH = YES;
++				OTHER_CPLUSPLUSFLAGS = (
++					"$(OTHER_CFLAGS)",
++					"-DFOLLY_NO_CONFIG",
++					"-DFOLLY_MOBILE=1",
++					"-DFOLLY_USE_LIBCPP=1",
++				);
++				SDKROOT = iphoneos;
++			};
++			name = "heartsapp";
++		};
++		DF8E67FDC8D14EA29F225518 /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-HelloWorld-HelloWorldTests.release.xcconfig */;
++			buildSettings = {
++				BUNDLE_LOADER = "$(TEST_HOST)";
++				COPY_PHASE_STRIP = NO;
++				INFOPLIST_FILE = HelloWorldTests/Info.plist;
++				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
++				LD_RUNPATH_SEARCH_PATHS = (
++					"$(inherited)",
++					"@executable_path/Frameworks",
++					"@loader_path/Frameworks",
++				);
++				OTHER_LDFLAGS = (
++					"-ObjC",
++					"-lc++",
++					"$(inherited)",
++				);
++				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
++				PRODUCT_NAME = "$(TARGET_NAME)";
++				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloWorld.app/HelloWorld";
++			};
++			name = "heartsapp";
++		};
++		729992E658ED42519F60CD36 /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-HelloWorld.release.xcconfig */;
++			buildSettings = {
++				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
++				CLANG_ENABLE_MODULES = YES;
++				CURRENT_PROJECT_VERSION = 1;
++				INFOPLIST_FILE = HelloWorld/Info.plist;
++				LD_RUNPATH_SEARCH_PATHS = (
++					"$(inherited)",
++					"@executable_path/Frameworks",
++				);
++				OTHER_LDFLAGS = (
++					"$(inherited)",
++					"-ObjC",
++					"-lc++",
++				);
++				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
++				PRODUCT_NAME = HelloWorld;
++				SWIFT_VERSION = 5.0;
++				VERSIONING_SYSTEM = "apple-generic";
++			};
++			name = "heartsapp";
++		};
++		EA946417B7FF4A03BFB17FC9 /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			buildSettings = {
++				ALWAYS_SEARCH_USER_PATHS = NO;
++				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
++				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
++				CLANG_CXX_LIBRARY = "libc++";
++				CLANG_ENABLE_MODULES = YES;
++				CLANG_ENABLE_OBJC_ARC = YES;
++				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
++				CLANG_WARN_BOOL_CONVERSION = YES;
++				CLANG_WARN_COMMA = YES;
++				CLANG_WARN_CONSTANT_CONVERSION = YES;
++				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
++				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
++				CLANG_WARN_EMPTY_BODY = YES;
++				CLANG_WARN_ENUM_CONVERSION = YES;
++				CLANG_WARN_INFINITE_RECURSION = YES;
++				CLANG_WARN_INT_CONVERSION = YES;
++				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
++				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
++				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
++				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
++				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
++				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
++				CLANG_WARN_STRICT_PROTOTYPES = YES;
++				CLANG_WARN_SUSPICIOUS_MOVE = YES;
++				CLANG_WARN_UNREACHABLE_CODE = YES;
++				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
++				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
++				COPY_PHASE_STRIP = YES;
++				ENABLE_NS_ASSERTIONS = NO;
++				ENABLE_STRICT_OBJC_MSGSEND = YES;
++				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
++				GCC_C_LANGUAGE_STANDARD = gnu99;
++				GCC_NO_COMMON_BLOCKS = YES;
++				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
++				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
++				GCC_WARN_UNDECLARED_SELECTOR = YES;
++				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
++				GCC_WARN_UNUSED_FUNCTION = YES;
++				GCC_WARN_UNUSED_VARIABLE = YES;
++				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
++				LD_RUNPATH_SEARCH_PATHS = (
++					/usr/lib/swift,
++					"$(inherited)",
++				);
++				LIBRARY_SEARCH_PATHS = (
++					"\"$(SDKROOT)/usr/lib/swift\"",
++					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
++					"\"$(inherited)\"",
++				);
++				MTL_ENABLE_DEBUG_INFO = NO;
++				OTHER_CPLUSPLUSFLAGS = (
++					"$(OTHER_CFLAGS)",
++					"-DFOLLY_NO_CONFIG",
++					"-DFOLLY_MOBILE=1",
++					"-DFOLLY_USE_LIBCPP=1",
++				);
++				SDKROOT = iphoneos;
++				VALIDATE_PRODUCT = YES;
++			};
++			name = "heartsapp";
++		};
++		EE9BF3F855EA459DB0E57D3C /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-HelloWorld-HelloWorldTests.debug.xcconfig */;
++			buildSettings = {
++				BUNDLE_LOADER = "$(TEST_HOST)";
++				GCC_PREPROCESSOR_DEFINITIONS = (
++					"DEBUG=1",
++					"$(inherited)",
++				);
++				INFOPLIST_FILE = HelloWorldTests/Info.plist;
++				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
++				LD_RUNPATH_SEARCH_PATHS = (
++					"$(inherited)",
++					"@executable_path/Frameworks",
++					"@loader_path/Frameworks",
++				);
++				OTHER_LDFLAGS = (
++					"-ObjC",
++					"-lc++",
++					"$(inherited)",
++				);
++				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
++				PRODUCT_NAME = "$(TARGET_NAME)";
++				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloWorld.app/HelloWorld";
++			};
++			name = "heartsapp";
++		};
++		E4F791B4D55A4BBC8F6ED0B2 /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-HelloWorld.debug.xcconfig */;
++			buildSettings = {
++				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
++				CLANG_ENABLE_MODULES = YES;
++				CURRENT_PROJECT_VERSION = 1;
++				ENABLE_BITCODE = NO;
++				INFOPLIST_FILE = HelloWorld/Info.plist;
++				LD_RUNPATH_SEARCH_PATHS = (
++					"$(inherited)",
++					"@executable_path/Frameworks",
++				);
++				OTHER_LDFLAGS = (
++					"$(inherited)",
++					"-ObjC",
++					"-lc++",
++				);
++				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
++				PRODUCT_NAME = HelloWorld;
++				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
++				SWIFT_VERSION = 5.0;
++				VERSIONING_SYSTEM = "apple-generic";
++			};
++			name = "heartsapp";
++		};
++		440AA6715896494FB1895391 /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			buildSettings = {
++				ALWAYS_SEARCH_USER_PATHS = NO;
++				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
++				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
++				CLANG_CXX_LIBRARY = "libc++";
++				CLANG_ENABLE_MODULES = YES;
++				CLANG_ENABLE_OBJC_ARC = YES;
++				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
++				CLANG_WARN_BOOL_CONVERSION = YES;
++				CLANG_WARN_COMMA = YES;
++				CLANG_WARN_CONSTANT_CONVERSION = YES;
++				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
++				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
++				CLANG_WARN_EMPTY_BODY = YES;
++				CLANG_WARN_ENUM_CONVERSION = YES;
++				CLANG_WARN_INFINITE_RECURSION = YES;
++				CLANG_WARN_INT_CONVERSION = YES;
++				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
++				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
++				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
++				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
++				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
++				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
++				CLANG_WARN_STRICT_PROTOTYPES = YES;
++				CLANG_WARN_SUSPICIOUS_MOVE = YES;
++				CLANG_WARN_UNREACHABLE_CODE = YES;
++				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
++				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
++				COPY_PHASE_STRIP = NO;
++				ENABLE_STRICT_OBJC_MSGSEND = YES;
++				ENABLE_TESTABILITY = YES;
++				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
++				GCC_C_LANGUAGE_STANDARD = gnu99;
++				GCC_DYNAMIC_NO_PIC = NO;
++				GCC_NO_COMMON_BLOCKS = YES;
++				GCC_OPTIMIZATION_LEVEL = 0;
++				GCC_PREPROCESSOR_DEFINITIONS = (
++					"DEBUG=1",
++					"$(inherited)",
++				);
++				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
++				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
++				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
++				GCC_WARN_UNDECLARED_SELECTOR = YES;
++				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
++				GCC_WARN_UNUSED_FUNCTION = YES;
++				GCC_WARN_UNUSED_VARIABLE = YES;
++				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
++				LD_RUNPATH_SEARCH_PATHS = (
++					/usr/lib/swift,
++					"$(inherited)",
++				);
++				LIBRARY_SEARCH_PATHS = (
++					"\"$(SDKROOT)/usr/lib/swift\"",
++					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
++					"\"$(inherited)\"",
++				);
++				MTL_ENABLE_DEBUG_INFO = YES;
++				ONLY_ACTIVE_ARCH = YES;
++				OTHER_CPLUSPLUSFLAGS = (
++					"$(OTHER_CFLAGS)",
++					"-DFOLLY_NO_CONFIG",
++					"-DFOLLY_MOBILE=1",
++					"-DFOLLY_USE_LIBCPP=1",
++				);
++				SDKROOT = iphoneos;
++			};
++			name = "heartsapp";
++		};
++		B854BF72C9884AF4A9870DD0 /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-HelloWorld-HelloWorldTests.release.xcconfig */;
++			buildSettings = {
++				BUNDLE_LOADER = "$(TEST_HOST)";
++				COPY_PHASE_STRIP = NO;
++				INFOPLIST_FILE = HelloWorldTests/Info.plist;
++				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
++				LD_RUNPATH_SEARCH_PATHS = (
++					"$(inherited)",
++					"@executable_path/Frameworks",
++					"@loader_path/Frameworks",
++				);
++				OTHER_LDFLAGS = (
++					"-ObjC",
++					"-lc++",
++					"$(inherited)",
++				);
++				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
++				PRODUCT_NAME = "$(TARGET_NAME)";
++				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloWorld.app/HelloWorld";
++			};
++			name = "heartsapp";
++		};
++		4DC63E185BCB44B68DB59D51 /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-HelloWorld.release.xcconfig */;
++			buildSettings = {
++				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
++				CLANG_ENABLE_MODULES = YES;
++				CURRENT_PROJECT_VERSION = 1;
++				INFOPLIST_FILE = HelloWorld/Info.plist;
++				LD_RUNPATH_SEARCH_PATHS = (
++					"$(inherited)",
++					"@executable_path/Frameworks",
++				);
++				OTHER_LDFLAGS = (
++					"$(inherited)",
++					"-ObjC",
++					"-lc++",
++				);
++				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
++				PRODUCT_NAME = HelloWorld;
++				SWIFT_VERSION = 5.0;
++				VERSIONING_SYSTEM = "apple-generic";
++			};
++			name = "heartsapp";
++		};
++		41ABA1E6BE87419796E93349 /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			buildSettings = {
++				ALWAYS_SEARCH_USER_PATHS = NO;
++				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
++				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
++				CLANG_CXX_LIBRARY = "libc++";
++				CLANG_ENABLE_MODULES = YES;
++				CLANG_ENABLE_OBJC_ARC = YES;
++				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
++				CLANG_WARN_BOOL_CONVERSION = YES;
++				CLANG_WARN_COMMA = YES;
++				CLANG_WARN_CONSTANT_CONVERSION = YES;
++				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
++				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
++				CLANG_WARN_EMPTY_BODY = YES;
++				CLANG_WARN_ENUM_CONVERSION = YES;
++				CLANG_WARN_INFINITE_RECURSION = YES;
++				CLANG_WARN_INT_CONVERSION = YES;
++				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
++				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
++				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
++				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
++				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
++				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
++				CLANG_WARN_STRICT_PROTOTYPES = YES;
++				CLANG_WARN_SUSPICIOUS_MOVE = YES;
++				CLANG_WARN_UNREACHABLE_CODE = YES;
++				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
++				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
++				COPY_PHASE_STRIP = YES;
++				ENABLE_NS_ASSERTIONS = NO;
++				ENABLE_STRICT_OBJC_MSGSEND = YES;
++				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
++				GCC_C_LANGUAGE_STANDARD = gnu99;
++				GCC_NO_COMMON_BLOCKS = YES;
++				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
++				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
++				GCC_WARN_UNDECLARED_SELECTOR = YES;
++				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
++				GCC_WARN_UNUSED_FUNCTION = YES;
++				GCC_WARN_UNUSED_VARIABLE = YES;
++				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
++				LD_RUNPATH_SEARCH_PATHS = (
++					/usr/lib/swift,
++					"$(inherited)",
++				);
++				LIBRARY_SEARCH_PATHS = (
++					"\"$(SDKROOT)/usr/lib/swift\"",
++					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
++					"\"$(inherited)\"",
++				);
++				MTL_ENABLE_DEBUG_INFO = NO;
++				OTHER_CPLUSPLUSFLAGS = (
++					"$(OTHER_CFLAGS)",
++					"-DFOLLY_NO_CONFIG",
++					"-DFOLLY_MOBILE=1",
++					"-DFOLLY_USE_LIBCPP=1",
++				);
++				SDKROOT = iphoneos;
++				VALIDATE_PRODUCT = YES;
++			};
++			name = "heartsapp";
++		};
++		3A99615153AB4BA280ECB95A /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-HelloWorld-HelloWorldTests.debug.xcconfig */;
++			buildSettings = {
++				BUNDLE_LOADER = "$(TEST_HOST)";
++				GCC_PREPROCESSOR_DEFINITIONS = (
++					"DEBUG=1",
++					"$(inherited)",
++				);
++				INFOPLIST_FILE = HelloWorldTests/Info.plist;
++				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
++				LD_RUNPATH_SEARCH_PATHS = (
++					"$(inherited)",
++					"@executable_path/Frameworks",
++					"@loader_path/Frameworks",
++				);
++				OTHER_LDFLAGS = (
++					"-ObjC",
++					"-lc++",
++					"$(inherited)",
++				);
++				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
++				PRODUCT_NAME = "$(TARGET_NAME)";
++				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloWorld.app/HelloWorld";
++			};
++			name = "heartsapp";
++		};
++		2EEFBDE91E0B428BAD0E6C73 /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-HelloWorld.debug.xcconfig */;
++			buildSettings = {
++				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
++				CLANG_ENABLE_MODULES = YES;
++				CURRENT_PROJECT_VERSION = 1;
++				ENABLE_BITCODE = NO;
++				INFOPLIST_FILE = HelloWorld/Info.plist;
++				LD_RUNPATH_SEARCH_PATHS = (
++					"$(inherited)",
++					"@executable_path/Frameworks",
++				);
++				OTHER_LDFLAGS = (
++					"$(inherited)",
++					"-ObjC",
++					"-lc++",
++				);
++				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
++				PRODUCT_NAME = HelloWorld;
++				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
++				SWIFT_VERSION = 5.0;
++				VERSIONING_SYSTEM = "apple-generic";
++			};
++			name = "heartsapp";
++		};
++		3021442EB9994E9FB240F61D /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			buildSettings = {
++				ALWAYS_SEARCH_USER_PATHS = NO;
++				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
++				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
++				CLANG_CXX_LIBRARY = "libc++";
++				CLANG_ENABLE_MODULES = YES;
++				CLANG_ENABLE_OBJC_ARC = YES;
++				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
++				CLANG_WARN_BOOL_CONVERSION = YES;
++				CLANG_WARN_COMMA = YES;
++				CLANG_WARN_CONSTANT_CONVERSION = YES;
++				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
++				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
++				CLANG_WARN_EMPTY_BODY = YES;
++				CLANG_WARN_ENUM_CONVERSION = YES;
++				CLANG_WARN_INFINITE_RECURSION = YES;
++				CLANG_WARN_INT_CONVERSION = YES;
++				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
++				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
++				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
++				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
++				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
++				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
++				CLANG_WARN_STRICT_PROTOTYPES = YES;
++				CLANG_WARN_SUSPICIOUS_MOVE = YES;
++				CLANG_WARN_UNREACHABLE_CODE = YES;
++				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
++				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
++				COPY_PHASE_STRIP = NO;
++				ENABLE_STRICT_OBJC_MSGSEND = YES;
++				ENABLE_TESTABILITY = YES;
++				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
++				GCC_C_LANGUAGE_STANDARD = gnu99;
++				GCC_DYNAMIC_NO_PIC = NO;
++				GCC_NO_COMMON_BLOCKS = YES;
++				GCC_OPTIMIZATION_LEVEL = 0;
++				GCC_PREPROCESSOR_DEFINITIONS = (
++					"DEBUG=1",
++					"$(inherited)",
++				);
++				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
++				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
++				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
++				GCC_WARN_UNDECLARED_SELECTOR = YES;
++				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
++				GCC_WARN_UNUSED_FUNCTION = YES;
++				GCC_WARN_UNUSED_VARIABLE = YES;
++				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
++				LD_RUNPATH_SEARCH_PATHS = (
++					/usr/lib/swift,
++					"$(inherited)",
++				);
++				LIBRARY_SEARCH_PATHS = (
++					"\"$(SDKROOT)/usr/lib/swift\"",
++					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
++					"\"$(inherited)\"",
++				);
++				MTL_ENABLE_DEBUG_INFO = YES;
++				ONLY_ACTIVE_ARCH = YES;
++				OTHER_CPLUSPLUSFLAGS = (
++					"$(OTHER_CFLAGS)",
++					"-DFOLLY_NO_CONFIG",
++					"-DFOLLY_MOBILE=1",
++					"-DFOLLY_USE_LIBCPP=1",
++				);
++				SDKROOT = iphoneos;
++			};
++			name = "heartsapp";
++		};
++		1F07CDA697DB418B8A7115BC /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-HelloWorld-HelloWorldTests.release.xcconfig */;
++			buildSettings = {
++				BUNDLE_LOADER = "$(TEST_HOST)";
++				COPY_PHASE_STRIP = NO;
++				INFOPLIST_FILE = HelloWorldTests/Info.plist;
++				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
++				LD_RUNPATH_SEARCH_PATHS = (
++					"$(inherited)",
++					"@executable_path/Frameworks",
++					"@loader_path/Frameworks",
++				);
++				OTHER_LDFLAGS = (
++					"-ObjC",
++					"-lc++",
++					"$(inherited)",
++				);
++				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
++				PRODUCT_NAME = "$(TARGET_NAME)";
++				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloWorld.app/HelloWorld";
++			};
++			name = "heartsapp";
++		};
++		261FB986EDE5458C93CC0887 /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-HelloWorld.release.xcconfig */;
++			buildSettings = {
++				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
++				CLANG_ENABLE_MODULES = YES;
++				CURRENT_PROJECT_VERSION = 1;
++				INFOPLIST_FILE = HelloWorld/Info.plist;
++				LD_RUNPATH_SEARCH_PATHS = (
++					"$(inherited)",
++					"@executable_path/Frameworks",
++				);
++				OTHER_LDFLAGS = (
++					"$(inherited)",
++					"-ObjC",
++					"-lc++",
++				);
++				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
++				PRODUCT_NAME = HelloWorld;
++				SWIFT_VERSION = 5.0;
++				VERSIONING_SYSTEM = "apple-generic";
++			};
++			name = "heartsapp";
++		};
++		5BBF914E1BFE4E9C8B9E1501 /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			buildSettings = {
++				ALWAYS_SEARCH_USER_PATHS = NO;
++				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
++				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
++				CLANG_CXX_LIBRARY = "libc++";
++				CLANG_ENABLE_MODULES = YES;
++				CLANG_ENABLE_OBJC_ARC = YES;
++				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
++				CLANG_WARN_BOOL_CONVERSION = YES;
++				CLANG_WARN_COMMA = YES;
++				CLANG_WARN_CONSTANT_CONVERSION = YES;
++				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
++				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
++				CLANG_WARN_EMPTY_BODY = YES;
++				CLANG_WARN_ENUM_CONVERSION = YES;
++				CLANG_WARN_INFINITE_RECURSION = YES;
++				CLANG_WARN_INT_CONVERSION = YES;
++				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
++				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
++				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
++				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
++				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
++				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
++				CLANG_WARN_STRICT_PROTOTYPES = YES;
++				CLANG_WARN_SUSPICIOUS_MOVE = YES;
++				CLANG_WARN_UNREACHABLE_CODE = YES;
++				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
++				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
++				COPY_PHASE_STRIP = YES;
++				ENABLE_NS_ASSERTIONS = NO;
++				ENABLE_STRICT_OBJC_MSGSEND = YES;
++				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
++				GCC_C_LANGUAGE_STANDARD = gnu99;
++				GCC_NO_COMMON_BLOCKS = YES;
++				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
++				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
++				GCC_WARN_UNDECLARED_SELECTOR = YES;
++				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
++				GCC_WARN_UNUSED_FUNCTION = YES;
++				GCC_WARN_UNUSED_VARIABLE = YES;
++				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
++				LD_RUNPATH_SEARCH_PATHS = (
++					/usr/lib/swift,
++					"$(inherited)",
++				);
++				LIBRARY_SEARCH_PATHS = (
++					"\"$(SDKROOT)/usr/lib/swift\"",
++					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
++					"\"$(inherited)\"",
++				);
++				MTL_ENABLE_DEBUG_INFO = NO;
++				OTHER_CPLUSPLUSFLAGS = (
++					"$(OTHER_CFLAGS)",
++					"-DFOLLY_NO_CONFIG",
++					"-DFOLLY_MOBILE=1",
++					"-DFOLLY_USE_LIBCPP=1",
++				);
++				SDKROOT = iphoneos;
++				VALIDATE_PRODUCT = YES;
++			};
++			name = "heartsapp";
++		};
++		A5903A2A798E4BE592D0EE02 /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-HelloWorld-HelloWorldTests.debug.xcconfig */;
++			buildSettings = {
++				BUNDLE_LOADER = "$(TEST_HOST)";
++				GCC_PREPROCESSOR_DEFINITIONS = (
++					"DEBUG=1",
++					"$(inherited)",
++				);
++				INFOPLIST_FILE = HelloWorldTests/Info.plist;
++				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
++				LD_RUNPATH_SEARCH_PATHS = (
++					"$(inherited)",
++					"@executable_path/Frameworks",
++					"@loader_path/Frameworks",
++				);
++				OTHER_LDFLAGS = (
++					"-ObjC",
++					"-lc++",
++					"$(inherited)",
++				);
++				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
++				PRODUCT_NAME = "$(TARGET_NAME)";
++				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloWorld.app/HelloWorld";
++			};
++			name = "heartsapp";
++		};
++		22840546D7D24433AE194631 /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-HelloWorld.debug.xcconfig */;
++			buildSettings = {
++				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
++				CLANG_ENABLE_MODULES = YES;
++				CURRENT_PROJECT_VERSION = 1;
++				ENABLE_BITCODE = NO;
++				INFOPLIST_FILE = HelloWorld/Info.plist;
++				LD_RUNPATH_SEARCH_PATHS = (
++					"$(inherited)",
++					"@executable_path/Frameworks",
++				);
++				OTHER_LDFLAGS = (
++					"$(inherited)",
++					"-ObjC",
++					"-lc++",
++				);
++				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
++				PRODUCT_NAME = HelloWorld;
++				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
++				SWIFT_VERSION = 5.0;
++				VERSIONING_SYSTEM = "apple-generic";
++			};
++			name = "heartsapp";
++		};
++		1383ADA4609B480F945B941F /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			buildSettings = {
++				ALWAYS_SEARCH_USER_PATHS = NO;
++				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
++				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
++				CLANG_CXX_LIBRARY = "libc++";
++				CLANG_ENABLE_MODULES = YES;
++				CLANG_ENABLE_OBJC_ARC = YES;
++				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
++				CLANG_WARN_BOOL_CONVERSION = YES;
++				CLANG_WARN_COMMA = YES;
++				CLANG_WARN_CONSTANT_CONVERSION = YES;
++				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
++				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
++				CLANG_WARN_EMPTY_BODY = YES;
++				CLANG_WARN_ENUM_CONVERSION = YES;
++				CLANG_WARN_INFINITE_RECURSION = YES;
++				CLANG_WARN_INT_CONVERSION = YES;
++				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
++				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
++				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
++				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
++				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
++				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
++				CLANG_WARN_STRICT_PROTOTYPES = YES;
++				CLANG_WARN_SUSPICIOUS_MOVE = YES;
++				CLANG_WARN_UNREACHABLE_CODE = YES;
++				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
++				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
++				COPY_PHASE_STRIP = NO;
++				ENABLE_STRICT_OBJC_MSGSEND = YES;
++				ENABLE_TESTABILITY = YES;
++				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
++				GCC_C_LANGUAGE_STANDARD = gnu99;
++				GCC_DYNAMIC_NO_PIC = NO;
++				GCC_NO_COMMON_BLOCKS = YES;
++				GCC_OPTIMIZATION_LEVEL = 0;
++				GCC_PREPROCESSOR_DEFINITIONS = (
++					"DEBUG=1",
++					"$(inherited)",
++				);
++				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
++				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
++				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
++				GCC_WARN_UNDECLARED_SELECTOR = YES;
++				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
++				GCC_WARN_UNUSED_FUNCTION = YES;
++				GCC_WARN_UNUSED_VARIABLE = YES;
++				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
++				LD_RUNPATH_SEARCH_PATHS = (
++					/usr/lib/swift,
++					"$(inherited)",
++				);
++				LIBRARY_SEARCH_PATHS = (
++					"\"$(SDKROOT)/usr/lib/swift\"",
++					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
++					"\"$(inherited)\"",
++				);
++				MTL_ENABLE_DEBUG_INFO = YES;
++				ONLY_ACTIVE_ARCH = YES;
++				OTHER_CPLUSPLUSFLAGS = (
++					"$(OTHER_CFLAGS)",
++					"-DFOLLY_NO_CONFIG",
++					"-DFOLLY_MOBILE=1",
++					"-DFOLLY_USE_LIBCPP=1",
++				);
++				SDKROOT = iphoneos;
++			};
++			name = "heartsapp";
++		};
++		61DB5B715B2E495F9D2CC5AA /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-HelloWorld-HelloWorldTests.release.xcconfig */;
++			buildSettings = {
++				BUNDLE_LOADER = "$(TEST_HOST)";
++				COPY_PHASE_STRIP = NO;
++				INFOPLIST_FILE = HelloWorldTests/Info.plist;
++				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
++				LD_RUNPATH_SEARCH_PATHS = (
++					"$(inherited)",
++					"@executable_path/Frameworks",
++					"@loader_path/Frameworks",
++				);
++				OTHER_LDFLAGS = (
++					"-ObjC",
++					"-lc++",
++					"$(inherited)",
++				);
++				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
++				PRODUCT_NAME = "$(TARGET_NAME)";
++				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloWorld.app/HelloWorld";
++			};
++			name = "heartsapp";
++		};
++		2934D9DB350840DABE65B227 /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-HelloWorld.release.xcconfig */;
++			buildSettings = {
++				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
++				CLANG_ENABLE_MODULES = YES;
++				CURRENT_PROJECT_VERSION = 1;
++				INFOPLIST_FILE = HelloWorld/Info.plist;
++				LD_RUNPATH_SEARCH_PATHS = (
++					"$(inherited)",
++					"@executable_path/Frameworks",
++				);
++				OTHER_LDFLAGS = (
++					"$(inherited)",
++					"-ObjC",
++					"-lc++",
++				);
++				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
++				PRODUCT_NAME = HelloWorld;
++				SWIFT_VERSION = 5.0;
++				VERSIONING_SYSTEM = "apple-generic";
++			};
++			name = "heartsapp";
++		};
++		0E8A0D286E254DAEB4E213AD /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			buildSettings = {
++				ALWAYS_SEARCH_USER_PATHS = NO;
++				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
++				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
++				CLANG_CXX_LIBRARY = "libc++";
++				CLANG_ENABLE_MODULES = YES;
++				CLANG_ENABLE_OBJC_ARC = YES;
++				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
++				CLANG_WARN_BOOL_CONVERSION = YES;
++				CLANG_WARN_COMMA = YES;
++				CLANG_WARN_CONSTANT_CONVERSION = YES;
++				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
++				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
++				CLANG_WARN_EMPTY_BODY = YES;
++				CLANG_WARN_ENUM_CONVERSION = YES;
++				CLANG_WARN_INFINITE_RECURSION = YES;
++				CLANG_WARN_INT_CONVERSION = YES;
++				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
++				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
++				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
++				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
++				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
++				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
++				CLANG_WARN_STRICT_PROTOTYPES = YES;
++				CLANG_WARN_SUSPICIOUS_MOVE = YES;
++				CLANG_WARN_UNREACHABLE_CODE = YES;
++				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
++				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
++				COPY_PHASE_STRIP = YES;
++				ENABLE_NS_ASSERTIONS = NO;
++				ENABLE_STRICT_OBJC_MSGSEND = YES;
++				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
++				GCC_C_LANGUAGE_STANDARD = gnu99;
++				GCC_NO_COMMON_BLOCKS = YES;
++				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
++				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
++				GCC_WARN_UNDECLARED_SELECTOR = YES;
++				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
++				GCC_WARN_UNUSED_FUNCTION = YES;
++				GCC_WARN_UNUSED_VARIABLE = YES;
++				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
++				LD_RUNPATH_SEARCH_PATHS = (
++					/usr/lib/swift,
++					"$(inherited)",
++				);
++				LIBRARY_SEARCH_PATHS = (
++					"\"$(SDKROOT)/usr/lib/swift\"",
++					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
++					"\"$(inherited)\"",
++				);
++				MTL_ENABLE_DEBUG_INFO = NO;
++				OTHER_CPLUSPLUSFLAGS = (
++					"$(OTHER_CFLAGS)",
++					"-DFOLLY_NO_CONFIG",
++					"-DFOLLY_MOBILE=1",
++					"-DFOLLY_USE_LIBCPP=1",
++				);
++				SDKROOT = iphoneos;
++				VALIDATE_PRODUCT = YES;
++			};
++			name = "heartsapp";
++		};
++		9CA23602E7AA40F29235196E /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-HelloWorld-HelloWorldTests.debug.xcconfig */;
++			buildSettings = {
++				BUNDLE_LOADER = "$(TEST_HOST)";
++				GCC_PREPROCESSOR_DEFINITIONS = (
++					"DEBUG=1",
++					"$(inherited)",
++				);
++				INFOPLIST_FILE = HelloWorldTests/Info.plist;
++				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
++				LD_RUNPATH_SEARCH_PATHS = (
++					"$(inherited)",
++					"@executable_path/Frameworks",
++					"@loader_path/Frameworks",
++				);
++				OTHER_LDFLAGS = (
++					"-ObjC",
++					"-lc++",
++					"$(inherited)",
++				);
++				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
++				PRODUCT_NAME = "$(TARGET_NAME)";
++				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloWorld.app/HelloWorld";
++			};
++			name = "heartsapp";
++		};
++		2DE34E0B89F64F45BB4A3708 /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-HelloWorld.debug.xcconfig */;
++			buildSettings = {
++				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
++				CLANG_ENABLE_MODULES = YES;
++				CURRENT_PROJECT_VERSION = 1;
++				ENABLE_BITCODE = NO;
++				INFOPLIST_FILE = HelloWorld/Info.plist;
++				LD_RUNPATH_SEARCH_PATHS = (
++					"$(inherited)",
++					"@executable_path/Frameworks",
++				);
++				OTHER_LDFLAGS = (
++					"$(inherited)",
++					"-ObjC",
++					"-lc++",
++				);
++				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
++				PRODUCT_NAME = HelloWorld;
++				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
++				SWIFT_VERSION = 5.0;
++				VERSIONING_SYSTEM = "apple-generic";
++			};
++			name = "heartsapp";
++		};
++		F5A5EFA5198843498CEAAC04 /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			buildSettings = {
++				ALWAYS_SEARCH_USER_PATHS = NO;
++				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
++				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
++				CLANG_CXX_LIBRARY = "libc++";
++				CLANG_ENABLE_MODULES = YES;
++				CLANG_ENABLE_OBJC_ARC = YES;
++				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
++				CLANG_WARN_BOOL_CONVERSION = YES;
++				CLANG_WARN_COMMA = YES;
++				CLANG_WARN_CONSTANT_CONVERSION = YES;
++				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
++				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
++				CLANG_WARN_EMPTY_BODY = YES;
++				CLANG_WARN_ENUM_CONVERSION = YES;
++				CLANG_WARN_INFINITE_RECURSION = YES;
++				CLANG_WARN_INT_CONVERSION = YES;
++				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
++				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
++				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
++				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
++				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
++				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
++				CLANG_WARN_STRICT_PROTOTYPES = YES;
++				CLANG_WARN_SUSPICIOUS_MOVE = YES;
++				CLANG_WARN_UNREACHABLE_CODE = YES;
++				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
++				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
++				COPY_PHASE_STRIP = NO;
++				ENABLE_STRICT_OBJC_MSGSEND = YES;
++				ENABLE_TESTABILITY = YES;
++				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
++				GCC_C_LANGUAGE_STANDARD = gnu99;
++				GCC_DYNAMIC_NO_PIC = NO;
++				GCC_NO_COMMON_BLOCKS = YES;
++				GCC_OPTIMIZATION_LEVEL = 0;
++				GCC_PREPROCESSOR_DEFINITIONS = (
++					"DEBUG=1",
++					"$(inherited)",
++				);
++				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
++				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
++				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
++				GCC_WARN_UNDECLARED_SELECTOR = YES;
++				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
++				GCC_WARN_UNUSED_FUNCTION = YES;
++				GCC_WARN_UNUSED_VARIABLE = YES;
++				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
++				LD_RUNPATH_SEARCH_PATHS = (
++					/usr/lib/swift,
++					"$(inherited)",
++				);
++				LIBRARY_SEARCH_PATHS = (
++					"\"$(SDKROOT)/usr/lib/swift\"",
++					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
++					"\"$(inherited)\"",
++				);
++				MTL_ENABLE_DEBUG_INFO = YES;
++				ONLY_ACTIVE_ARCH = YES;
++				OTHER_CPLUSPLUSFLAGS = (
++					"$(OTHER_CFLAGS)",
++					"-DFOLLY_NO_CONFIG",
++					"-DFOLLY_MOBILE=1",
++					"-DFOLLY_USE_LIBCPP=1",
++				);
++				SDKROOT = iphoneos;
++			};
++			name = "heartsapp";
++		};
++		73B98C85992144F289B4167C /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-HelloWorld-HelloWorldTests.release.xcconfig */;
++			buildSettings = {
++				BUNDLE_LOADER = "$(TEST_HOST)";
++				COPY_PHASE_STRIP = NO;
++				INFOPLIST_FILE = HelloWorldTests/Info.plist;
++				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
++				LD_RUNPATH_SEARCH_PATHS = (
++					"$(inherited)",
++					"@executable_path/Frameworks",
++					"@loader_path/Frameworks",
++				);
++				OTHER_LDFLAGS = (
++					"-ObjC",
++					"-lc++",
++					"$(inherited)",
++				);
++				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
++				PRODUCT_NAME = "$(TARGET_NAME)";
++				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloWorld.app/HelloWorld";
++			};
++			name = "heartsapp";
++		};
++		D3EC08D75D9A4AFC83B2A0D3 /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-HelloWorld.release.xcconfig */;
++			buildSettings = {
++				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
++				CLANG_ENABLE_MODULES = YES;
++				CURRENT_PROJECT_VERSION = 1;
++				INFOPLIST_FILE = HelloWorld/Info.plist;
++				LD_RUNPATH_SEARCH_PATHS = (
++					"$(inherited)",
++					"@executable_path/Frameworks",
++				);
++				OTHER_LDFLAGS = (
++					"$(inherited)",
++					"-ObjC",
++					"-lc++",
++				);
++				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
++				PRODUCT_NAME = HelloWorld;
++				SWIFT_VERSION = 5.0;
++				VERSIONING_SYSTEM = "apple-generic";
++			};
++			name = "heartsapp";
++		};
++		1DA471B1C4684579809AA05C /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			buildSettings = {
++				ALWAYS_SEARCH_USER_PATHS = NO;
++				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
++				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
++				CLANG_CXX_LIBRARY = "libc++";
++				CLANG_ENABLE_MODULES = YES;
++				CLANG_ENABLE_OBJC_ARC = YES;
++				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
++				CLANG_WARN_BOOL_CONVERSION = YES;
++				CLANG_WARN_COMMA = YES;
++				CLANG_WARN_CONSTANT_CONVERSION = YES;
++				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
++				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
++				CLANG_WARN_EMPTY_BODY = YES;
++				CLANG_WARN_ENUM_CONVERSION = YES;
++				CLANG_WARN_INFINITE_RECURSION = YES;
++				CLANG_WARN_INT_CONVERSION = YES;
++				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
++				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
++				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
++				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
++				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
++				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
++				CLANG_WARN_STRICT_PROTOTYPES = YES;
++				CLANG_WARN_SUSPICIOUS_MOVE = YES;
++				CLANG_WARN_UNREACHABLE_CODE = YES;
++				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
++				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
++				COPY_PHASE_STRIP = YES;
++				ENABLE_NS_ASSERTIONS = NO;
++				ENABLE_STRICT_OBJC_MSGSEND = YES;
++				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
++				GCC_C_LANGUAGE_STANDARD = gnu99;
++				GCC_NO_COMMON_BLOCKS = YES;
++				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
++				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
++				GCC_WARN_UNDECLARED_SELECTOR = YES;
++				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
++				GCC_WARN_UNUSED_FUNCTION = YES;
++				GCC_WARN_UNUSED_VARIABLE = YES;
++				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
++				LD_RUNPATH_SEARCH_PATHS = (
++					/usr/lib/swift,
++					"$(inherited)",
++				);
++				LIBRARY_SEARCH_PATHS = (
++					"\"$(SDKROOT)/usr/lib/swift\"",
++					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
++					"\"$(inherited)\"",
++				);
++				MTL_ENABLE_DEBUG_INFO = NO;
++				OTHER_CPLUSPLUSFLAGS = (
++					"$(OTHER_CFLAGS)",
++					"-DFOLLY_NO_CONFIG",
++					"-DFOLLY_MOBILE=1",
++					"-DFOLLY_USE_LIBCPP=1",
++				);
++				SDKROOT = iphoneos;
++				VALIDATE_PRODUCT = YES;
++			};
++			name = "heartsapp";
++		};
++		4F74791172EA42AE951D7E25 /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-HelloWorld-HelloWorldTests.debug.xcconfig */;
++			buildSettings = {
++				BUNDLE_LOADER = "$(TEST_HOST)";
++				GCC_PREPROCESSOR_DEFINITIONS = (
++					"DEBUG=1",
++					"$(inherited)",
++				);
++				INFOPLIST_FILE = HelloWorldTests/Info.plist;
++				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
++				LD_RUNPATH_SEARCH_PATHS = (
++					"$(inherited)",
++					"@executable_path/Frameworks",
++					"@loader_path/Frameworks",
++				);
++				OTHER_LDFLAGS = (
++					"-ObjC",
++					"-lc++",
++					"$(inherited)",
++				);
++				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
++				PRODUCT_NAME = "$(TARGET_NAME)";
++				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloWorld.app/HelloWorld";
++			};
++			name = "heartsapp";
++		};
++		3DA7CBD3BBF74B47BF63CC34 /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-HelloWorld.debug.xcconfig */;
++			buildSettings = {
++				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
++				CLANG_ENABLE_MODULES = YES;
++				CURRENT_PROJECT_VERSION = 1;
++				ENABLE_BITCODE = NO;
++				INFOPLIST_FILE = HelloWorld/Info.plist;
++				LD_RUNPATH_SEARCH_PATHS = (
++					"$(inherited)",
++					"@executable_path/Frameworks",
++				);
++				OTHER_LDFLAGS = (
++					"$(inherited)",
++					"-ObjC",
++					"-lc++",
++				);
++				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
++				PRODUCT_NAME = HelloWorld;
++				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
++				SWIFT_VERSION = 5.0;
++				VERSIONING_SYSTEM = "apple-generic";
++			};
++			name = "heartsapp";
++		};
++		EF29A5F6C7974B1DBA36E55A /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			buildSettings = {
++				ALWAYS_SEARCH_USER_PATHS = NO;
++				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
++				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
++				CLANG_CXX_LIBRARY = "libc++";
++				CLANG_ENABLE_MODULES = YES;
++				CLANG_ENABLE_OBJC_ARC = YES;
++				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
++				CLANG_WARN_BOOL_CONVERSION = YES;
++				CLANG_WARN_COMMA = YES;
++				CLANG_WARN_CONSTANT_CONVERSION = YES;
++				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
++				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
++				CLANG_WARN_EMPTY_BODY = YES;
++				CLANG_WARN_ENUM_CONVERSION = YES;
++				CLANG_WARN_INFINITE_RECURSION = YES;
++				CLANG_WARN_INT_CONVERSION = YES;
++				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
++				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
++				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
++				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
++				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
++				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
++				CLANG_WARN_STRICT_PROTOTYPES = YES;
++				CLANG_WARN_SUSPICIOUS_MOVE = YES;
++				CLANG_WARN_UNREACHABLE_CODE = YES;
++				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
++				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
++				COPY_PHASE_STRIP = NO;
++				ENABLE_STRICT_OBJC_MSGSEND = YES;
++				ENABLE_TESTABILITY = YES;
++				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
++				GCC_C_LANGUAGE_STANDARD = gnu99;
++				GCC_DYNAMIC_NO_PIC = NO;
++				GCC_NO_COMMON_BLOCKS = YES;
++				GCC_OPTIMIZATION_LEVEL = 0;
++				GCC_PREPROCESSOR_DEFINITIONS = (
++					"DEBUG=1",
++					"$(inherited)",
++				);
++				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
++				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
++				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
++				GCC_WARN_UNDECLARED_SELECTOR = YES;
++				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
++				GCC_WARN_UNUSED_FUNCTION = YES;
++				GCC_WARN_UNUSED_VARIABLE = YES;
++				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
++				LD_RUNPATH_SEARCH_PATHS = (
++					/usr/lib/swift,
++					"$(inherited)",
++				);
++				LIBRARY_SEARCH_PATHS = (
++					"\"$(SDKROOT)/usr/lib/swift\"",
++					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
++					"\"$(inherited)\"",
++				);
++				MTL_ENABLE_DEBUG_INFO = YES;
++				ONLY_ACTIVE_ARCH = YES;
++				OTHER_CPLUSPLUSFLAGS = (
++					"$(OTHER_CFLAGS)",
++					"-DFOLLY_NO_CONFIG",
++					"-DFOLLY_MOBILE=1",
++					"-DFOLLY_USE_LIBCPP=1",
++				);
++				SDKROOT = iphoneos;
++			};
++			name = "heartsapp";
++		};
++		ED038FD5B8704B42BEA94A11 /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-HelloWorld-HelloWorldTests.release.xcconfig */;
++			buildSettings = {
++				BUNDLE_LOADER = "$(TEST_HOST)";
++				COPY_PHASE_STRIP = NO;
++				INFOPLIST_FILE = HelloWorldTests/Info.plist;
++				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
++				LD_RUNPATH_SEARCH_PATHS = (
++					"$(inherited)",
++					"@executable_path/Frameworks",
++					"@loader_path/Frameworks",
++				);
++				OTHER_LDFLAGS = (
++					"-ObjC",
++					"-lc++",
++					"$(inherited)",
++				);
++				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
++				PRODUCT_NAME = "$(TARGET_NAME)";
++				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloWorld.app/HelloWorld";
++			};
++			name = "heartsapp";
++		};
++		3563976C1A054AE195ACDE5E /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-HelloWorld.release.xcconfig */;
++			buildSettings = {
++				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
++				CLANG_ENABLE_MODULES = YES;
++				CURRENT_PROJECT_VERSION = 1;
++				INFOPLIST_FILE = HelloWorld/Info.plist;
++				LD_RUNPATH_SEARCH_PATHS = (
++					"$(inherited)",
++					"@executable_path/Frameworks",
++				);
++				OTHER_LDFLAGS = (
++					"$(inherited)",
++					"-ObjC",
++					"-lc++",
++				);
++				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
++				PRODUCT_NAME = HelloWorld;
++				SWIFT_VERSION = 5.0;
++				VERSIONING_SYSTEM = "apple-generic";
++			};
++			name = "heartsapp";
++		};
++		55B950FA346840E9BB5C3028 /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			buildSettings = {
++				ALWAYS_SEARCH_USER_PATHS = NO;
++				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
++				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
++				CLANG_CXX_LIBRARY = "libc++";
++				CLANG_ENABLE_MODULES = YES;
++				CLANG_ENABLE_OBJC_ARC = YES;
++				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
++				CLANG_WARN_BOOL_CONVERSION = YES;
++				CLANG_WARN_COMMA = YES;
++				CLANG_WARN_CONSTANT_CONVERSION = YES;
++				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
++				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
++				CLANG_WARN_EMPTY_BODY = YES;
++				CLANG_WARN_ENUM_CONVERSION = YES;
++				CLANG_WARN_INFINITE_RECURSION = YES;
++				CLANG_WARN_INT_CONVERSION = YES;
++				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
++				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
++				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
++				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
++				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
++				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
++				CLANG_WARN_STRICT_PROTOTYPES = YES;
++				CLANG_WARN_SUSPICIOUS_MOVE = YES;
++				CLANG_WARN_UNREACHABLE_CODE = YES;
++				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
++				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
++				COPY_PHASE_STRIP = YES;
++				ENABLE_NS_ASSERTIONS = NO;
++				ENABLE_STRICT_OBJC_MSGSEND = YES;
++				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
++				GCC_C_LANGUAGE_STANDARD = gnu99;
++				GCC_NO_COMMON_BLOCKS = YES;
++				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
++				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
++				GCC_WARN_UNDECLARED_SELECTOR = YES;
++				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
++				GCC_WARN_UNUSED_FUNCTION = YES;
++				GCC_WARN_UNUSED_VARIABLE = YES;
++				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
++				LD_RUNPATH_SEARCH_PATHS = (
++					/usr/lib/swift,
++					"$(inherited)",
++				);
++				LIBRARY_SEARCH_PATHS = (
++					"\"$(SDKROOT)/usr/lib/swift\"",
++					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
++					"\"$(inherited)\"",
++				);
++				MTL_ENABLE_DEBUG_INFO = NO;
++				OTHER_CPLUSPLUSFLAGS = (
++					"$(OTHER_CFLAGS)",
++					"-DFOLLY_NO_CONFIG",
++					"-DFOLLY_MOBILE=1",
++					"-DFOLLY_USE_LIBCPP=1",
++				);
++				SDKROOT = iphoneos;
++				VALIDATE_PRODUCT = YES;
++			};
++			name = "heartsapp";
++		};
++		29C1805402924206BA3A7214 /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-HelloWorld-HelloWorldTests.debug.xcconfig */;
++			buildSettings = {
++				BUNDLE_LOADER = "$(TEST_HOST)";
++				GCC_PREPROCESSOR_DEFINITIONS = (
++					"DEBUG=1",
++					"$(inherited)",
++				);
++				INFOPLIST_FILE = HelloWorldTests/Info.plist;
++				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
++				LD_RUNPATH_SEARCH_PATHS = (
++					"$(inherited)",
++					"@executable_path/Frameworks",
++					"@loader_path/Frameworks",
++				);
++				OTHER_LDFLAGS = (
++					"-ObjC",
++					"-lc++",
++					"$(inherited)",
++				);
++				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
++				PRODUCT_NAME = "$(TARGET_NAME)";
++				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloWorld.app/HelloWorld";
++			};
++			name = "heartsapp";
++		};
++		5F22D79A064D4080A9E423AB /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-HelloWorld.debug.xcconfig */;
++			buildSettings = {
++				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
++				CLANG_ENABLE_MODULES = YES;
++				CURRENT_PROJECT_VERSION = 1;
++				ENABLE_BITCODE = NO;
++				INFOPLIST_FILE = HelloWorld/Info.plist;
++				LD_RUNPATH_SEARCH_PATHS = (
++					"$(inherited)",
++					"@executable_path/Frameworks",
++				);
++				OTHER_LDFLAGS = (
++					"$(inherited)",
++					"-ObjC",
++					"-lc++",
++				);
++				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
++				PRODUCT_NAME = HelloWorld;
++				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
++				SWIFT_VERSION = 5.0;
++				VERSIONING_SYSTEM = "apple-generic";
++			};
++			name = "heartsapp";
++		};
++		667783EFE1194B018F58FDF2 /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			buildSettings = {
++				ALWAYS_SEARCH_USER_PATHS = NO;
++				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
++				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
++				CLANG_CXX_LIBRARY = "libc++";
++				CLANG_ENABLE_MODULES = YES;
++				CLANG_ENABLE_OBJC_ARC = YES;
++				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
++				CLANG_WARN_BOOL_CONVERSION = YES;
++				CLANG_WARN_COMMA = YES;
++				CLANG_WARN_CONSTANT_CONVERSION = YES;
++				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
++				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
++				CLANG_WARN_EMPTY_BODY = YES;
++				CLANG_WARN_ENUM_CONVERSION = YES;
++				CLANG_WARN_INFINITE_RECURSION = YES;
++				CLANG_WARN_INT_CONVERSION = YES;
++				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
++				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
++				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
++				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
++				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
++				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
++				CLANG_WARN_STRICT_PROTOTYPES = YES;
++				CLANG_WARN_SUSPICIOUS_MOVE = YES;
++				CLANG_WARN_UNREACHABLE_CODE = YES;
++				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
++				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
++				COPY_PHASE_STRIP = NO;
++				ENABLE_STRICT_OBJC_MSGSEND = YES;
++				ENABLE_TESTABILITY = YES;
++				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
++				GCC_C_LANGUAGE_STANDARD = gnu99;
++				GCC_DYNAMIC_NO_PIC = NO;
++				GCC_NO_COMMON_BLOCKS = YES;
++				GCC_OPTIMIZATION_LEVEL = 0;
++				GCC_PREPROCESSOR_DEFINITIONS = (
++					"DEBUG=1",
++					"$(inherited)",
++				);
++				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
++				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
++				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
++				GCC_WARN_UNDECLARED_SELECTOR = YES;
++				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
++				GCC_WARN_UNUSED_FUNCTION = YES;
++				GCC_WARN_UNUSED_VARIABLE = YES;
++				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
++				LD_RUNPATH_SEARCH_PATHS = (
++					/usr/lib/swift,
++					"$(inherited)",
++				);
++				LIBRARY_SEARCH_PATHS = (
++					"\"$(SDKROOT)/usr/lib/swift\"",
++					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
++					"\"$(inherited)\"",
++				);
++				MTL_ENABLE_DEBUG_INFO = YES;
++				ONLY_ACTIVE_ARCH = YES;
++				OTHER_CPLUSPLUSFLAGS = (
++					"$(OTHER_CFLAGS)",
++					"-DFOLLY_NO_CONFIG",
++					"-DFOLLY_MOBILE=1",
++					"-DFOLLY_USE_LIBCPP=1",
++				);
++				SDKROOT = iphoneos;
++			};
++			name = "heartsapp";
++		};
++		A0678AE1E37A4C699CFB500E /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-HelloWorld-HelloWorldTests.release.xcconfig */;
++			buildSettings = {
++				BUNDLE_LOADER = "$(TEST_HOST)";
++				COPY_PHASE_STRIP = NO;
++				INFOPLIST_FILE = HelloWorldTests/Info.plist;
++				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
++				LD_RUNPATH_SEARCH_PATHS = (
++					"$(inherited)",
++					"@executable_path/Frameworks",
++					"@loader_path/Frameworks",
++				);
++				OTHER_LDFLAGS = (
++					"-ObjC",
++					"-lc++",
++					"$(inherited)",
++				);
++				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
++				PRODUCT_NAME = "$(TARGET_NAME)";
++				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloWorld.app/HelloWorld";
++			};
++			name = "heartsapp";
++		};
++		00642522CAE64B62983068D2 /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-HelloWorld.release.xcconfig */;
++			buildSettings = {
++				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
++				CLANG_ENABLE_MODULES = YES;
++				CURRENT_PROJECT_VERSION = 1;
++				INFOPLIST_FILE = HelloWorld/Info.plist;
++				LD_RUNPATH_SEARCH_PATHS = (
++					"$(inherited)",
++					"@executable_path/Frameworks",
++				);
++				OTHER_LDFLAGS = (
++					"$(inherited)",
++					"-ObjC",
++					"-lc++",
++				);
++				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
++				PRODUCT_NAME = HelloWorld;
++				SWIFT_VERSION = 5.0;
++				VERSIONING_SYSTEM = "apple-generic";
++			};
++			name = "heartsapp";
++		};
++		E44B3F39B4F446B6A26C2C63 /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			buildSettings = {
++				ALWAYS_SEARCH_USER_PATHS = NO;
++				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
++				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
++				CLANG_CXX_LIBRARY = "libc++";
++				CLANG_ENABLE_MODULES = YES;
++				CLANG_ENABLE_OBJC_ARC = YES;
++				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
++				CLANG_WARN_BOOL_CONVERSION = YES;
++				CLANG_WARN_COMMA = YES;
++				CLANG_WARN_CONSTANT_CONVERSION = YES;
++				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
++				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
++				CLANG_WARN_EMPTY_BODY = YES;
++				CLANG_WARN_ENUM_CONVERSION = YES;
++				CLANG_WARN_INFINITE_RECURSION = YES;
++				CLANG_WARN_INT_CONVERSION = YES;
++				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
++				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
++				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
++				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
++				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
++				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
++				CLANG_WARN_STRICT_PROTOTYPES = YES;
++				CLANG_WARN_SUSPICIOUS_MOVE = YES;
++				CLANG_WARN_UNREACHABLE_CODE = YES;
++				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
++				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
++				COPY_PHASE_STRIP = YES;
++				ENABLE_NS_ASSERTIONS = NO;
++				ENABLE_STRICT_OBJC_MSGSEND = YES;
++				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
++				GCC_C_LANGUAGE_STANDARD = gnu99;
++				GCC_NO_COMMON_BLOCKS = YES;
++				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
++				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
++				GCC_WARN_UNDECLARED_SELECTOR = YES;
++				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
++				GCC_WARN_UNUSED_FUNCTION = YES;
++				GCC_WARN_UNUSED_VARIABLE = YES;
++				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
++				LD_RUNPATH_SEARCH_PATHS = (
++					/usr/lib/swift,
++					"$(inherited)",
++				);
++				LIBRARY_SEARCH_PATHS = (
++					"\"$(SDKROOT)/usr/lib/swift\"",
++					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
++					"\"$(inherited)\"",
++				);
++				MTL_ENABLE_DEBUG_INFO = NO;
++				OTHER_CPLUSPLUSFLAGS = (
++					"$(OTHER_CFLAGS)",
++					"-DFOLLY_NO_CONFIG",
++					"-DFOLLY_MOBILE=1",
++					"-DFOLLY_USE_LIBCPP=1",
++				);
++				SDKROOT = iphoneos;
++				VALIDATE_PRODUCT = YES;
++			};
++			name = "heartsapp";
++		};
++		AEC1DA98F2CE43689B5357A4 /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-HelloWorld-HelloWorldTests.debug.xcconfig */;
++			buildSettings = {
++				BUNDLE_LOADER = "$(TEST_HOST)";
++				GCC_PREPROCESSOR_DEFINITIONS = (
++					"DEBUG=1",
++					"$(inherited)",
++				);
++				INFOPLIST_FILE = HelloWorldTests/Info.plist;
++				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
++				LD_RUNPATH_SEARCH_PATHS = (
++					"$(inherited)",
++					"@executable_path/Frameworks",
++					"@loader_path/Frameworks",
++				);
++				OTHER_LDFLAGS = (
++					"-ObjC",
++					"-lc++",
++					"$(inherited)",
++				);
++				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
++				PRODUCT_NAME = "$(TARGET_NAME)";
++				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloWorld.app/HelloWorld";
++			};
++			name = "heartsapp";
++		};
++		784F42DFC742401B9B3F4F4B /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-HelloWorld.debug.xcconfig */;
++			buildSettings = {
++				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
++				CLANG_ENABLE_MODULES = YES;
++				CURRENT_PROJECT_VERSION = 1;
++				ENABLE_BITCODE = NO;
++				INFOPLIST_FILE = HelloWorld/Info.plist;
++				LD_RUNPATH_SEARCH_PATHS = (
++					"$(inherited)",
++					"@executable_path/Frameworks",
++				);
++				OTHER_LDFLAGS = (
++					"$(inherited)",
++					"-ObjC",
++					"-lc++",
++				);
++				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
++				PRODUCT_NAME = HelloWorld;
++				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
++				SWIFT_VERSION = 5.0;
++				VERSIONING_SYSTEM = "apple-generic";
++			};
++			name = "heartsapp";
++		};
++		B4B5C1C658C54AA88D991DB2 /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			buildSettings = {
++				ALWAYS_SEARCH_USER_PATHS = NO;
++				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
++				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
++				CLANG_CXX_LIBRARY = "libc++";
++				CLANG_ENABLE_MODULES = YES;
++				CLANG_ENABLE_OBJC_ARC = YES;
++				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
++				CLANG_WARN_BOOL_CONVERSION = YES;
++				CLANG_WARN_COMMA = YES;
++				CLANG_WARN_CONSTANT_CONVERSION = YES;
++				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
++				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
++				CLANG_WARN_EMPTY_BODY = YES;
++				CLANG_WARN_ENUM_CONVERSION = YES;
++				CLANG_WARN_INFINITE_RECURSION = YES;
++				CLANG_WARN_INT_CONVERSION = YES;
++				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
++				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
++				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
++				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
++				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
++				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
++				CLANG_WARN_STRICT_PROTOTYPES = YES;
++				CLANG_WARN_SUSPICIOUS_MOVE = YES;
++				CLANG_WARN_UNREACHABLE_CODE = YES;
++				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
++				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
++				COPY_PHASE_STRIP = NO;
++				ENABLE_STRICT_OBJC_MSGSEND = YES;
++				ENABLE_TESTABILITY = YES;
++				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
++				GCC_C_LANGUAGE_STANDARD = gnu99;
++				GCC_DYNAMIC_NO_PIC = NO;
++				GCC_NO_COMMON_BLOCKS = YES;
++				GCC_OPTIMIZATION_LEVEL = 0;
++				GCC_PREPROCESSOR_DEFINITIONS = (
++					"DEBUG=1",
++					"$(inherited)",
++				);
++				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
++				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
++				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
++				GCC_WARN_UNDECLARED_SELECTOR = YES;
++				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
++				GCC_WARN_UNUSED_FUNCTION = YES;
++				GCC_WARN_UNUSED_VARIABLE = YES;
++				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
++				LD_RUNPATH_SEARCH_PATHS = (
++					/usr/lib/swift,
++					"$(inherited)",
++				);
++				LIBRARY_SEARCH_PATHS = (
++					"\"$(SDKROOT)/usr/lib/swift\"",
++					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
++					"\"$(inherited)\"",
++				);
++				MTL_ENABLE_DEBUG_INFO = YES;
++				ONLY_ACTIVE_ARCH = YES;
++				OTHER_CPLUSPLUSFLAGS = (
++					"$(OTHER_CFLAGS)",
++					"-DFOLLY_NO_CONFIG",
++					"-DFOLLY_MOBILE=1",
++					"-DFOLLY_USE_LIBCPP=1",
++				);
++				SDKROOT = iphoneos;
++			};
++			name = "heartsapp";
++		};
++		96AD5613501546C492590D73 /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-HelloWorld-HelloWorldTests.release.xcconfig */;
++			buildSettings = {
++				BUNDLE_LOADER = "$(TEST_HOST)";
++				COPY_PHASE_STRIP = NO;
++				INFOPLIST_FILE = HelloWorldTests/Info.plist;
++				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
++				LD_RUNPATH_SEARCH_PATHS = (
++					"$(inherited)",
++					"@executable_path/Frameworks",
++					"@loader_path/Frameworks",
++				);
++				OTHER_LDFLAGS = (
++					"-ObjC",
++					"-lc++",
++					"$(inherited)",
++				);
++				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
++				PRODUCT_NAME = "$(TARGET_NAME)";
++				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloWorld.app/HelloWorld";
++			};
++			name = "heartsapp";
++		};
++		3DDB98FA25E3409397E13F92 /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-HelloWorld.release.xcconfig */;
++			buildSettings = {
++				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
++				CLANG_ENABLE_MODULES = YES;
++				CURRENT_PROJECT_VERSION = 1;
++				INFOPLIST_FILE = HelloWorld/Info.plist;
++				LD_RUNPATH_SEARCH_PATHS = (
++					"$(inherited)",
++					"@executable_path/Frameworks",
++				);
++				OTHER_LDFLAGS = (
++					"$(inherited)",
++					"-ObjC",
++					"-lc++",
++				);
++				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
++				PRODUCT_NAME = HelloWorld;
++				SWIFT_VERSION = 5.0;
++				VERSIONING_SYSTEM = "apple-generic";
++			};
++			name = "heartsapp";
++		};
++		F1DC2A700170489E865AB526 /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			buildSettings = {
++				ALWAYS_SEARCH_USER_PATHS = NO;
++				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
++				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
++				CLANG_CXX_LIBRARY = "libc++";
++				CLANG_ENABLE_MODULES = YES;
++				CLANG_ENABLE_OBJC_ARC = YES;
++				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
++				CLANG_WARN_BOOL_CONVERSION = YES;
++				CLANG_WARN_COMMA = YES;
++				CLANG_WARN_CONSTANT_CONVERSION = YES;
++				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
++				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
++				CLANG_WARN_EMPTY_BODY = YES;
++				CLANG_WARN_ENUM_CONVERSION = YES;
++				CLANG_WARN_INFINITE_RECURSION = YES;
++				CLANG_WARN_INT_CONVERSION = YES;
++				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
++				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
++				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
++				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
++				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
++				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
++				CLANG_WARN_STRICT_PROTOTYPES = YES;
++				CLANG_WARN_SUSPICIOUS_MOVE = YES;
++				CLANG_WARN_UNREACHABLE_CODE = YES;
++				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
++				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
++				COPY_PHASE_STRIP = YES;
++				ENABLE_NS_ASSERTIONS = NO;
++				ENABLE_STRICT_OBJC_MSGSEND = YES;
++				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
++				GCC_C_LANGUAGE_STANDARD = gnu99;
++				GCC_NO_COMMON_BLOCKS = YES;
++				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
++				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
++				GCC_WARN_UNDECLARED_SELECTOR = YES;
++				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
++				GCC_WARN_UNUSED_FUNCTION = YES;
++				GCC_WARN_UNUSED_VARIABLE = YES;
++				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
++				LD_RUNPATH_SEARCH_PATHS = (
++					/usr/lib/swift,
++					"$(inherited)",
++				);
++				LIBRARY_SEARCH_PATHS = (
++					"\"$(SDKROOT)/usr/lib/swift\"",
++					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
++					"\"$(inherited)\"",
++				);
++				MTL_ENABLE_DEBUG_INFO = NO;
++				OTHER_CPLUSPLUSFLAGS = (
++					"$(OTHER_CFLAGS)",
++					"-DFOLLY_NO_CONFIG",
++					"-DFOLLY_MOBILE=1",
++					"-DFOLLY_USE_LIBCPP=1",
++				);
++				SDKROOT = iphoneos;
++				VALIDATE_PRODUCT = YES;
++			};
++			name = "heartsapp";
++		};
++		47491DA9B0D04BC4A60F46F6 /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-HelloWorld-HelloWorldTests.debug.xcconfig */;
++			buildSettings = {
++				BUNDLE_LOADER = "$(TEST_HOST)";
++				GCC_PREPROCESSOR_DEFINITIONS = (
++					"DEBUG=1",
++					"$(inherited)",
++				);
++				INFOPLIST_FILE = HelloWorldTests/Info.plist;
++				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
++				LD_RUNPATH_SEARCH_PATHS = (
++					"$(inherited)",
++					"@executable_path/Frameworks",
++					"@loader_path/Frameworks",
++				);
++				OTHER_LDFLAGS = (
++					"-ObjC",
++					"-lc++",
++					"$(inherited)",
++				);
++				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
++				PRODUCT_NAME = "$(TARGET_NAME)";
++				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloWorld.app/HelloWorld";
++			};
++			name = "heartsapp";
++		};
++		54C93341AF48429BB2C7F5C4 /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-HelloWorld.debug.xcconfig */;
++			buildSettings = {
++				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
++				CLANG_ENABLE_MODULES = YES;
++				CURRENT_PROJECT_VERSION = 1;
++				ENABLE_BITCODE = NO;
++				INFOPLIST_FILE = HelloWorld/Info.plist;
++				LD_RUNPATH_SEARCH_PATHS = (
++					"$(inherited)",
++					"@executable_path/Frameworks",
++				);
++				OTHER_LDFLAGS = (
++					"$(inherited)",
++					"-ObjC",
++					"-lc++",
++				);
++				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
++				PRODUCT_NAME = HelloWorld;
++				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
++				SWIFT_VERSION = 5.0;
++				VERSIONING_SYSTEM = "apple-generic";
++			};
++			name = "heartsapp";
++		};
++		1F681C68DBE2442DA850D49F /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			buildSettings = {
++				ALWAYS_SEARCH_USER_PATHS = NO;
++				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
++				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
++				CLANG_CXX_LIBRARY = "libc++";
++				CLANG_ENABLE_MODULES = YES;
++				CLANG_ENABLE_OBJC_ARC = YES;
++				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
++				CLANG_WARN_BOOL_CONVERSION = YES;
++				CLANG_WARN_COMMA = YES;
++				CLANG_WARN_CONSTANT_CONVERSION = YES;
++				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
++				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
++				CLANG_WARN_EMPTY_BODY = YES;
++				CLANG_WARN_ENUM_CONVERSION = YES;
++				CLANG_WARN_INFINITE_RECURSION = YES;
++				CLANG_WARN_INT_CONVERSION = YES;
++				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
++				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
++				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
++				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
++				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
++				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
++				CLANG_WARN_STRICT_PROTOTYPES = YES;
++				CLANG_WARN_SUSPICIOUS_MOVE = YES;
++				CLANG_WARN_UNREACHABLE_CODE = YES;
++				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
++				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
++				COPY_PHASE_STRIP = NO;
++				ENABLE_STRICT_OBJC_MSGSEND = YES;
++				ENABLE_TESTABILITY = YES;
++				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
++				GCC_C_LANGUAGE_STANDARD = gnu99;
++				GCC_DYNAMIC_NO_PIC = NO;
++				GCC_NO_COMMON_BLOCKS = YES;
++				GCC_OPTIMIZATION_LEVEL = 0;
++				GCC_PREPROCESSOR_DEFINITIONS = (
++					"DEBUG=1",
++					"$(inherited)",
++				);
++				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
++				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
++				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
++				GCC_WARN_UNDECLARED_SELECTOR = YES;
++				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
++				GCC_WARN_UNUSED_FUNCTION = YES;
++				GCC_WARN_UNUSED_VARIABLE = YES;
++				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
++				LD_RUNPATH_SEARCH_PATHS = (
++					/usr/lib/swift,
++					"$(inherited)",
++				);
++				LIBRARY_SEARCH_PATHS = (
++					"\"$(SDKROOT)/usr/lib/swift\"",
++					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
++					"\"$(inherited)\"",
++				);
++				MTL_ENABLE_DEBUG_INFO = YES;
++				ONLY_ACTIVE_ARCH = YES;
++				OTHER_CPLUSPLUSFLAGS = (
++					"$(OTHER_CFLAGS)",
++					"-DFOLLY_NO_CONFIG",
++					"-DFOLLY_MOBILE=1",
++					"-DFOLLY_USE_LIBCPP=1",
++				);
++				SDKROOT = iphoneos;
++			};
++			name = "heartsapp";
++		};
++		28C763D19F1A49D79CBF3C8F /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-HelloWorld-HelloWorldTests.release.xcconfig */;
++			buildSettings = {
++				BUNDLE_LOADER = "$(TEST_HOST)";
++				COPY_PHASE_STRIP = NO;
++				INFOPLIST_FILE = HelloWorldTests/Info.plist;
++				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
++				LD_RUNPATH_SEARCH_PATHS = (
++					"$(inherited)",
++					"@executable_path/Frameworks",
++					"@loader_path/Frameworks",
++				);
++				OTHER_LDFLAGS = (
++					"-ObjC",
++					"-lc++",
++					"$(inherited)",
++				);
++				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
++				PRODUCT_NAME = "$(TARGET_NAME)";
++				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloWorld.app/HelloWorld";
++			};
++			name = "heartsapp";
++		};
++		25164AC5C7D84C85951A4FC3 /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-HelloWorld.release.xcconfig */;
++			buildSettings = {
++				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
++				CLANG_ENABLE_MODULES = YES;
++				CURRENT_PROJECT_VERSION = 1;
++				INFOPLIST_FILE = HelloWorld/Info.plist;
++				LD_RUNPATH_SEARCH_PATHS = (
++					"$(inherited)",
++					"@executable_path/Frameworks",
++				);
++				OTHER_LDFLAGS = (
++					"$(inherited)",
++					"-ObjC",
++					"-lc++",
++				);
++				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
++				PRODUCT_NAME = HelloWorld;
++				SWIFT_VERSION = 5.0;
++				VERSIONING_SYSTEM = "apple-generic";
++			};
++			name = "heartsapp";
++		};
++		033E3FED8E7E4EB4AAF5A851 /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			buildSettings = {
++				ALWAYS_SEARCH_USER_PATHS = NO;
++				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
++				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
++				CLANG_CXX_LIBRARY = "libc++";
++				CLANG_ENABLE_MODULES = YES;
++				CLANG_ENABLE_OBJC_ARC = YES;
++				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
++				CLANG_WARN_BOOL_CONVERSION = YES;
++				CLANG_WARN_COMMA = YES;
++				CLANG_WARN_CONSTANT_CONVERSION = YES;
++				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
++				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
++				CLANG_WARN_EMPTY_BODY = YES;
++				CLANG_WARN_ENUM_CONVERSION = YES;
++				CLANG_WARN_INFINITE_RECURSION = YES;
++				CLANG_WARN_INT_CONVERSION = YES;
++				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
++				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
++				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
++				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
++				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
++				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
++				CLANG_WARN_STRICT_PROTOTYPES = YES;
++				CLANG_WARN_SUSPICIOUS_MOVE = YES;
++				CLANG_WARN_UNREACHABLE_CODE = YES;
++				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
++				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
++				COPY_PHASE_STRIP = YES;
++				ENABLE_NS_ASSERTIONS = NO;
++				ENABLE_STRICT_OBJC_MSGSEND = YES;
++				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
++				GCC_C_LANGUAGE_STANDARD = gnu99;
++				GCC_NO_COMMON_BLOCKS = YES;
++				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
++				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
++				GCC_WARN_UNDECLARED_SELECTOR = YES;
++				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
++				GCC_WARN_UNUSED_FUNCTION = YES;
++				GCC_WARN_UNUSED_VARIABLE = YES;
++				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
++				LD_RUNPATH_SEARCH_PATHS = (
++					/usr/lib/swift,
++					"$(inherited)",
++				);
++				LIBRARY_SEARCH_PATHS = (
++					"\"$(SDKROOT)/usr/lib/swift\"",
++					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
++					"\"$(inherited)\"",
++				);
++				MTL_ENABLE_DEBUG_INFO = NO;
++				OTHER_CPLUSPLUSFLAGS = (
++					"$(OTHER_CFLAGS)",
++					"-DFOLLY_NO_CONFIG",
++					"-DFOLLY_MOBILE=1",
++					"-DFOLLY_USE_LIBCPP=1",
++				);
++				SDKROOT = iphoneos;
++				VALIDATE_PRODUCT = YES;
++			};
++			name = "heartsapp";
++		};
++		AA50BA8FE479494BB8C2C931 /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-HelloWorld-HelloWorldTests.debug.xcconfig */;
++			buildSettings = {
++				BUNDLE_LOADER = "$(TEST_HOST)";
++				GCC_PREPROCESSOR_DEFINITIONS = (
++					"DEBUG=1",
++					"$(inherited)",
++				);
++				INFOPLIST_FILE = HelloWorldTests/Info.plist;
++				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
++				LD_RUNPATH_SEARCH_PATHS = (
++					"$(inherited)",
++					"@executable_path/Frameworks",
++					"@loader_path/Frameworks",
++				);
++				OTHER_LDFLAGS = (
++					"-ObjC",
++					"-lc++",
++					"$(inherited)",
++				);
++				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
++				PRODUCT_NAME = "$(TARGET_NAME)";
++				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloWorld.app/HelloWorld";
++			};
++			name = "heartsapp";
++		};
++		69FFC95B7857421286967A32 /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-HelloWorld.debug.xcconfig */;
++			buildSettings = {
++				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
++				CLANG_ENABLE_MODULES = YES;
++				CURRENT_PROJECT_VERSION = 1;
++				ENABLE_BITCODE = NO;
++				INFOPLIST_FILE = HelloWorld/Info.plist;
++				LD_RUNPATH_SEARCH_PATHS = (
++					"$(inherited)",
++					"@executable_path/Frameworks",
++				);
++				OTHER_LDFLAGS = (
++					"$(inherited)",
++					"-ObjC",
++					"-lc++",
++				);
++				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
++				PRODUCT_NAME = HelloWorld;
++				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
++				SWIFT_VERSION = 5.0;
++				VERSIONING_SYSTEM = "apple-generic";
++			};
++			name = "heartsapp";
++		};
++		B89647E805604EA1AA7B8AC4 /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			buildSettings = {
++				ALWAYS_SEARCH_USER_PATHS = NO;
++				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
++				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
++				CLANG_CXX_LIBRARY = "libc++";
++				CLANG_ENABLE_MODULES = YES;
++				CLANG_ENABLE_OBJC_ARC = YES;
++				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
++				CLANG_WARN_BOOL_CONVERSION = YES;
++				CLANG_WARN_COMMA = YES;
++				CLANG_WARN_CONSTANT_CONVERSION = YES;
++				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
++				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
++				CLANG_WARN_EMPTY_BODY = YES;
++				CLANG_WARN_ENUM_CONVERSION = YES;
++				CLANG_WARN_INFINITE_RECURSION = YES;
++				CLANG_WARN_INT_CONVERSION = YES;
++				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
++				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
++				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
++				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
++				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
++				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
++				CLANG_WARN_STRICT_PROTOTYPES = YES;
++				CLANG_WARN_SUSPICIOUS_MOVE = YES;
++				CLANG_WARN_UNREACHABLE_CODE = YES;
++				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
++				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
++				COPY_PHASE_STRIP = NO;
++				ENABLE_STRICT_OBJC_MSGSEND = YES;
++				ENABLE_TESTABILITY = YES;
++				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
++				GCC_C_LANGUAGE_STANDARD = gnu99;
++				GCC_DYNAMIC_NO_PIC = NO;
++				GCC_NO_COMMON_BLOCKS = YES;
++				GCC_OPTIMIZATION_LEVEL = 0;
++				GCC_PREPROCESSOR_DEFINITIONS = (
++					"DEBUG=1",
++					"$(inherited)",
++				);
++				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
++				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
++				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
++				GCC_WARN_UNDECLARED_SELECTOR = YES;
++				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
++				GCC_WARN_UNUSED_FUNCTION = YES;
++				GCC_WARN_UNUSED_VARIABLE = YES;
++				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
++				LD_RUNPATH_SEARCH_PATHS = (
++					/usr/lib/swift,
++					"$(inherited)",
++				);
++				LIBRARY_SEARCH_PATHS = (
++					"\"$(SDKROOT)/usr/lib/swift\"",
++					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
++					"\"$(inherited)\"",
++				);
++				MTL_ENABLE_DEBUG_INFO = YES;
++				ONLY_ACTIVE_ARCH = YES;
++				OTHER_CPLUSPLUSFLAGS = (
++					"$(OTHER_CFLAGS)",
++					"-DFOLLY_NO_CONFIG",
++					"-DFOLLY_MOBILE=1",
++					"-DFOLLY_USE_LIBCPP=1",
++				);
++				SDKROOT = iphoneos;
++			};
++			name = "heartsapp";
++		};
++		F7ECA448CABD469299119612 /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-HelloWorld-HelloWorldTests.release.xcconfig */;
++			buildSettings = {
++				BUNDLE_LOADER = "$(TEST_HOST)";
++				COPY_PHASE_STRIP = NO;
++				INFOPLIST_FILE = HelloWorldTests/Info.plist;
++				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
++				LD_RUNPATH_SEARCH_PATHS = (
++					"$(inherited)",
++					"@executable_path/Frameworks",
++					"@loader_path/Frameworks",
++				);
++				OTHER_LDFLAGS = (
++					"-ObjC",
++					"-lc++",
++					"$(inherited)",
++				);
++				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
++				PRODUCT_NAME = "$(TARGET_NAME)";
++				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloWorld.app/HelloWorld";
++			};
++			name = "heartsapp";
++		};
++		EEC515E1895C43878F1E12CA /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-HelloWorld.release.xcconfig */;
++			buildSettings = {
++				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
++				CLANG_ENABLE_MODULES = YES;
++				CURRENT_PROJECT_VERSION = 1;
++				INFOPLIST_FILE = HelloWorld/Info.plist;
++				LD_RUNPATH_SEARCH_PATHS = (
++					"$(inherited)",
++					"@executable_path/Frameworks",
++				);
++				OTHER_LDFLAGS = (
++					"$(inherited)",
++					"-ObjC",
++					"-lc++",
++				);
++				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
++				PRODUCT_NAME = HelloWorld;
++				SWIFT_VERSION = 5.0;
++				VERSIONING_SYSTEM = "apple-generic";
++			};
++			name = "heartsapp";
++		};
++		D7632613D3184368A847BC2A /* heartsapp */ = {
++			isa = XCBuildConfiguration;
++			buildSettings = {
++				ALWAYS_SEARCH_USER_PATHS = NO;
++				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
++				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
++				CLANG_CXX_LIBRARY = "libc++";
++				CLANG_ENABLE_MODULES = YES;
++				CLANG_ENABLE_OBJC_ARC = YES;
++				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
++				CLANG_WARN_BOOL_CONVERSION = YES;
++				CLANG_WARN_COMMA = YES;
++				CLANG_WARN_CONSTANT_CONVERSION = YES;
++				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
++				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
++				CLANG_WARN_EMPTY_BODY = YES;
++				CLANG_WARN_ENUM_CONVERSION = YES;
++				CLANG_WARN_INFINITE_RECURSION = YES;
++				CLANG_WARN_INT_CONVERSION = YES;
++				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
++				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
++				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
++				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
++				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
++				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
++				CLANG_WARN_STRICT_PROTOTYPES = YES;
++				CLANG_WARN_SUSPICIOUS_MOVE = YES;
++				CLANG_WARN_UNREACHABLE_CODE = YES;
++				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
++				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
++				COPY_PHASE_STRIP = YES;
++				ENABLE_NS_ASSERTIONS = NO;
++				ENABLE_STRICT_OBJC_MSGSEND = YES;
++				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
++				GCC_C_LANGUAGE_STANDARD = gnu99;
++				GCC_NO_COMMON_BLOCKS = YES;
++				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
++				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
++				GCC_WARN_UNDECLARED_SELECTOR = YES;
++				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
++				GCC_WARN_UNUSED_FUNCTION = YES;
++				GCC_WARN_UNUSED_VARIABLE = YES;
++				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
++				LD_RUNPATH_SEARCH_PATHS = (
++					/usr/lib/swift,
++					"$(inherited)",
++				);
++				LIBRARY_SEARCH_PATHS = (
++					"\"$(SDKROOT)/usr/lib/swift\"",
++					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
++					"\"$(inherited)\"",
++				);
++				MTL_ENABLE_DEBUG_INFO = NO;
++				OTHER_CPLUSPLUSFLAGS = (
++					"$(OTHER_CFLAGS)",
++					"-DFOLLY_NO_CONFIG",
++					"-DFOLLY_MOBILE=1",
++					"-DFOLLY_USE_LIBCPP=1",
++				);
++				SDKROOT = iphoneos;
++				VALIDATE_PRODUCT = YES;
++			};
++			name = "heartsapp";
++		};
+ /* End XCBuildConfiguration section */
+ 
+ /* Begin XCConfigurationList section */
+@@ -672,6 +3268,28 @@
+ 			buildConfigurations = (
+ 				00E356F61AD99517003FC87E /* Debug */,
+ 				00E356F71AD99517003FC87E /* Release */,
++				85F56C4691A44E2A88231470 /* heartsapp */,
++				7A1130E7EF1341BC9AA2CC56 /* heartsapp */,
++				740638E8C2074112B3B6CE35 /* heartsapp */,
++				DF8E67FDC8D14EA29F225518 /* heartsapp */,
++				EE9BF3F855EA459DB0E57D3C /* heartsapp */,
++				B854BF72C9884AF4A9870DD0 /* heartsapp */,
++				3A99615153AB4BA280ECB95A /* heartsapp */,
++				1F07CDA697DB418B8A7115BC /* heartsapp */,
++				A5903A2A798E4BE592D0EE02 /* heartsapp */,
++				61DB5B715B2E495F9D2CC5AA /* heartsapp */,
++				9CA23602E7AA40F29235196E /* heartsapp */,
++				73B98C85992144F289B4167C /* heartsapp */,
++				4F74791172EA42AE951D7E25 /* heartsapp */,
++				ED038FD5B8704B42BEA94A11 /* heartsapp */,
++				29C1805402924206BA3A7214 /* heartsapp */,
++				A0678AE1E37A4C699CFB500E /* heartsapp */,
++				AEC1DA98F2CE43689B5357A4 /* heartsapp */,
++				96AD5613501546C492590D73 /* heartsapp */,
++				47491DA9B0D04BC4A60F46F6 /* heartsapp */,
++				28C763D19F1A49D79CBF3C8F /* heartsapp */,
++				AA50BA8FE479494BB8C2C931 /* heartsapp */,
++				F7ECA448CABD469299119612 /* heartsapp */,
+ 			);
+ 			defaultConfigurationIsVisible = 0;
+ 			defaultConfigurationName = Release;
+@@ -681,6 +3299,28 @@
+ 			buildConfigurations = (
+ 				13B07F941A680F5B00A75B9A /* Debug */,
+ 				13B07F951A680F5B00A75B9A /* Release */,
++				D5FDF8F7CD4E416CB5153B87 /* heartsapp */,
++				D0A303BFF4E542E6AF0E1363 /* heartsapp */,
++				E9D46B7B06094C8D9295740E /* heartsapp */,
++				729992E658ED42519F60CD36 /* heartsapp */,
++				E4F791B4D55A4BBC8F6ED0B2 /* heartsapp */,
++				4DC63E185BCB44B68DB59D51 /* heartsapp */,
++				2EEFBDE91E0B428BAD0E6C73 /* heartsapp */,
++				261FB986EDE5458C93CC0887 /* heartsapp */,
++				22840546D7D24433AE194631 /* heartsapp */,
++				2934D9DB350840DABE65B227 /* heartsapp */,
++				2DE34E0B89F64F45BB4A3708 /* heartsapp */,
++				D3EC08D75D9A4AFC83B2A0D3 /* heartsapp */,
++				3DA7CBD3BBF74B47BF63CC34 /* heartsapp */,
++				3563976C1A054AE195ACDE5E /* heartsapp */,
++				5F22D79A064D4080A9E423AB /* heartsapp */,
++				00642522CAE64B62983068D2 /* heartsapp */,
++				784F42DFC742401B9B3F4F4B /* heartsapp */,
++				3DDB98FA25E3409397E13F92 /* heartsapp */,
++				54C93341AF48429BB2C7F5C4 /* heartsapp */,
++				25164AC5C7D84C85951A4FC3 /* heartsapp */,
++				69FFC95B7857421286967A32 /* heartsapp */,
++				EEC515E1895C43878F1E12CA /* heartsapp */,
+ 			);
+ 			defaultConfigurationIsVisible = 0;
+ 			defaultConfigurationName = Release;
+@@ -690,6 +3330,28 @@
+ 			buildConfigurations = (
+ 				83CBBA201A601CBA00E9B192 /* Debug */,
+ 				83CBBA211A601CBA00E9B192 /* Release */,
++				30B438CED711483A96AB6075 /* heartsapp */,
++				0CF12BFD25284E4D9E7A9177 /* heartsapp */,
++				46073FD6889143EAA6BED706 /* heartsapp */,
++				EA946417B7FF4A03BFB17FC9 /* heartsapp */,
++				440AA6715896494FB1895391 /* heartsapp */,
++				41ABA1E6BE87419796E93349 /* heartsapp */,
++				3021442EB9994E9FB240F61D /* heartsapp */,
++				5BBF914E1BFE4E9C8B9E1501 /* heartsapp */,
++				1383ADA4609B480F945B941F /* heartsapp */,
++				0E8A0D286E254DAEB4E213AD /* heartsapp */,
++				F5A5EFA5198843498CEAAC04 /* heartsapp */,
++				1DA471B1C4684579809AA05C /* heartsapp */,
++				EF29A5F6C7974B1DBA36E55A /* heartsapp */,
++				55B950FA346840E9BB5C3028 /* heartsapp */,
++				667783EFE1194B018F58FDF2 /* heartsapp */,
++				E44B3F39B4F446B6A26C2C63 /* heartsapp */,
++				B4B5C1C658C54AA88D991DB2 /* heartsapp */,
++				F1DC2A700170489E865AB526 /* heartsapp */,
++				1F681C68DBE2442DA850D49F /* heartsapp */,
++				033E3FED8E7E4EB4AAF5A851 /* heartsapp */,
++				B89647E805604EA1AA7B8AC4 /* heartsapp */,
++				D7632613D3184368A847BC2A /* heartsapp */,
+ 			);
+ 			defaultConfigurationIsVisible = 0;
+ 			defaultConfigurationName = Release;

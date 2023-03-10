@@ -1,0 +1,244 @@
+{
+    "common": {
+        "next": "Suivant"
+    },
+    "validations": {
+        "required": "Champ obligatoire",
+        "invalidEmail": "Adresse mail incorrecte",
+        "invalidMobileNo": "Numéro de portable incorrect",
+        "maxAllowedCharacters": "Maximum de caractères {{max}} autorisé",
+        "invalidValue": "Donnée incorrecte"
+    },
+    "offlineNotice": {
+        "unableToReachServer": "Connexion au serveur",
+        "noInternetConnection": "Pas de connexion Internet"
+    },
+    "appTabs": {
+        "home": "Accueil",
+        "more": "En savoir plus",
+        "locate": "Localiser"
+    },
+    "firstTimeLandingScreen": {
+        "newToHeartfulness": "Nouveau à Heartfulness",
+        "existingPractitioner": "Pratiquant Heartfulness",
+        "trainer": "Formateur Heartfulness",
+        "heading": "HeartsApp",
+        "subheading": "Votre compagnon pour la paix intérieure"
+    },
+    "newbieMasterClassScreen": {
+        "heading": "Master classes Heartfulness avec Daaji",
+        "aboutHeartfulness": "À propos de Heartfulness",
+        "introductionToHeartfulness": "Introduction aux master classes",
+        "day1": "Premier jour",
+        "day2": "Deuxième jour",
+        "day3": "Troisième jour",
+        "relax": "Détendez-vous",
+        "rejuvenate": "Régénérez-vous",
+        "connect": "Connexion",
+        "continue": "Continuez",
+        "explore": "Explorez",
+        "introductionToHeartfulnessDescription": "Dans cette vidéo, Daaji, guide mondial Heartfulness, présente aux lecteurs les quatre techniques de la pratique Heartfulness, ainsi que la transmission, énergie spécifique à Heartfulness.",
+        "day1Description": "Dans cette première master classe, vous serez guidé dans la relaxation Heartfulness, une technique qui favorise le calme physique et mental, avant d'apprendre à méditer sur la source de la lumière dans le cœur.",
+        "day2Description": "Dans cette deuxième master classe, Daaji va vous guider et vous introduire à la technique du nettoyage Heartfulness, une méthode simple de régénération destinée à nettoyer le mental et à se débarrasser du stress et du poids des pensées et des émotions.",
+        "day3Description": "Dans la troisième et dernière master classe, vous apprendrez comment la méditation centrée sur le cœur vous permet de vous connecter avec votre soi intérieur, d'observer vos ressentis les plus profonds et de tisser votre destinée.",
+        "exploreMore": "Accueil",
+        "videoLockedError": "Après chaque master classe, vous aurez accès le lendemain à la suivante. Suivre une classe par jour vous donne le temps de pratiquer et d'intérioriser ce que vous avez appris.",
+        "ok": "OK"
+    },
+    "signInScreen": {
+        "heading": "Connexion",
+        "connectWith": "Se connecter avec",
+        "or": "OU",
+        "login": "Connexion",
+        "registerWithEmail": "S'inscrire par mail",
+        "skip": "Ignorer",
+        "email": "Adresse mail",
+        "password": "Mot de passe",
+        "forgotPassword": "Mot de passe oublié ?",
+        "newToHeartfulness": "Nouveau à Heartfulness ?",
+        "createAccount": "Créer un compte",
+        "issuesWithLogin": "Problèmes de connexion ?",
+        "helpDesk": "Assistance",
+        "byUsingApp": "En utilisant cette application, vous acceptez les conditions générales d'utilisation de l'Institut Heartfulness",
+        "termsOfUse": "Conditions générales d'utilisation",
+        "and": "et",
+        "privacyPolicy": "Politique de confidentialité"
+    },
+    "seekerMeditationSessionScreen": {
+        "sitComfortably": "Asseyez-vous confortablement, détendez-vous et éloignez-vous de toute distraction extérieure.",
+        "pleaseWait": "Attendez s'il vous plaît\nVous allez être mis en relation avec un formateur dans",
+        "waitingForTrainerToAccept": "Vous êtes connecté avec un formateur. Attendez que le formateur accepte la session",
+        "waitingForTrainerToStart": "Vous êtes connecté avec un formateur. Attendez que le formateur commence la session",
+        "inProgress": "Connecté à {{preceptorName}}. Méditation en cours",
+        "masterSittingInProgress": "Connecté à Daaji. Méditation en cours",
+        "completed": "Méditation terminée",
+        "sittingLimitExceeded": "Vous avez suivi une séance de méditation récemment.\nIl doit y avoir un intervalle de 8 heures entre les méditations.",
+        "goToHome": "Accueil",
+        "connectingToATrainer": "Nous vous connectons à un formateur",
+        "waitingTime": "L'attente peut durer jusqu'à 4 minutes",
+        "meditationSessionHasEnded": "La séance de méditation est terminée",
+        "modalGoToHome": "Retour à l'accueil",
+        "noteObservations": "Notez vos observations",
+        "fourMinutes": "quatre minutes"
+    },
+    "preceptorMeditationSessionScreen": {
+        "requestForMeditation": "Demande de méditation",
+        "canUAcceptRequest": "Pouvez-vous accepter la demande",
+        "seekersRequestingMeditation": "Pratiquants demandant une méditation : {{totalNoOfSeekers}}",
+        "pressStartToBeginSession": "Pour commencer la session, appuyez sur Démarrer",
+        "pressEndToEndSession": "Pour terminer la session, appuyez sur Fin",
+        "sessionInProgress": "Session en cours avec {{totalNoOfSeekers}}",
+        "notNow": "Plus tard",
+        "accept": "Accepter",
+        "start": "Commencer",
+        "pressStart": "Appuyez sur Commencer pour commencer la méditation",
+        "end": "Fin de la méditation",
+        "meditationCompleted": "Méditation terminée",
+        "goToHome": "Accueil",
+        "endConfirmation": "Êtes-vous certain de vouloir mettre fin à la session ?",
+        "endSession": "Fin de la session",
+        "continue": "Continuez"
+    },
+    "signUpScreen": {
+        "heading": "Créer un compte",
+        "subHeading": "Parlez-nous de vous",
+        "name": "Saisissez vos nom et prénom",
+        "scrmId": "Heartfulness/SRCM ID",
+        "dob": "Date de naissance JJ/MM/AAAA",
+        "doj": "Date d'adhésion MM/AA",
+        "email": "Saisissez votre adresse mail",
+        "mobileNo": "N° de portable",
+        "password": "Mot de passe",
+        "rePassword": "Resaisissez votre mot de passe",
+        "submit": "Envoyer",
+        "dobValidationMsg": "Format JJ/MM/AAAA",
+        "dojValidationMsg": "Format MM/AAAA",
+        "passwordsDidNotMatch": "Les mots de passe ne correspondent pas",
+        "successModalHeading": "Compte créé",
+        "verificationLinkSentMessage": "Un lien de vérification a été envoyé à votre adresse mail. Merci de compléter la procédure d'ouverture de compte en cliquant sur ce lien.",
+        "login": "Connexion",
+        "continueWithoutLogin": "Continuez sans connexion"
+    },
+    "helpDeskScreen": {
+        "heading": "Assistance",
+        "subHeading": "Quel est votre problème ?",
+        "name": "Vos nom et prénom",
+        "email": "Adresse mail",
+        "mobileNo": "Numéro de téléphone portable",
+        "issue": "Pouvons-nous vous aider ?",
+        "submit": "Envoyer",
+        "reachUsAt": "Contactez-nous à",
+        "supportTollFree": "Appel gratuit",
+        "supportMobile": "Portable",
+        "supportEmail": "Adresse mail",
+        "availableTiming": "8AM - 20PM IST - heure indienne"
+    },
+    "dataDoesNotMatchScreen": {
+        "subHeading": "Les données ne correspondent pas",
+        "infoText1": "Le numéro d'identification Heartfulness (SRCM ID) que vous avez saisi ne correspond pas aux données que nous avons enregistrées.",
+        "infoText2": "Veuillez saisir à nouveau vos données et les renvoyer.",
+        "infoText3": "Si vous pensez avoir saisi les bonnes informations, mais que vous ne parvenez toujours pas à vous inscrire, merci de contacter le service Assistance.",
+        "tryAgainButton": "Réessayez",
+        "contactHelpDeskButton": "Contactez le service Assistance"
+    },
+    "forgotPasswordScreen": {
+        "heading": "Réinitialisez votre mot de passe",
+        "successModalHeading": "Message électronique envoyé",
+        "sentResetPasswordEmailMessage": "Un message électronique de réinitialisation du mot de passe vous a été envoyé à l'adresse mail enregistrée. Merci de vérifier votre boîte de réception et de suivre les instructions",
+        "ok": "OK",
+        "email": "Entrez l'adresse mail enregistrée",
+        "send": "Envoyer"
+    },
+    "preceptorDashboardCard": {
+        "availableForSittings": "Disponible",
+        "notAvailableForSittings": "Indisponible",
+        "yourCurrentStatus": "Statut :"
+    },
+    "onlineMetrics": {
+        "abhyasisWaiting": "Pratiquants en attente",
+        "trainersAvailable": "Formateurs disponibles",
+        "sessionsInProgress": "Sessions en cours"
+    },
+    "HomeScreen": {
+        "heading": "Accès aux ressources Heartfulness",
+        "meditate": "Méditez",
+        "withTrainer": "Avec un formateur",
+        "basicPractice": "Pratique guidée",
+        "introductorySession": "Séances d'introduction",
+        "masterClasses": "Master classes",
+        "welcome": "Bonjour, {{userName}}",
+        "signIn": "Connexion",
+        "signOut": "Déconnexion",
+        "attestationPopupHeading": "Pour bénéficier d'une séance de méditation avec un formateur, vous devez suivre les master classes ou les trois séances d'introduction.",
+        "completedIntro": "J'ai suivi trois séances avec un formateur Heartfulness ou lors d'un événement",
+        "completedIntroWithMasterClasses": "J'ai déjà suivi les master classes avec Daaji",
+        "takeIntro": "Je veux suivre les master classes avec Daaji",
+        "connectWithTrainer": "Connexion avec un formateur",
+        "numberOfAbhyasis": "Autres personnes qui méditent avec vous",
+        "submit": "Envoyer",
+        "availableForSittingsWarning": "Vous êtes disponible pour donner des sittings. Veuillez modifier votre disponibilité et réessayer",
+        "ok": "OK",
+        "cancel": "Annuler",
+        "guest": "Invité",
+        "lifeStyle": "Mode de vie",
+        "lifeStyleInHeartfulnessWay": "Mode de vie Heartfulness"
+    },
+    "resourcesScreen": {
+        "readAndReflect": "Lire",
+        "explore": "Explorer",
+        "engage": "Participer",
+        "title": "Ressources",
+        "books": "Livres",
+        "whispers": "Messages du Monde Lumineux",
+        "audio": "Audio",
+        "video": "Vidéo"
+    },
+    "readAndReflectScreen": {
+        "title": "Lecture et introspection",
+        "blog": "Blog",
+        "articles": "Articles",
+        "magazine": "Magazine",
+        "quote": "Citations",
+        "books": "Livres",
+        "whispers": "Messages du Monde Lumineux"
+    },
+    "exploreScreen": {
+        "title": "Explorer",
+        "heartfulnessOfferings": "Offres Heartfulness",
+        "daajisDesk": "Daaji's Desk",
+        "kanhaShantiVanam": "Kanha Shanti Vanam",
+        "kanhaMeditationHall": "Hall de méditation de Kanha",
+        "brighterMinds": "Brighter Minds",
+        "theHeartFulnessWay": "La voie Heartfulness",
+        "heartSpots": "Heartspots",
+        "liveBroadcast": "Diffusion en direct (à venir)",
+        "a_Whisper_A_Day": "Un Message par jour",
+        "heartfulnessInstitute": "L'Institut Heartfulness"
+    },
+    "moreScreen": {
+        "title": "En savoir plus",
+        "updateProfile": "Profil",
+        "privacyPolicy": "Politique de confidentialité",
+        "termsAndConditions": "Conditions générales d'utilisation",
+        "helpAndSupport": "Aide et assistance",
+        "deactivateAccount": "Fermez votre compte"
+    },
+    "preceptorsNeededPopup": {
+        "title": "Des formateurs sont demandés",
+        "description": "Des pratiquants attendent un sitting",
+        "snooze": "Arrêt momentané pendant {{hours}} heures",
+        "makeMeAvailable": "Disponible"
+    },
+    "dndPermissionsNeededPopup": {
+        "title": "Ne pas déranger — autorisations requises",
+        "description": "Nous avons besoin d'autorisations pour mettre le téléphone automatiquement en mode 'ne pas déranger' quand la méditation est en cours",
+        "allow": "Accepter",
+        "doNotAllow": "Refuser"
+    },
+    "deactivateAccountConfirmationPopup": {
+        "title": "Supprimer le compte",
+        "description": "Êtes-vous sûr de vouloir supprimer votre compte ?",
+        "yes": "Oui",
+        "no": "Non"
+    }
+}

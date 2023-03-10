@@ -1,0 +1,183 @@
+{
+  "project_info": {
+    "project_number": "583201066445",
+    "firebase_url": "https://unifiedplatform-dev.firebaseio.com",
+    "project_id": "unifiedplatform-dev",
+    "storage_bucket": "unifiedplatform-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:583201066445:android:283c7b58697593ec",
+        "android_client_info": {
+          "package_name": "com.hfn.unified"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "583201066445-a16a1uf0p43d0aormquqed5gub8i6h7s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hfn.unified",
+            "certificate_hash": "a241c94974f0d8916afc0b0d2cf144e40f806b64"
+          }
+        },
+        {
+          "client_id": "583201066445-bocu2kjgsu7togtddt88ei2cmk3d4nqs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hfn.unified",
+            "certificate_hash": "4dcaf40d9e8b7a467c76ad35cf1d90829a5b13de"
+          }
+        },
+        {
+          "client_id": "583201066445-6rtk97qc3lviafuif0r8sagmdbqmkiab.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hfn.unified",
+            "certificate_hash": "298e996162ae7d3f566d3c9e9a3fdd28eb2e9862"
+          }
+        },
+        {
+          "client_id": "583201066445-ogmul6j5mcq7nv9oksv4fpllt4df4bdp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hfn.unified",
+            "certificate_hash": "95f5f162d702fc1f3ceeffc03f8e319df27f3bd2"
+          }
+        },
+        {
+          "client_id": "583201066445-1akhegsi3nstp1e6sl14krsld03ilc8o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hfn.unified",
+            "certificate_hash": "14da0b7e7ac9eb83f9617234f58850dd8c3de280"
+          }
+        },
+        {
+          "client_id": "583201066445-slajh401s9hb7irev9srjaodrkaen84k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hfn.unified",
+            "certificate_hash": "b61669c7eb48924c943affb950cf32ea4d815543"
+          }
+        },
+        {
+          "client_id": "583201066445-v93p9s7k4r2t5hpkl68pq5ptn67acsgj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqiA_-mMY9TgDosF0WU4KN77s4sDb7DUk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "108668993994539661440",
+              "client_type": 3
+            },
+            {
+              "client_id": "583201066445-h7bu1qo5nvc7sqv6800sq6095g5u84lr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.heartsapp.heartsapp-qa"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:583201066445:android:77b5755cde620ab29b8884",
+        "android_client_info": {
+          "package_name": "com.hfn.unified.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "583201066445-8b1hidtt4paughkpsptiof93ssja78ju.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hfn.unified.dev",
+            "certificate_hash": "daae806a8f5b8e3a8750cb2f36c7e3e592544762"
+          }
+        },
+        {
+          "client_id": "583201066445-q6fq6irbh1hj7rk3q218ppmkaocdtji0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hfn.unified.dev",
+            "certificate_hash": "2da7cd7b55424e3547e33c5178a55402c6e2087c"
+          }
+        },
+        {
+          "client_id": "583201066445-v93p9s7k4r2t5hpkl68pq5ptn67acsgj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqiA_-mMY9TgDosF0WU4KN77s4sDb7DUk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "108668993994539661440",
+              "client_type": 3
+            },
+            {
+              "client_id": "583201066445-h7bu1qo5nvc7sqv6800sq6095g5u84lr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.heartsapp.heartsapp-qa"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:583201066445:android:0ecdc98655caf1769b8884",
+        "android_client_info": {
+          "package_name": "com.hfn.unified.old"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "583201066445-v93p9s7k4r2t5hpkl68pq5ptn67acsgj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqiA_-mMY9TgDosF0WU4KN77s4sDb7DUk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "108668993994539661440",
+              "client_type": 3
+            },
+            {
+              "client_id": "583201066445-h7bu1qo5nvc7sqv6800sq6095g5u84lr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.heartsapp.heartsapp-qa"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

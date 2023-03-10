@@ -1,0 +1,35 @@
+diff --git a/node_modules/react-native-video-controls/VideoPlayer.js b/node_modules/react-native-video-controls/VideoPlayer.js
+index 7d36b4b..19cde45 100644
+--- a/node_modules/react-native-video-controls/VideoPlayer.js
++++ b/node_modules/react-native-video-controls/VideoPlayer.js
+@@ -12,6 +12,7 @@ import {
+   Image,
+   View,
+   Text,
++  StatusBar,
+ } from 'react-native';
+ import padStart from 'lodash/padStart';
+ 
+@@ -1200,6 +1201,7 @@ export default class VideoPlayer extends Component {
+         onPress={this.events.onScreenTouch}
+         style={[styles.player.container, this.styles.containerStyle]}>
+         <View style={[styles.player.container, this.styles.containerStyle]}>
++        <StatusBar currentHeight={0} animated={true} hidden={true} />
+           <Video
+             {...this.props}
+             ref={videoPlayer => (this.player.ref = videoPlayer)}
+@@ -1381,12 +1383,12 @@ const styles = {
+     },
+     track: {
+       backgroundColor: '#333',
+-      height: 1,
++      height: 2,
+       marginLeft: 7,
+     },
+     fill: {
+       backgroundColor: '#FFF',
+-      height: 1,
++      height: 2,
+     },
+     handle: {
+       position: 'absolute',

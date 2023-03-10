@@ -1,0 +1,65 @@
+diff --git a/node_modules/react-native-read-more-text/index.js b/node_modules/react-native-read-more-text/index.js
+index 2321165..1a01634 100644
+--- a/node_modules/react-native-read-more-text/index.js
++++ b/node_modules/react-native-read-more-text/index.js
+@@ -8,39 +8,37 @@ export default class ReadMore extends React.Component {
+     showAllText: false
+   };
+ 
++  async componentDidUpdate(prevProps) {
++    if(this.props.children !== prevProps.children){
++      this.setState({ measured: false,showAllText: false }, async ()=>{
++        await this._calculateShowMoreLength();
++      });
++    }
++  }
+   async componentDidMount() {
+-    this._isMounted = true;
++    await this._calculateShowMoreLength();
++  }
++  _calculateShowMoreLength = async ()=>{
+     await nextFrameAsync();
+ 
+-    if (!this._isMounted) {
+-      return;
+-    }
+-
+     // Get the height of the text with no restriction on number of lines
+     const fullHeight = await measureHeightAsync(this._text);
+     this.setState({ measured: true });
+     await nextFrameAsync();
+ 
+-    if (!this._isMounted) {
+-      return;
+-    }
+-
+     // Get the height of the text now that number of lines has been set
+     const limitedHeight = await measureHeightAsync(this._text);
+-
+     if (fullHeight > limitedHeight) {
+       this.setState({ shouldShowReadMore: true }, () => {
+         this.props.onReady && this.props.onReady();
+       });
+     } else {
+-      this.props.onReady && this.props.onReady();
++      this.setState({ shouldShowReadMore: false }, () => {
++        this.props.onReady && this.props.onReady();
++      });
+     }
+   }
+ 
+-  componentWillUnmount() {
+-    this._isMounted = false;
+-  }
+-
+   render() {
+     let { measured, showAllText } = this.state;
+ 
+@@ -73,7 +71,6 @@ export default class ReadMore extends React.Component {
+ 
+   _maybeRenderReadMore() {
+     let { shouldShowReadMore, showAllText } = this.state;
+-
+     if (shouldShowReadMore && !showAllText) {
+       if (this.props.renderTruncatedFooter) {
+         return this.props.renderTruncatedFooter(this._handlePressReadMore);

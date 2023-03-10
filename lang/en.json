@@ -1,0 +1,371 @@
+{
+  "common": {
+    "next": "Next",
+    "pressBackToExitApp": "Press back again to exit the app"
+  },
+  "validations": {
+    "required": "Required",
+    "invalidEmail": "Invalid email",
+    "invalidMobileNo": "Invalid mobile no",
+    "maxAllowedCharacters": "Maximum of {{max}} characters are allowed",
+    "invalidValue": "Invalid value",
+    "phoneNumberHint": "+(Country code)(phone number) e.g. +919988776655"
+  },
+  "offlineNotice": {
+    "unableToReachServer": "Connecting to server",
+    "noInternetConnection": "No internet connection"
+  },
+  "appTabs": {
+    "home": "Home",
+    "more": "More",
+    "locate": "Locate"
+  },
+  "firstTimeLandingScreen": {
+    "newToHeartfulness": "New to Heartfulness",
+    "existingPractitioner": "Heartfulness Meditator",
+    "trainer": "Heartfulness Trainer",
+    "heading": "HeartsApp",
+    "subheading": "Your companion to inner peace"
+  },
+  "newbieMasterClassScreen": {
+    "heading": "Heartfulness Masterclasses with Daaji",
+    "aboutHeartfulness": "About Heartfulness",
+    "introductionToHeartfulness": "Introduction to Masterclasses",
+    "day1": "Day 1",
+    "day2": "Day 2",
+    "day3": "Day 3",
+    "relax": "Relax",
+    "rejuvenate": "Rejuvenate",
+    "connect": "Connect",
+    "continue": "Continue",
+    "explore": "Explore",
+    "introductionToHeartfulnessDescription": "In this video, Daaji, the global guide of Heartfulness, introduces viewers to the four techniques of the Heartfulness practice and to transmission, the energy unique to Heartfulness.",
+    "day1Description": "In this first masterclass, you will be guided through Heartfulness Relaxation, a technique that promotes physical and mental calm, before learning how to meditate on the source of light in the heart.",
+    "day2Description": "In this second masterclass, Daaji will intriduce and guide you through the Heartfulness Cleaning technique, a simple rejuvenation method intended to cleanse the mind and to let go of stress and heavy thoughts and emotions",
+    "day3Description": "In the third and final masterclass, you will learn how heart-based meditation allows you to connect with your innermost self, observe your deepest feelings, and weave your own destiny.",
+    "exploreMore": "Home",
+    "videoLockedError": "Masterclass will be available a day after viewing the previous one. Taking one class each day gives you time to practise and internalise what you have learned.",
+    "ok": "OK"
+  },
+  "signInScreen": {
+    "heading": "Log In",
+    "connectWith": "Connect with",
+    "or": "OR",
+    "login": "Login",
+    "registerWithEmail": "Register with Email",
+    "skip": "Skip",
+    "email": "Email",
+    "password": "Password",
+    "forgotPassword": "Forgot Password?",
+    "newToHeartfulness": "New to Heartfulness?",
+    "createAccount": "Create Account",
+    "issuesWithLogin": "Issues with Login?",
+    "helpDesk": "Help Desk",
+    "byUsingApp": "By using this app you agree to the Heartfulness Institute’s ",
+    "termsOfUse": "Terms of use ",
+    "and": "and ",
+    "privacyPolicy": "Privacy Policy",
+    "accountAlreadyExists": "The email is already linked to another login",
+    "invalidCredentials": "Invalid credentials",
+    "invalidEmail": "Invalid Email",
+    "operationNotEnabled": "This operation not enabled",
+    "unableToGetAccessToken": "Error while getting access token",
+    "loginCancelledByUser": "Login cancelled by user",
+    "userDisabled": "User is disabled",
+    "userNotFound": "User does not exist",
+    "wrongPassword": "Wrong password",
+    "emailNotVerified": "Email is not verified. Please click on the verification link, sent to your email just now."
+  },
+  "seekerMeditationSessionScreen": {
+    "pleaseWait": "Please wait...",
+    "sessionInProgress": "Meditation in progress...",
+    "meditationCompleted": "Meditation Completed",
+    "waitingForTrainerToAccept": "Connected to a trainer. Waiting for trainer to accept session",
+    "waitingForTrainerToStart": "Connected to a trainer. Waiting for trainer to start the session",
+    "connectedTo": "Connected to ",
+    "preceptorName": "'{{preceptorName}}'",
+    "masterName": "Daaji",
+    "spent": "You have meditated",
+    "sittingLimitExceeded": "You have taken meditation session recently.\nThere must be a gap of 8 hrs between meditation sessions",
+    "goToHome": "Home",
+    "connectingToATrainer": "We are connecting to a trainer",
+    "waitingTime": "Wait could be up to 4 mins",
+    "meditationSessionHasEnded":"Meditation session has ended",
+    "modalGoToHome":"Go to home",
+    "noteObservations":"Note Observations",
+    "waitingInstructionForInitialGuidedAudio": "To prepare for this session (max {{maxMeditateSessionDuration}})",
+    "waitingInstruction": "You will be connected \nwith a trainer within",
+    "sessionWaitingInstruction": "● Sit comfortably \n● Eliminate distractions\n● Be relaxed",
+    "fourMinutes": "4",
+    "minutes": "Minutes",
+    "sessionLimitExceeded":"Not more than {{maxMeditationSessionsRecommended}} sessions are recommended in {{timeperiodForSessions}} days"
+  },
+  "preceptorMeditationSessionScreen": {
+    "requestForMeditation": "Request for meditation",
+    "canUAcceptRequest": "Can you accept the request for \n meditation?",
+    "seekersRequestingMeditation": "{{totalNoOfSeekers}} Abhyasis requesting a \n meditation session",
+    "pressStartToBeginSession": "To begin the session press Start",
+    "sessionInProgress": "Session in progress with {{totalNoOfSeekers}} Abhyasis..",
+    "notNow": "Not Now",
+    "accept": "Accept",
+    "start": "Start",
+    "pressStart": "Start Session",
+    "startText": "Press 'Start' to begin the session.",
+    "inprogressText": "Press 'End' to finish the session.",
+    "end": "End",
+    "meditationCompleted": "Meditation Completed",
+    "goToHome": "Home",
+    "endConfirmation": "Are you sure you want to end the session?",
+    "endSession": "End Session",
+    "continue": "Continue",
+    "minutes": "minutes",
+    "spent": "You have meditated"
+  },
+  "signUpScreen": {
+    "heading": "Create Account",
+    "subHeading": "Tell us about yourself",
+    "name": "Enter Your Full Name",
+    "scrmId": "Heartfulness / SRCM ID",
+    "dob": "Date of birth DD/MM/YYYY",
+    "doj": "Date of joining (MM/YYYY)",
+    "email": "Enter your E-mail ID",
+    "mobileNo": "Mobile No",
+    "password": "Password",
+    "rePassword": "Re-Password",
+    "submit": "Submit",
+    "dobValidationMsg": "Should be in DD/MM/YYYY format",
+    "dojValidationMsg": "Should be in MM/YYYY format",
+    "passwordsDidNotMatch": "Passwords did not match",
+    "successModalHeading": "Account Created",
+    "verificationLinkSentMessage": "A verification link has been sent to your email. Please complete the account completion process by clicking on that link.",
+    "login": "Login",
+    "continueWithoutLogin": "Continue without login",
+    "accountAlreadyInUse": "The email is already in use",
+    "invalidEmail": "Invalid Email",
+    "operationNotAllowed": "This operation not enabled",
+    "weakPassword": "Password is too weak"
+  },
+  "helpDeskScreen": {
+    "heading": "Help Desk",
+    "subHeading": "Tell us about your issue",
+    "name": "Your full name",
+    "email": "Email ID",
+    "mobileNo": "Mobile Number",
+    "issue": "How can we help you?",
+    "submit": "Submit",
+    "reachUsAt": "Reach us at",
+    "supportTollFree": "Toll Free",
+    "supportMobile": "Mobile",
+    "supportEmail": "Email",
+    "availableTiming": "(8am - 8pm IST)"
+  },
+  "dataDoesNotMatchScreen": {
+    "subHeading": "Data does not match",
+    "infoText1":"The Heartfulness ID you entered does not match the data we have on record.",
+    "infoText2":"Please re-enter the data and submit again.",
+    "infoText3":"If you believe you have entered the correct information, but you are still unable to register, please contact the Help Desk.",
+    "tryAgainButton":"Try Again",
+    "contactHelpDeskButton":"Contact Help Desk"
+  },
+  "forgotPasswordScreen": {
+    "heading": "Reset password",
+    "successModalHeading": "Sent Email",
+    "sentResetPasswordEmailMessage": "A password reset email has been triggered to the provided email. Please check your inbox and follow instructions",
+    "ok": "OK",
+    "email": "Enter registered email",
+    "send": "Send",
+    "invalidEmail": "Invalid email",
+    "userNotFound": "No user exists with the provided email"
+  },
+  "preceptorDashboardCard": {
+    "availableForSittings": "Available",
+    "notAvailableForSittings": "Not Available",
+    "yourCurrentStatus": "Status:",
+    "notifyIfZeroTrainers": "Notify if zero trainers"
+  },
+  "onlineMetrics": {
+    "abhyasisWaiting": "Abhyasis Waiting",
+    "trainersAvailable": "Trainers Available",
+    "sessionsInProgress": "Ongoing Sessions",
+    "seekersMeditating": "People Meditating",
+    "totalSessions": "Total Sessions",
+    "asOf": "As of {{date}}"
+  },
+  "additionalAbhyasisScreen": {
+    "meditateWithTrainer": "Meditate with a trainer",
+    "youWillBeConnectedToTrainer": "You will be connected to a live trainer.",
+    "theSessionCanGoForAround": "The session can go on for around ",
+    "min": "min.",
+    "numberOfAbhyasis": "Number of people meditating with you",
+    "connectWithTrainer":" Connect with Trainer"
+  },
+  "HomeScreen": {
+    "heading": "Introduction to Heartfulness resources",
+    "meditate": "Meditate",
+    "withTrainer": "With a Trainer",
+    "basicPractice":"Guided Practice",
+    "introductorySession":"Introductory Sessions",
+    "masterClasses": "Masterclasses",
+    "reflectExplore": "",
+    "welcome": "Hello, {{userName}}",
+    "signIn":"Log In",
+    "signOut":"Log Out",
+    "attestationPopupHeading": "A meditation session with a trainer is effective when Masterclasses or three introductory sessions have been completed.",
+    "completedIntro":"I have completed 3 Sessions with a Heartfulness Trainer or at an event",
+    "completedIntroWithMasterClasses":"I have already completed the ",
+    "masterClassesWithDaaji": "Masterclasses with Daaji",
+    "takeIntro":"I want to take ",
+    "connectWithTrainer":" Connect with Trainer",
+    "numberOfAbhyasis": "Number of people meditating with you",
+    "submit": "Submit",
+    "availableForSittingsWarning": "You are available to give sittings. Please change the availability and try again",
+    "ok": "OK",
+    "cancel": "Cancel",
+    "guest": "Guest",
+    "lifeStyle": "Lifestyle",
+    "lifeStyleInHeartfulnessWay": "Lifestyle in a Heartfulness Way",
+    "hello": "Hello !"
+  },
+  "moreScreen": {
+    "title": "More",
+    "privacyPolicy": "Privacy Policy",
+    "termsAndConditions": "Terms and Conditions",
+    "helpAndSupport": "Help and Support"
+  },
+  "profileScreen": {
+    "playGuidedAudio": "Play relaxation audio before \nmeditation",
+    "myAccount": "My Account",
+    "profileSettings": "Settings",
+    "languageSetting": "Language (Coming Soon)",
+    "notificationSetting": "Notification (Coming Soon)",
+    "changeThemeSetting": "Change Theme"
+  },
+  "myAccountScreen": {
+    "title": "My Account",
+    "updatePersonalInfo": "Personal Info",
+    "changePassword": "Change Password",
+    "deleteAccount": "Delete Account"
+  },
+  "changePasswordScreen": {
+    "title": "Change Password",
+    "currentPassword": "Current Password",
+    "newPassword": "New Password",
+    "updatePassword": "Update",
+    "wrongPassword": "Please enter the correct password",
+    "weakPassword": "Password should be at least 6 characters",
+    "successMessage": "Your password has been\n changed successfully"
+  },
+  "changePasswordPopup": {
+    "description": "Change password not applicable\n for this login.",
+    "ok": "OK"
+  },
+  "deleteAccountConfirmationPopup": {
+    "title": "All history & personal information of the account will be deleted permanently",
+    "description": "Are you sure you want to \ndelete account ?",
+    "yes": "Yes",
+    "no": "No",
+    "success": "Your Account has been \nSuccessfully Deleted",
+    "reloginDescription": "For security reasons \nplease re-login to delete this account",
+    "relogin": "Re-Login"
+  },
+  "personalInfoScreen":{
+    "heading":"Personal Info",
+    "firstName":"First Name*",
+    "lastName":"Last Name",
+    "addressLine1":"Address Line 1*",
+    "addressLine2":"Address Line 2",
+    "postalCode":"Postal Code*",
+    "selectCityTown":"Select City/Town*",
+    "countryCode":"Country Code",
+    "phoneNumber":"Phone No*",
+    "update":"Update",
+    "successMessage":"Your account has been updated successfully"
+  },
+  "cityScreen":{
+    "heading":"Select City/Town",
+    "search":"Search",
+    "hint":"If your city is not available, please choose a close by city and put details of your city in the Address lines."
+  },
+  "preceptorsNeededPopup": {
+    "title": "Preceptors needed",
+    "description": "There are abhyasis waiting for a sitting.",
+    "snooze": "snooze for {{hours}} hours",
+    "makeMeAvailable": "Make me available"
+  },
+  "zeroPreceptorsPopup": {
+    "title": "Please make yourself available",
+    "description": "There are no trainers available.\n\n(You are seeing this message because you have subscribed for getting notified when the preceptor count goes to zero)",
+    "makeMeAvailable": "Make me available",
+    "cancel": "Cancel"
+  },
+  "dndPermissionsNeededPopup": {
+    "title": "DND Permissions Needed",
+    "description": "We need permissions to automatically put phone on do not disturb mode when meditation session is in progress.",
+    "allow": "Accept",
+    "doNotAllow": "Reject"
+  },
+  "donationPromptingMeditationSessionEndedScreen": {
+    "sessionEnded": "The session has ended.",
+    "thankyouForMeditatingWithUs": "Thank you for meditating with us",
+    "youHaveMeditated": "You have meditated",
+    "minutes": "Minutes",
+    "message": "All over the world we conduct program in schools, universities & colleges, hospitals and villages for free. Your donation will help us support these programs.",
+    "amount": "Amount",
+    "donate": "Donate",
+    "home": "Home",
+    "selectACurrency": "Select a currency",
+    "onlineTransactionCouldBeMinimum": "Online transaction could be minimum of",
+    "pleaseAdjustTheAmountAccordingly": "Please adjust the amount accordingly."
+  },
+  "CurrencyConversionPopup": {
+    "thankYou": "Thank you!",
+    "youHaveEntered": "You have entered",
+    "asADonationTowardsHeartfulness": "as a donation towards Heartfulness.",
+    "wouldYouLikeToContinue": "Would you like to continue?"
+  },
+  "paymentScreen": {
+    "thankYou": "Thank you!",
+    "receiptEmail": "Receipt sent to your email",
+    "paymentFailed": "Can't complete payment. Any amount deducted will be refunded in 3-5 bussiness days",
+    "retry": "Retry",
+    "backToHome": "Home"
+  },
+  "donationFormScreen":{
+    "heading":"Donate",
+    "citizen":"Are you a citizen of India",
+    "yes":"Yes",
+    "no":"No",
+    "firstName":"First Name*",
+    "lastName":"Last Name",
+    "address":"Address*",
+    "country":"Country*",
+    "countryCode":"Country Code",
+    "state":"State",
+    "postalCode":"Postal Code*",
+    "emailId":"Email Address*",
+    "phoneNumber":"Phone*",
+    "panNumber":"PAN NO",
+    "donationInformation":"Donation Information",
+    "confirmDonation":"Confirm Donation",
+    "selectACountry":"Select a country",
+    "selectAState":"Select a state",
+    "selectACountryCode":"Select a country code",
+    "statesNotAvailable":"State not available. Please ignore and proceed further."
+  },
+  "updateHeartsappPopup": {
+    "title": "Please Update Heartsapp",
+    "description": "This version of Heartsapp is deprecated. Please update it from App Store / Play Store"
+
+  },
+  "somethingWentWrongWhileInitializingAppPopup": {
+    "title": "Something went wrong",
+    "description": "Please restart the app"
+  },
+  "themeSelectionScreen": {
+    "title": "Themes",
+    "subTitle": "Customize your own theme",
+    "applyTheme": "Apply",
+    "peachTheme": "Peach Theme",
+    "classicTheme": "Classic Sky Theme"
+  }
+}

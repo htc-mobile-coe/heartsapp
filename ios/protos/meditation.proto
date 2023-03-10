@@ -1,0 +1,635 @@
+syntax = "proto3";
+// $log: tag
+package unifiedplatform.meditation;
+
+import "google/protobuf/timestamp.proto";
+import "google/protobuf/wrappers.proto";
+//import "google/type/latlng.proto";
+
+option java_package = "org.heartfulness.unifiedplatform.interfaces.grpc.meditation";
+option java_multiple_files = true;
+option objc_class_prefix = "Platform_Meditation_";
+
+enum Version {
+    MEDITATION_SERVICE_API_1_0_4 = 0;
+}
+
+message LatLng {
+    // The latitude in degrees. It must be in the range [-90.0, +90.0].
+    double latitude = 1;
+
+    // The longitude in degrees. It must be in the range [-180.0, +180.0].
+    double longitude = 2;
+}
+
+enum RequestType {
+    ONE_TIME = 0;
+    RECURRING = 1;
+}
+
+enum SessionType {
+    REMOTE_NOW = 0;
+    REMOTE = 1;
+    IN_PERSON = 2;
+}
+
+enum RequestorType {
+    SEEKER = 0;
+    ABHYASI = 1;
+    PRECEPTOR = 2; // Is this required?
+}
+
+message SittingRequest {
+    string id = 1;
+    SessionType sessionType = 2;
+    RequestorType requestorType = 3;
+    string requestorId = 4;
+    repeated string otherRequestorId = 5;
+    LatLng requestorLocation = 6;
+    google.protobuf.Timestamp requestTime = 7;
+    google.protobuf.Timestamp requestEndTime = 8;
+    MeditationSession meditationSession = 9;
+    double distanceInKms = 10;
+// TODO: Recurring later..
+}
+
+message SittingRequestList {
+    repeated SittingRequest sittingRequest = 1;
+}
+
+message SittingRequestWithPreceptor {
+    SittingRequest sittingRequest = 1;
+    string preceptorId = 2;
+}
+
+enum RecurrenceType {
+    NONE = 0;
+	DAILY = 1;
+	WEEKLY = 2;
+}
+
+enum RecurrenceEndType {
+	ENDS_AFTER_FEW_OCCURRENCES = 0;
+	ENDS_ON_DATE = 1;
+}
+
+message OnlineMetrics {
+    //Total Online Preceptors**Not to be used**
+    int32 noOfPreceptorsOnline = 1;
+    //Total Online Preceptors Free To take Sittings
+    int32 noOfPreceptorsFree = 3;
+    //Total Sittings In Progress (Single Preceptor giving sitting to Many Seekers is one sitting)
+    int32 noOfSittingsInProgress = 4;
+    //Total Sittings Requests In Pipeline (One App can send requests for multiple Seekers. but here it will be counted as one request)
+    int32 noOfPendingSeekerRequests = 5;
+    //Total Number of Seekers Taking Sitting
+    int32 noOfSeekersTakingSitting = 6;
+    //Total number of Seekers Waiting for Sittings (One App can send requests for multiple Seekers. Here actual number is sum of all Seekers Waiting
+    int32 noOfSeekersWaitingForSitting = 7;
+    //Total Number of Sitting Completed Globally
+    int32 noOfSittingsCompleted = 8;
+    //Total Number of Sitting Completed as of Timestamp
+    google.protobuf.Timestamp noOfSittingsCompletedLastUpdatedTimestamp = 9;
+
+}
+
+enum SittingState {
+    NO_SITTING = 0; // Same as initial
+    WAITING_FOR_SCHEDULING = 1;
+    HEART_BEAT_SITTING_STATE = 2;
+
+    SCHEDULED = 3;
+
+    IN_PERSON_SITTING_STATE = 4;
+    READY_STATE = 5;
+    SEEKER_READY_STATE = 6;
+    PRECEPTOR_READY_STATE = 7;
+    READY_FOR_SITTING = 8;
+
+    WAITING_FOR_PRECEPTOR_TO_START = 9;
+    PRECEPTOR_NOT_AVAILABLE = 10;
+    PRECEPTOR_CANCELLED = 11;
+
+    SEEKER_CANCELLED = 12; // For Remote Later when seeker cancels
+    SEEKER_NOT_AVAILABLE = 13;
+
+    STARTED = 14;
+    IN_PROGRESS = 15;
+    MEDITATION_COMPLETED = 16;
+    PRECEPTOR_COMPLETED = 17;
+    SEEKER_COMPLETED = 18;
+    COMPLETED = 19;
+
+    TIMED_OUT = 20;
+    ERROR = 21;
+
+    SITTING_LIMIT_EXCEEDED = 22;
+    UPCOMING_SITTING = 23;
+
+    WAITING_FOR_PRECEPTOR_TO_START_BATCH = 24;
+    STARTED_BATCH = 25;
+    IN_PROGRESS_BATCH = 26;
+
+    MASTER_SITTING = 27;
+    BATCH_MEDITATION_COMPLETED = 28;
+    SITTING_LIMIT_EXCEEDED_FOR_PERIOD = 29;
+}
+
+enum SittingCommand {
+    INIT = 0;
+    READY = 1;
+    PRECEPTOR_UNAVAILABLE=2;
+    HEART_BEAT = 3;
+    RESET_RESPONSES = 4;
+    COMPLETE = 5;
+
+    SCHEDULE = 6;
+    PRECEPTOR_READY = 7;
+    SEEKER_READY = 8;
+
+    PRECEPTOR_START = 9;
+    PRECEPTOR_CANCEL = 10;
+    SEEKER_CANCEL = 11;
+    SEEKER_START = 12;
+
+    PRECEPTOR_START_MEDITATION = 13;
+    SEEKER_START_MEDITATION = 14;
+
+    PRECEPTOR_COMPLETE_MEDITATION = 15;
+    SEEKER_COMPLETE_MEDITATION = 16;
+
+    PRECEPTOR_COMPLETE = 17;
+    SEEKER_COMPLETE = 18;
+
+    IN_PERSON_SITTING = 19;
+}
+
+message SeekerRequest {
+    string seekerId = 1;
+    string deviceId = 2;
+    SittingCommand command = 3;
+    string meditationSessionId = 4;
+    int64 sequenceNumber = 5;
+    string version = 6; // fill the value from enum Version VERSION_1_0_1.name()
+    int32 noOfAdditionalSeekers = 7;
+    // Retry Offset time in seconds. in case of retry when preceptor was not available in
+    // previous request.
+    // pass offset time since the first request . This will be used to prioritise the request
+    int32 retryOffsetTimeSecs = 8;
+    string exitReason = 9;
+}
+
+message SeekerResponse {
+    string seekerId = 1;
+    SittingState status = 2;
+    MeditationSession session = 3;
+    int32 stateTransitionTime = 4;
+    int64 sequenceNumber = 5;
+}
+
+message PreceptorRequest {
+    string preceptorId = 1;
+    string deviceId = 2;
+    SittingCommand command = 3;
+    string meditationSessionId = 4;
+    int64 sequenceNumber = 5;
+    string timeZoneId = 6; //see java.time.ZoneId.getAvailableZoneIds()
+    string version = 7; // fill the value from enum Version VERSION_1_0_1.name()
+}
+
+message PreceptorResponse {
+    string preceptorId = 1;
+    SittingState status = 2;
+    MeditationSession session = 3;
+    int32 stateTransitionTime = 4;
+    int64 sequenceNumber = 5;
+}
+
+message SlotsOfPreceptorRequest {
+	string preceptorId = 1;
+	google.protobuf.Timestamp from = 2;
+	google.protobuf.Timestamp to = 3;
+}
+
+message PreceptorSchedule {
+    string scheduleId = 1;
+    int32 startTimeOfTheDay = 2; // No of seconds since 12:00:00 am
+    int32 endTimeOfTheDay = 3; // No of seconds since 12:00:00 am
+    string zoneId = 4;
+
+    bool isRemoteAvailable = 5;
+    bool isInPersonAvailable = 6;
+
+    bool isOnSunday = 7;
+    bool isOnMonday = 8;
+    bool isOnTuesday = 9;
+    bool isOnWednesday = 10;
+    bool isOnThursday = 11;
+    bool isOnFriday = 12;
+    bool isOnSaturday = 13;
+
+    string preceptorId = 14;
+}
+
+message PreceptorReportRequest {
+    string preceptorId = 1;
+    google.protobuf.Timestamp from = 2;
+    google.protobuf.Timestamp to = 3;
+    string email = 4;
+    string timeZoneId = 5;
+    repeated MeansOfSittingsGiven meansThroughWhichSittingGiven = 6;
+}
+
+message PreceptorScheduleRequest {
+    string preceptorId = 1;
+
+    // pagination later.
+}
+
+message PreceptorScheduleList {
+    repeated PreceptorSchedule preceptorSchedules = 1;
+}
+
+message PreceptorSlot {
+	string slotId = 1;
+	string preceptorId = 2;
+	bool isSittingScheduled = 3;
+    bool availableForInPerson = 4;
+    bool availableForRemote = 5;
+	google.protobuf.Timestamp startTime = 6;
+	google.protobuf.Timestamp endTime = 7;
+    MeditationSession meditationSession = 8; // isSittingScheduled is true then this is not null.
+}
+
+message SlotsOfPreceptorResponse {
+	repeated PreceptorSlot slots = 1;
+}
+
+enum Rating {
+    ONE_STAR = 0;
+    TWO_STAR = 1;
+    THREE_STAR = 2;
+    FOUR_STAR = 3;
+    FIVE_STAR = 4;
+    RELAXED = 5;
+    ENERGIZED = 6;
+    NOTHING = 7;
+}
+
+message Feedback{
+    Rating starRating = 1;
+    string comment = 2;
+}
+
+message FeedbackRequest {
+    string sessionId = 1;
+    Feedback feedback = 2;
+}
+
+message MeditationSession {
+    string sessionId = 1;
+    string preceptorId = 2;
+    string preceptorName = 3;
+    string preceptorPhotoUrl = 4;
+    string preceptorDetails = 5;
+    string seekerId = 6;
+    string seekerName = 7;
+    string seekerPhotoUrl = 8;
+    string seekerDetails = 9;
+    SessionType type = 10;
+    SittingState state = 11;
+    SittingState errorState = 12;
+    google.protobuf.Timestamp scheduledStartTime = 13;
+    google.protobuf.Timestamp startTime = 14;
+    google.protobuf.Timestamp endTime = 15;
+    Feedback seekerFeedback = 16;
+    Feedback preceptorFeedback = 17;
+    int32 totalSeekers = 18;
+    bool batchSitting = 19;
+    repeated string seekerIds = 20;
+    string seekerNames = 21;
+    string comments = 22;
+    MeansOfSittingsGiven meansThroughWhichSittingGiven  = 23;
+}
+
+message MeditationSessionsRequest {
+    string userId = 1;
+    google.protobuf.Timestamp startTime = 2;
+    google.protobuf.Timestamp endTime = 3;
+}
+
+message MeditationSessionList {
+    repeated MeditationSession meditationSessions = 1;
+    int32 previousPageToken = 2;
+    int32 nextPageToken = 3;
+    int32 totalSessions = 4;
+    int32 totalSeekers = 5;
+}
+
+message PreceptorAvailabilityInfo {
+    string preceptorId = 1;
+    string preceptorName = 2;
+    google.protobuf.Timestamp startTime = 3;
+    google.protobuf.Timestamp endTime = 4;
+    LatLng location = 5;
+    double distanceInKms=6;
+}
+
+message AvailableSessionSlots {
+    repeated google.protobuf.Timestamp sessionStartTime = 1;
+}
+
+message PreceptorAvailabilityInfoResponse {
+    repeated PreceptorAvailabilityInfo preceptorAvailabilityInfo = 1;
+}
+
+message AddAbsentiaCandidateRequest {
+    string preceptorId = 1;
+    string seekerId = 2;
+    int32 dayOfWeek = 3;
+}
+
+message AbsentiaListRequest {
+    string preceptorId = 1;
+    int32 dayOfWeek = 2; // 0 - all, 1 - Monday, 2 - Tuesday ... 7 - Sunday as per ISO-8601 standard
+    // Not implemented yet
+    int32 pageToken = 3;
+}
+
+message AbsentiaCandidate {
+    string firstName = 1;
+    string lastName = 2;
+    string gender = 3;
+    string center = 4;
+    string photoUrl = 5;
+}
+
+message AbsentiaCandidateList {
+    repeated AbsentiaCandidate absentiaCandidate = 1;
+    // Not implemented yet.
+    int32 previousPageToken = 2;
+    int32 nextPageToken = 3;
+}
+
+message DiaryEntry {
+    string id = 1;
+    string userId = 2; // could be seeker, abhyasi or precpetor so we just expect firebaseId of the corresponding user.
+    google.protobuf.Timestamp entryTime = 3;
+    Rating moodRating = 4;
+    string text = 5;
+    string meditationSessionId = 6;
+}
+
+message GetDiaryEntriesRequest {
+    string userId = 1;
+    google.protobuf.Timestamp fromTime = 2;
+    int32 pageToken = 3;
+    int32 pageSize = 4;
+}
+
+message GetDiaryEntryBySessionIdRequest {
+    string userId = 1;
+    string meditationSessionId = 2;
+}
+
+message DiaryEntryList {
+    repeated DiaryEntry diaryEntry = 1;
+    // Not implemented yet. currently defaulting to top 20 request for a given time range.
+    int32 previousPageToken = 2;
+    int32 nextPageToken = 3;
+}
+
+// Debug request
+message DebugMatchPreceptorAndSeekerRequest {
+    string preceptorEmail = 1;
+    string seekerEmail = 2;
+}
+
+message CancelMeditationSessionRequest {
+    string userId = 1;
+    string meditationSessionId = 2;
+}
+
+// Used for both upcoming and historical APIs
+message GetUserSessionsRequest {
+    string userId = 1;
+    int32 pageToken = 2;
+    google.protobuf.Timestamp from = 3;
+    google.protobuf.Timestamp to = 4;
+    int32 pageSize = 5;
+    SittingType sittingType = 6;
+    repeated MeansOfSittingsGiven meansThroughWhichSittingGiven = 7;
+}
+
+enum SittingType {
+    OTHER = 0; //default returns sitting history of given and taken
+    SITTINGS_GIVEN = 1;
+    SITTINGS_TAKEN = 2;
+}
+
+message MasterSessionRequest {
+    string userId = 1;
+    google.protobuf.Timestamp starTime = 2;
+    google.protobuf.Timestamp endTime = 3;
+    SittingState errorState = 4;    // Why did we have to fallback to MasterSitting
+    int32 noOfAdditionalSeekers = 5;
+}
+
+message FaceToFaceSittingFeedbackRequest {
+    string sessionId = 1;
+    SittingState sittingState = 2;
+}
+
+message PreceptorDNDRequest {
+    string preceptorId = 1;
+    string deviceId = 2;
+    int32 dndDurationInSeconds = 4; // from when the request was received.
+}
+
+message PreceptorDNDSlot {
+    string dndId = 1;
+    string preceptorId = 2;
+    int32 startTimeOfTheDay = 3; // No of seconds since 12:00:00 am
+    int32 endTimeOfTheDay = 4; // // No of seconds since 12:00:00 am
+}
+
+message GetPreceptorDNDSlotsRequest {
+    string preceptorId = 1;
+}
+
+message PreceptorDNDSlotList {
+    repeated PreceptorDNDSlot preceptorDNDSlots = 1;
+}
+
+
+message AvailabilityStatusChangeRequest{
+    string preceptorId = 1;
+    bool status = 2;
+    string timeZoneId = 3; //see java.time.ZoneId.getAvailableZoneIds()
+}
+
+message AvailabilityStatusChangeResponse{
+    bool success = 1;
+    bool ongoingSession = 2;
+}
+
+enum MeansOfSittingsGiven {
+    HEARTSAPP = 0; //default
+    WITHOUT_USING_APP = 1;
+}
+
+message SittingGivenCountResponse {
+    int32 heartsapp = 1;
+    int32 withoutUsingApp = 2;
+}
+
+message SaveSittingsGivenWithoutUsingAppRequest {
+    google.protobuf.Timestamp startTime = 1;
+    google.protobuf.Timestamp endTime = 2;
+    int32 noOfPeople = 3;
+    repeated SeekerInfo seekerInfo = 4;
+    string comments = 5;
+}
+
+message GetSeekersToWhomSittingIsGivenWithoutUsingAppRequest {
+    int32 pageToken = 1;
+    int32 pageSize = 2;
+}
+
+message SeekerInfo {
+    string seekerId = 1;
+    string seekerName = 2;
+    string email = 3;
+}
+
+message SeekerInfoResponse {
+    repeated SeekerInfo seekerInfo = 1;
+    int32 previousPageToken = 3;
+    int32 nextPageToken = 4;
+}
+
+service MeditationService {
+    // Seeker side
+    rpc SeekerSession (stream SeekerRequest) returns (stream SeekerResponse);
+
+    // Preceptor Side
+    rpc PreceptorSession (stream PreceptorRequest) returns (stream PreceptorResponse);
+
+    // Online Metrics
+    rpc GetOnlineMetrics(OnlineMetrics) returns (OnlineMetrics);
+
+    // Schedule Remote/F2F Sitting Later
+    rpc ScheduleSittingNow(SittingRequest) returns (MeditationSession);
+
+    // Schedule Remote/F2F Sitting Later
+    rpc ScheduleSitting(SittingRequest) returns (SittingRequest);
+
+    // Delete a SittingRequest
+    rpc DeleteSittingRequest(google.protobuf.StringValue) returns (google.protobuf.BoolValue);
+
+	  //Get Slots
+    rpc GetPreceptorSlots(SlotsOfPreceptorRequest) returns (SlotsOfPreceptorResponse);
+
+    rpc GetSeekerUpcomingSittingRequests(google.protobuf.StringValue) returns (SittingRequestList);
+
+    rpc GetExistingSessionByUser(google.protobuf.StringValue) returns (MeditationSession);
+
+    rpc SaveSeekerFeedback(FeedbackRequest) returns (google.protobuf.BoolValue);
+
+    rpc SavePreceptorFeedback(FeedbackRequest) returns (google.protobuf.BoolValue);
+
+    rpc GetMeditationSession(google.protobuf.StringValue) returns (MeditationSession);
+
+    rpc CancelMeditationSession(CancelMeditationSessionRequest) returns (google.protobuf.BoolValue);
+
+    rpc GetAvailableSessionSlots(SittingRequest) returns (AvailableSessionSlots);
+
+    // Absentia Sittings
+    rpc AddAbsentiaCandidate(AddAbsentiaCandidateRequest) returns (google.protobuf.BoolValue);
+
+    // TODO: Do we need pagination?
+    rpc GetAbsentiaCandidates(AbsentiaListRequest) returns (AbsentiaCandidateList);
+
+    rpc RecordAbsentiaSitting(AbsentiaListRequest) returns (google.protobuf.BoolValue);
+
+    rpc SaveDiaryEntry(DiaryEntry) returns (google.protobuf.StringValue);
+
+    rpc DeleteDiaryEntry(google.protobuf.StringValue) returns (google.protobuf.BoolValue);
+
+    rpc GetNextDiaryEntries(GetDiaryEntriesRequest) returns (DiaryEntryList);
+
+    rpc GetPreviousDiaryEntries(GetDiaryEntriesRequest) returns (DiaryEntryList);
+
+    rpc GetDiaryEntryBySessionId(GetDiaryEntryBySessionIdRequest) returns (DiaryEntry);
+
+    // TODO: remove
+    rpc GetMeditationSessions(MeditationSessionsRequest) returns (MeditationSessionList);
+
+    rpc PublishPreceptorSchedule(PreceptorSchedule) returns (google.protobuf.StringValue);
+
+    rpc GetPreceptorSchedules(PreceptorScheduleRequest) returns (PreceptorScheduleList);
+
+    rpc DeletePreceptorSchedule(google.protobuf.StringValue) returns (google.protobuf.BoolValue);
+
+    rpc DebugMatchPreceptorAndSeeker(DebugMatchPreceptorAndSeekerRequest) returns (google.protobuf.BoolValue);
+
+    rpc GetUserUpcomingSessions(GetUserSessionsRequest) returns (MeditationSessionList);
+
+    rpc GetUserSessionHistory(GetUserSessionsRequest) returns (MeditationSessionList);
+
+    rpc CreateMasterSession(MasterSessionRequest) returns (MeditationSession);
+
+    rpc UpdateFace2FaceSittingFeedback(FaceToFaceSittingFeedbackRequest) returns (MeditationSession);
+
+    // Preceptor DND status and slots related API
+
+    rpc UpdatePreceptorDNDStatus(PreceptorDNDRequest) returns (google.protobuf.BoolValue);
+
+    rpc AddPreceptorDNDSlot(PreceptorDNDSlot) returns (google.protobuf.StringValue);
+
+    rpc GetPreceptorDNDSlots(GetPreceptorDNDSlotsRequest) returns (PreceptorDNDSlotList);
+
+    rpc UpdatePreceptorDNDSlot(PreceptorDNDSlot) returns (google.protobuf.BoolValue);
+
+    rpc DeletePreceptorDNDSlot(PreceptorDNDSlot) returns (google.protobuf.BoolValue);
+
+    //** New Apis
+
+    // Api to make self (preceptor) available/unavailable to give sittings
+    rpc UpdatePreceptorAvailabilityStatus (AvailabilityStatusChangeRequest) returns (AvailabilityStatusChangeResponse);
+
+    // Api to get self (preceptor) availability on servers
+    rpc GetPreceptorAvailabilityStatus (google.protobuf.StringValue) returns (google.protobuf.BoolValue);
+
+    // check if there is any under process session request made by seeker
+    rpc IsAnyPendingSeekerSessionRequest (google.protobuf.StringValue) returns (google.protobuf.BoolValue);
+
+    rpc SeekerSeekNow(SeekerRequest) returns (SeekerResponse);
+
+    rpc SeekerExitSession(SeekerRequest) returns (google.protobuf.BoolValue);
+
+    rpc SeekerClose(SeekerRequest) returns (SeekerResponse);
+
+    rpc PreceptorAccept(PreceptorRequest) returns (PreceptorResponse);
+
+    rpc PreceptorCancel(PreceptorRequest) returns (PreceptorResponse);
+
+    rpc PreceptorStartMeditation(PreceptorRequest) returns (PreceptorResponse);
+
+    rpc PreceptorEndMeditation(PreceptorRequest) returns (PreceptorResponse);
+
+    rpc PreceptorClose(PreceptorRequest) returns (PreceptorResponse);
+
+    rpc PreceptorReport(PreceptorReportRequest) returns (google.protobuf.BoolValue);
+
+    rpc GetPreceptorSittingCount(google.protobuf.StringValue) returns (google.protobuf.Int32Value);
+
+    rpc GetSeekerSittingCount(google.protobuf.StringValue) returns (google.protobuf.Int32Value);
+
+    rpc GetSittingsGivenCount(google.protobuf.StringValue) returns (SittingGivenCountResponse);
+
+    rpc SaveSittingsGivenWithoutUsingApp(SaveSittingsGivenWithoutUsingAppRequest) returns (google.protobuf.BoolValue);
+
+    rpc GetSeekersToWhomSittingIsGivenWithoutUsingApp(GetSeekersToWhomSittingIsGivenWithoutUsingAppRequest) returns (SeekerInfoResponse);
+
+}

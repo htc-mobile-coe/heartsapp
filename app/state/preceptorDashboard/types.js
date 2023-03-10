@@ -1,0 +1,9 @@
+export const SET_AVAILABILITY_STATUS =
+    'app/preceptorDashboard/SET_AVAILABILITY_STATUS';
+export const SET_PRECEPTOR_STATUS =
+    'app/preceptorDashboard/SET_PRECEPTOR_STATUS';
+export const SET_ONLINE_METRICS = 'app/preceptorDashboard/SET_ONLINE_METRICS';
+export const SET_ZERO_PRECEPTOR_NOTIFICATION_ENABLED =
+    'app/preceptorDashboard/SET_ZERO_PRECEPTOR_NOTIFICATION_ENABLED';
+export const SET_ONLINE_METRICS_LAST_UPDATED_DATE_AND_TIME =
+    'app/preceptorDashboard/SET_ONLINE_METRICS_LAST_UPDATED_DATE_AND_TIME';

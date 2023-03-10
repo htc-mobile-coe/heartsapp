@@ -1,0 +1,516 @@
+syntax = "proto3";
+
+import "google/protobuf/wrappers.proto";
+import "google/protobuf/timestamp.proto";
+import "contentCommon.proto";
+
+package unifiedplatform.service.content.index;
+
+option java_package = "org.heartfulness.unifiedplatform.interfaces.grpc.content.index";
+option java_multiple_files = true;
+option objc_class_prefix = "contentIndex";
+
+enum Status{
+	SUCCESS = 0;
+	ERROR = 1;
+	EXCEPTION = 2;
+}
+
+message TopicAspect {
+	string topic = 1;
+	string aspect = 2;
+}
+
+message BinaryFile {
+	string mimeType = 1;
+	string id = 2;
+	string encoding = 3;
+	string length = 4;
+}
+
+message Subtitle {
+	unifiedplatform.service.content.common.Language language = 1;
+	BinaryFile subtitle = 2;
+}
+
+message Transcript {
+	unifiedplatform.service.content.common.Language language = 1;
+	string transcriptXML = 2;
+}
+
+message IndexingStatusLog {
+	int32 lineNo = 1;
+	Status Status = 2;
+	string message = 3;
+}
+
+//Index Book
+message IndexBookRequest {
+	string path = 1;
+	unifiedplatform.service.content.common.Language language = 2;
+	string title = 3;
+	string xml = 4;
+	bool canBeIndependent = 5;
+	BinaryFile frontCoverImage = 6;
+	BinaryFile backCoverImageId = 7;
+	repeated string authors = 8;
+	repeated unifiedplatform.service.content.common.AbhyasStage abhyasStages = 9;
+	repeated BinaryFile otherImages = 10;
+}
+
+message IndexBookResponse {
+	Status status = 1;
+    string message = 2;
+	int64 noOfDocumentsCreated = 3;
+}
+
+//Index Book Collection
+message IndexBookCollectionRequest {
+	message CollectionItem {
+		string path = 1;
+		string title = 2;
+	}
+
+	string path = 1;
+	unifiedplatform.service.content.common.Language language = 2;
+	string title = 3;
+	bool canBeIndependent = 5;
+	BinaryFile frontCoverImageId = 6;
+	BinaryFile backCoverImageId = 7;
+	repeated string authors = 8;
+	repeated CollectionItem childItems = 9;
+	repeated unifiedplatform.service.content.common.AbhyasStage abhyasStages = 10;
+}
+
+message IndexBookCollectionResponse {
+	Status status = 1;
+    string message = 2;
+}
+
+//Index Daily Reflections
+message IndexDailyReflectionsRequest {
+	message DailyReflection{
+		string path = 1;
+		unifiedplatform.service.content.common.Language language = 2;
+		string title = 3;
+		string bookPath = 4;
+		string chapterPath = 5;
+		string paragraphXML = 6;
+		repeated string authors = 7;
+		repeated unifiedplatform.service.content.common.AbhyasStage abhyasStages = 8;
+		TopicAspect primaryTopicAspect = 9;
+		repeated TopicAspect secondaryTopicAspects = 10;
+		string primaryQuestion = 11;
+		repeated string secondaryQuestions = 12;
+	}
+
+	repeated DailyReflection dailyReflections = 1;
+}
+
+message IndexDailyReflectionsResponse {
+	repeated IndexingStatusLog statusLogs = 1;
+}
+
+//Index Daily Tip
+message IndexDailyTipsRequest {
+	message DailyTip {
+		string path = 1;
+		unifiedplatform.service.content.common.Language language = 2;
+		string bookPath = 3;
+		string chapterPath = 4;
+		string tipText = 5;
+		repeated string authors = 6;
+		repeated unifiedplatform.service.content.common.AbhyasStage abhyasStages = 7;
+		TopicAspect topicAspect = 8;
+		string tipTitle = 9;
+		string tipDay = 10;
+	}
+
+	repeated DailyTip dailyTips = 1;
+}
+
+message IndexDailyTipsResponse {
+	repeated IndexingStatusLog statusLogs = 1;
+}
+
+//Index Questions And Answer
+message IndexQuestionsAndAnswersRequest {
+	message QuestionsAndAnswer{
+		string path = 1;
+		unifiedplatform.service.content.common.Language language = 2;
+		string bookPath = 3;
+		string chapterPath = 4;
+		string answerXML = 5;
+		repeated string authors = 6;
+		repeated unifiedplatform.service.content.common.AbhyasStage abhyasStages = 7;
+		string primaryQuestion = 8;
+		repeated string secondaryQuestions = 9;
+	}
+
+	repeated QuestionsAndAnswer questionsAndAnswers = 1;
+}
+
+message IndexQuestionsAndAnswersResponse {
+	repeated IndexingStatusLog statusLogs = 1;
+}
+
+//Index Quotes
+message IndexQuotesRequest {
+	message Quote{
+		string path = 1;
+		unifiedplatform.service.content.common.Language language = 2;
+		string bookPath = 3;
+		string chapterPath = 4;
+		string quoteText = 5;
+		repeated string authors = 6;
+		repeated unifiedplatform.service.content.common.AbhyasStage abhyasStages = 7;
+		repeated string tags = 8;
+		string title = 9;
+	}
+
+	repeated Quote quotes = 1;
+}
+
+message IndexQuotesResponse {
+	repeated IndexingStatusLog statusLogs = 1;
+}
+
+//Index Videos
+message IndexVideosRequest {
+	message Video {
+		string path = 1;
+		unifiedplatform.service.content.common.Language language = 2;
+		BinaryFile video = 3;
+		Transcript transcript = 4;
+		repeated string authors = 6;
+		repeated unifiedplatform.service.content.common.AbhyasStage abhyasStages = 7;
+		repeated Subtitle subTitles = 8;
+		repeated string tags = 9;
+		BinaryFile previewImage = 10;
+		string title = 11;
+		int64 durationInSeconds = 12;
+		google.protobuf.Timestamp videoDate = 13;
+	}
+
+	repeated Video videos = 1;
+}
+
+message IndexVideosResponse {
+	repeated IndexingStatusLog statusLogs = 1;
+}
+
+//Index Audios
+message IndexAudiosRequest {
+	message Audio{
+		string path = 1;
+		unifiedplatform.service.content.common.Language language = 2;
+		BinaryFile audio = 3;
+		Transcript transcript = 4;
+		repeated string authors = 6;
+		repeated unifiedplatform.service.content.common.AbhyasStage abhyasStages = 7;
+		repeated string tags = 8;
+		BinaryFile coverPage = 9;
+		string title = 10;
+		int64 durationInSeconds = 12;
+		google.protobuf.Timestamp audioDate = 13;
+	}
+
+	repeated Audio audios = 1;
+}
+
+message IndexAudiosResponse {
+	repeated IndexingStatusLog statusLogs = 1;
+}
+
+//Index Whispers
+message IndexWhispersRequest {
+	message Whisper{
+		string path = 1;
+		unifiedplatform.service.content.common.Language language = 2;
+		string xml = 4;
+		repeated unifiedplatform.service.content.common.AbhyasStage abhyasStages = 5;
+		repeated string dateFormats = 6;
+	}
+
+	repeated Whisper whispers = 1;
+	repeated string dateFormats = 2;
+}
+
+message IndexWhispersResponse {
+	repeated IndexingStatusLog statusLogs = 1;
+}
+
+//Index Whispers Collection
+message IndexWhispersStaticCollectionRequest {
+	message CollectionItem {
+		string path = 1;
+		string title = 2;
+	}
+
+	string path = 1;
+	unifiedplatform.service.content.common.Language language = 2;
+	string title = 3;
+	BinaryFile coverImage = 4;
+	repeated CollectionItem childItems = 6;
+	repeated unifiedplatform.service.content.common.AbhyasStage abhyasStages = 7;
+}
+
+enum FILTER_KEY {
+	FILTER_KEY_AUTHORS = 0;
+	FILTER_KEY_TAGS = 1;
+	FILTER_KEY_VOLUMES = 2;
+	FILTER_KEY_DATE = 3;
+	FILTER_KEY_YEAR = 4;
+	FILTER_KEY_MONTH = 5;
+	FILTER_KEY_WEEKDAY = 6;
+	FILTER_KEY_DOCUMENT_CLASS_NAME = 7;
+}
+
+message Filter {
+	FILTER_KEY key = 1; //This is string because, it can be filled from FILTER_KEY or from facets
+	string value = 2;
+}
+
+message IndexWhispersDynamicCollectionRequest {
+	string path = 1;
+	unifiedplatform.service.content.common.Language language = 2;
+	string title = 3;
+	BinaryFile coverImage = 4;
+	repeated string authors = 5;
+	repeated unifiedplatform.service.content.common.AbhyasStage abhyasStages = 6;
+	repeated string query = 7;
+	repeated Filter filters = 8;
+	unifiedplatform.service.content.common.Language resultsLanguage = 9;
+	unifiedplatform.service.content.common.Language searchLanguage = 10;
+}
+
+message IndexWhispersCollectionResponse {
+	Status status = 1;
+    string message = 2;
+}
+
+//Index Authors
+message IndexAuthorRequest {
+	message AuthorDetail {
+		unifiedplatform.service.content.common.Language language = 1;
+		string name = 2;
+		repeated string descriptionParagraphs = 3;
+	}
+
+	string authorId = 1;
+	BinaryFile profilePic = 2;
+	unifiedplatform.service.content.common.AuthorType type = 3;
+	repeated AuthorDetail details = 4;
+}
+
+message IndexAuthorsResponse {
+	Status status = 1;
+    string message = 2;
+}
+
+message DeleteAllResponse {
+	Status status = 1;
+    string message = 2;
+}
+
+message ValidateXMLRequest {
+	string xml = 1;
+}
+
+message ValidateXMLResponse {
+	Status status = 1;
+    string message = 2;
+}
+
+
+
+message DeleteRequest {
+	enum DELETE_RESOURCE_TYPE {
+		DELETE_RESOURCE_TYPE_BOOK = 0;
+		DELETE_RESOURCE_TYPE_BOOK_COLLECTION = 1;
+		DELETE_RESOURCE_TYPE_AUDIO = 2;
+		DELETE_RESOURCE_TYPE_AUDIO_COLLECTION = 3;
+		DELETE_RESOURCE_TYPE_VIDEO = 4;
+		DELETE_RESOURCE_TYPE_VIDEO_COLLECTION = 5;
+		DELETE_RESOURCE_TYPE_WHISPER = 6;
+		DELETE_RESOURCE_TYPE_WHISPER_COLLECTION = 7;
+		DELETE_RESOURCE_TYPE_DAILY_TIP = 8;
+		DELETE_RESOURCE_TYPE_QUOTE = 9;
+		DELETE_RESOURCE_TYPE_DAILY_REFLECTION = 10;
+	}
+
+	string path = 1;
+	string id = 2;
+	DELETE_RESOURCE_TYPE deleteResourceType = 3;
+}
+
+message DeleteResponse {
+	Status status = 1;
+    string message = 2;
+}
+
+message DeleteSolrDocumentRequest {
+	repeated string solrDocumentId = 1;
+}
+
+message DeleteSolrDocumentResponse {
+	Status status = 1;
+    string message = 2;
+}
+
+message GetDocumentInfoRequest {
+	repeated string path = 1;
+	repeated string id = 2;
+	bool usePath = 3;
+}
+
+message GetDocumentInfoResponse {
+	message DocumentInfo {
+		string uid = 1;
+		string path = 2;
+		bool isCollection = 3;
+		bool areChildrenCollections = 4;
+		string documentClass = 5;
+		string documentTitle = 6;
+	}
+
+	repeated DocumentInfo docInfos = 1;
+}
+
+//Index Audio Collection
+message IndexAudioCollectionRequest {
+	message CollectionItem {
+		string path = 1;
+		string title = 2;
+	}
+
+	string path = 1;
+	unifiedplatform.service.content.common.Language language = 2;
+	string title = 3;
+	bool canBeIndependent = 5;
+	BinaryFile frontCoverImageId = 6;
+	BinaryFile backCoverImageId = 7;
+	repeated string authors = 8;
+	repeated CollectionItem childItems = 9;
+	repeated unifiedplatform.service.content.common.AbhyasStage abhyasStages = 10;
+}
+
+message IndexAudioCollectionResponse {
+	Status status = 1;
+    string message = 2;
+}
+
+//Index Video Collection
+message IndexVideoCollectionRequest {
+	message CollectionItem {
+		string path = 1;
+		string title = 2;
+	}
+
+	string path = 1;
+	unifiedplatform.service.content.common.Language language = 2;
+	string title = 3;
+	bool canBeIndependent = 5;
+	BinaryFile frontCoverImageId = 6;
+	BinaryFile backCoverImageId = 7;
+	repeated string authors = 8;
+	repeated CollectionItem childItems = 9;
+	repeated unifiedplatform.service.content.common.AbhyasStage abhyasStages = 10;
+}
+
+message IndexVideoCollectionResponse {
+	Status status = 1;
+    string message = 2;
+}
+
+//Get AbhyasStagesRequest
+message GetAbhyasStagesRequest {
+	repeated string path = 1;
+	repeated string id = 2;
+	bool usePath = 3;
+}
+
+message GetAbhyasStagesResponse {
+	message AbhyasStageItem {
+		string path = 1;
+		string id = 2;
+		repeated unifiedplatform.service.content.common.AbhyasStage abhyasStages = 3;
+	}
+
+	repeated AbhyasStageItem abhyasStageItems = 1;
+}
+
+//Update AbhyasStageRequest
+message UpdateAbhyasStageRequest {
+	message AbhyasStageUpdateItem {
+		string path = 1;
+		repeated unifiedplatform.service.content.common.AbhyasStage abhyasStages = 2;
+	}
+
+	repeated AbhyasStageUpdateItem abhyasStageUpdationItems = 1;
+}
+
+message UpdateAbhyasStageResponse {
+	repeated IndexingStatusLog statusLogs = 1;
+}
+
+//Get TagsRequest
+message GetTagsRequest {
+	repeated string path = 1;
+	repeated string id = 2;
+	bool usePath = 3;
+}
+
+message GetTagsResponse {
+	message TagItem {
+		string path = 1;
+		string id = 2;
+		repeated string tags = 3;
+	}
+
+	repeated TagItem tagItems = 1;
+}
+
+//Update TagsRequest
+message UpdateTagsRequest {
+	message TagUpdateItem {
+		string path = 1;
+		repeated string tags = 2;
+	}
+
+	repeated TagUpdateItem tagUpdateItems = 1;
+}
+
+message UpdateTagsResponse {
+	repeated IndexingStatusLog statusLogs = 1;
+}
+
+service ContentIndexingService {
+	rpc indexBook(IndexBookRequest) returns (IndexBookResponse) {}
+	rpc indexBookCollection(IndexBookCollectionRequest) returns (IndexBookCollectionResponse) {}
+	rpc indexDailyReflections(IndexDailyReflectionsRequest) returns (IndexDailyReflectionsResponse) {}
+	rpc indexQuestionsAndAnswer(IndexQuestionsAndAnswersRequest) returns (IndexQuestionsAndAnswersResponse) {}
+	rpc indexQuotes(IndexQuotesRequest) returns (IndexQuotesResponse) {}
+	rpc indexVideos(IndexVideosRequest) returns (IndexVideosResponse) {}
+	rpc indexVideosCollection(IndexVideoCollectionRequest) returns (IndexVideoCollectionResponse) {}
+	rpc indexAudios(IndexAudiosRequest) returns (IndexAudiosResponse) {}
+	rpc indexAudiosCollection(IndexAudioCollectionRequest) returns (IndexAudioCollectionResponse) {}
+	rpc indexWhispers(IndexWhispersRequest) returns (IndexWhispersResponse) {}
+	rpc indexWhispersStaticCollection(IndexWhispersStaticCollectionRequest) returns (IndexWhispersCollectionResponse) {}
+	rpc indexWhispersDynamicCollection(IndexWhispersDynamicCollectionRequest) returns (IndexWhispersCollectionResponse) {}
+	rpc indexAuthors(IndexAuthorRequest) returns (IndexAuthorsResponse) {}
+	rpc indexDailyTips(IndexDailyTipsRequest) returns (IndexDailyTipsResponse) {}
+
+	rpc deleteResource(DeleteRequest) returns (DeleteResponse) {}
+	rpc updateAbhyasStage(UpdateAbhyasStageRequest) returns (UpdateAbhyasStageResponse) {}
+	rpc updateTags(UpdateTagsRequest) returns (UpdateTagsResponse) {}
+
+	rpc validateBookXML(ValidateXMLRequest) returns (ValidateXMLResponse) {}
+	rpc deleteAll(unifiedplatform.service.content.common.Empty) returns (DeleteAllResponse) {}
+
+	rpc getAbhyasStages(GetAbhyasStagesRequest) returns (GetAbhyasStagesResponse) {}
+	rpc getTags(GetTagsRequest) returns (GetTagsResponse) {}
+	rpc getDocumentInfo(GetDocumentInfoRequest) returns (GetDocumentInfoResponse) {}
+	rpc refreshSubscriptionDefinitions(unifiedplatform.service.content.common.Empty) returns (unifiedplatform.service.content.common.Empty) {}
+	rpc refreshPredefinedImages(unifiedplatform.service.content.common.Empty) returns (unifiedplatform.service.content.common.Empty) {}
+}

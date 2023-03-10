@@ -1,0 +1,143 @@
+{
+  "project_info": {
+    "project_number": "498241637356",
+    "firebase_url": "https://unifiedplatform-qa.firebaseio.com",
+    "project_id": "unifiedplatform-qa",
+    "storage_bucket": "unifiedplatform-qa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:498241637356:android:283c7b58697593ec",
+        "android_client_info": {
+          "package_name": "com.hfn.unified"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "498241637356-3na8oju2ahpj35e9r93cmsprh4cuch6g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hfn.unified",
+            "certificate_hash": "daae806a8f5b8e3a8750cb2f36c7e3e592544762"
+          }
+        },
+        {
+          "client_id": "498241637356-44ehu89b78tomj2t1tl0iiaiunanqime.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIzyIrDBbCqkWLuLxIVaKHjO1BMQkMp_E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "116951271179328511963",
+              "client_type": 3
+            },
+            {
+              "client_id": "498241637356-i2q9attd7qus2gdblm1041st89v4u24j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.heartsapp.heartsapp.qa"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:498241637356:android:a09b86b71e9fcf31a78ec9",
+        "android_client_info": {
+          "package_name": "com.hfn.unified.hfn.content"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "498241637356-nqou8n2b18lre65v5orh260cdmsdno0n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hfn.unified.hfn.content",
+            "certificate_hash": "daae806a8f5b8e3a8750cb2f36c7e3e592544762"
+          }
+        },
+        {
+          "client_id": "498241637356-44ehu89b78tomj2t1tl0iiaiunanqime.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIzyIrDBbCqkWLuLxIVaKHjO1BMQkMp_E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "116951271179328511963",
+              "client_type": 3
+            },
+            {
+              "client_id": "498241637356-i2q9attd7qus2gdblm1041st89v4u24j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.heartsapp.heartsapp.qa"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:498241637356:android:61eb84d498ca2c5ea78ec9",
+        "android_client_info": {
+          "package_name": "com.hfn.unified.qa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "498241637356-l95ok16guqdf94qlhphbc6uebkf9hnft.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hfn.unified.qa",
+            "certificate_hash": "2da7cd7b55424e3547e33c5178a55402c6e2087c"
+          }
+        },
+        {
+          "client_id": "498241637356-44ehu89b78tomj2t1tl0iiaiunanqime.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIzyIrDBbCqkWLuLxIVaKHjO1BMQkMp_E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "116951271179328511963",
+              "client_type": 3
+            },
+            {
+              "client_id": "498241637356-i2q9attd7qus2gdblm1041st89v4u24j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.heartsapp.heartsapp.qa"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

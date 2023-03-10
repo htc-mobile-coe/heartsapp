@@ -1,0 +1,2279 @@
+[
+    {
+      "id": 254,
+      "value": "Andorra",
+      "code": "AD",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+376"
+    },
+    {
+      "id": 255,
+      "value": "United Arab Emirates",
+      "code": "AE",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+971"
+    },
+    {
+      "id": 256,
+      "value": "Afghanistan",
+      "code": "AF",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+93"
+    },
+    {
+      "id": 257,
+      "value": "Antigua and Barbuda",
+      "code": "AG",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+268"
+    },
+    {
+      "id": 258,
+      "value": "Anguilla",
+      "code": "AI",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+264"
+    },
+    {
+      "id": 259,
+      "value": "Albania",
+      "code": "AL",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+355"
+    },
+    {
+      "id": 260,
+      "value": "Armenia",
+      "code": "AM",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+374"
+    },
+    {
+      "id": 261,
+      "value": "Netherlands Antilles",
+      "code": "AN",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+599"
+    },
+    {
+      "id": 262,
+      "value": "Angola",
+      "code": "AO",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+244"
+    },
+    {
+      "id": 263,
+      "value": "Antarctica",
+      "code": "AQ",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+672"
+    },
+    {
+      "id": 264,
+      "value": "Argentina",
+      "code": "AR",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+54"
+    },
+    {
+      "id": 265,
+      "value": "American Samoa",
+      "code": "AS",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+684"
+    },
+    {
+      "id": 266,
+      "value": "Austria",
+      "code": "AT",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+43"
+    },
+    {
+      "id": 267,
+      "value": "Australia",
+      "code": "AU",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+61"
+    },
+    {
+      "id": 268,
+      "value": "Aruba",
+      "code": "AW",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+297"
+    },
+    {
+      "id": 269,
+      "value": "Åland Islands",
+      "code": "AX",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+358"
+    },
+    {
+      "id": 270,
+      "value": "Azerbaijan",
+      "code": "AZ",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+994"
+    },
+    {
+      "id": 271,
+      "value": "Bosnia and Herzegovina",
+      "code": "BA",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+387"
+    },
+    {
+      "id": 272,
+      "value": "Barbados",
+      "code": "BB",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+246"
+    },
+    {
+      "id": 273,
+      "value": "Bangladesh",
+      "code": "BD",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+880"
+    },
+    {
+      "id": 274,
+      "value": "Belgium",
+      "code": "BE",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+32"
+    },
+    {
+      "id": 275,
+      "value": "Burkina Faso",
+      "code": "BF",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+226"
+    },
+    {
+      "id": 276,
+      "value": "Bulgaria",
+      "code": "BG",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+359"
+    },
+    {
+      "id": 277,
+      "value": "Bahrain",
+      "code": "BH",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+973"
+    },
+    {
+      "id": 278,
+      "value": "Burundi",
+      "code": "BI",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+257"
+    },
+    {
+      "id": 279,
+      "value": "Benin",
+      "code": "BJ",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+229"
+    },
+    {
+      "id": 280,
+      "value": "Saint Barthélémy",
+      "code": "BL",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+590"
+    },
+    {
+      "id": 281,
+      "value": "Bermuda",
+      "code": "BM",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+1"
+    },
+    {
+      "id": 282,
+      "value": "Brunei Darussalam",
+      "code": "BN",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+673"
+    },
+    {
+      "id": 283,
+      "value": "Bolivia",
+      "code": "BO",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+591"
+    },
+    {
+      "id": 284,
+      "value": "Bonaire, Sint Eustatius and Saba",
+      "code": "BQ",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+599"
+    },
+    {
+      "id": 285,
+      "value": "Brazil",
+      "code": "BR",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+55"
+    },
+    {
+      "id": 286,
+      "value": "Bahamas",
+      "code": "BS",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+1"
+    },
+    {
+      "id": 287,
+      "value": "Bhutan",
+      "code": "BT",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+975"
+    },
+    {
+      "id": 288,
+      "value": "Bouvet Island",
+      "code": "BV",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+"
+    },
+    {
+      "id": 289,
+      "value": "Botswana",
+      "code": "BW",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+267"
+    },
+    {
+      "id": 290,
+      "value": "Belarus",
+      "code": "BY",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+375"
+    },
+    {
+      "id": 291,
+      "value": "Belize",
+      "code": "BZ",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+501"
+    },
+    {
+      "id": 292,
+      "value": "Canada",
+      "code": "CA",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+1"
+    },
+    {
+      "id": 293,
+      "value": "Cocos (Keeling) Islands",
+      "code": "CC",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+61"
+    },
+    {
+      "id": 294,
+      "value": "Central African Republic",
+      "code": "CF",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+236"
+    },
+    {
+      "id": 295,
+      "value": "Democratic Republic of the Congo",
+      "code": "CD",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+243"
+    },
+    {
+      "id": 296,
+      "value": "Congo",
+      "code": "CG",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+242"
+    },
+    {
+      "id": 297,
+      "value": "Switzerland",
+      "code": "CH",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+41"
+    },
+    {
+      "id": 298,
+      "value": "Côte d'Ivoire",
+      "code": "CI",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+225"
+    },
+    {
+      "id": 299,
+      "value": "Cook Islands",
+      "code": "CK",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+682"
+    },
+    {
+      "id": 300,
+      "value": "Chile",
+      "code": "CL",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+56"
+    },
+    {
+      "id": 301,
+      "value": "Cameroon",
+      "code": "CM",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+237"
+    },
+    {
+      "id": 302,
+      "value": "China",
+      "code": "CN",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+86"
+    },
+    {
+      "id": 303,
+      "value": "Colombia",
+      "code": "CO",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+57"
+    },
+    {
+      "id": 304,
+      "value": "Costa Rica",
+      "code": "CR",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+506"
+    },
+    {
+      "id": 305,
+      "value": "Cuba",
+      "code": "CU",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+53"
+    },
+    {
+      "id": 306,
+      "value": "Cape Verde",
+      "code": "CV",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+238"
+    },
+    {
+      "id": 307,
+      "value": "Curaçao",
+      "code": "CW",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+599"
+    },
+    {
+      "id": 308,
+      "value": "Christmas Island",
+      "code": "CX",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+61"
+    },
+    {
+      "id": 309,
+      "value": "Cyprus",
+      "code": "CY",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+357"
+    },
+    {
+      "id": 310,
+      "value": "Czech Republic",
+      "code": "CZ",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+420"
+    },
+    {
+      "id": 311,
+      "value": "Germany",
+      "code": "DE",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+49"
+    },
+    {
+      "id": 312,
+      "value": "Djibouti",
+      "code": "DJ",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+253"
+    },
+    {
+      "id": 313,
+      "value": "Denmark",
+      "code": "DK",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+45"
+    },
+    {
+      "id": 314,
+      "value": "Dominica",
+      "code": "DM",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+767"
+    },
+    {
+      "id": 315,
+      "value": "Dominican Republic",
+      "code": "DO",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+1"
+    },
+    {
+      "id": 316,
+      "value": "Algeria",
+      "code": "DZ",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+213"
+    },
+    {
+      "id": 317,
+      "value": "Ecuador",
+      "code": "EC",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+593"
+    },
+    {
+      "id": 318,
+      "value": "Estonia",
+      "code": "EE",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+372"
+    },
+    {
+      "id": 319,
+      "value": "Egypt",
+      "code": "EG",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+20"
+    },
+    {
+      "id": 320,
+      "value": "Western Sahara",
+      "code": "EH",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+212"
+    },
+    {
+      "id": 321,
+      "value": "Eritrea",
+      "code": "ER",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+291"
+    },
+    {
+      "id": 322,
+      "value": "Spain",
+      "code": "ES",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+34"
+    },
+    {
+      "id": 323,
+      "value": "Ethiopia",
+      "code": "ET",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+251"
+    },
+    {
+      "id": 324,
+      "value": "Finland",
+      "code": "FI",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+358"
+    },
+    {
+      "id": 325,
+      "value": "Fiji",
+      "code": "FJ",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+679"
+    },
+    {
+      "id": 326,
+      "value": "Falkland Islands",
+      "code": "FK",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+500"
+    },
+    {
+      "id": 327,
+      "value": "Micronesia",
+      "code": "FM",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+691"
+    },
+    {
+      "id": 328,
+      "value": "Faroe Islands",
+      "code": "FO",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+298"
+    },
+    {
+      "id": 329,
+      "value": "France",
+      "code": "FR",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+33"
+    },
+    {
+      "id": 330,
+      "value": "Gabon",
+      "code": "GA",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+241"
+    },
+    {
+      "id": 331,
+      "value": "Grenada",
+      "code": "GD",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+473"
+    },
+    {
+      "id": 332,
+      "value": "Georgia",
+      "code": "GE",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+995"
+    },
+    {
+      "id": 333,
+      "value": "French Guiana",
+      "code": "GF",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+594"
+    },
+    {
+      "id": 334,
+      "value": "Ghana",
+      "code": "GH",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+233"
+    },
+    {
+      "id": 335,
+      "value": "Gibraltar",
+      "code": "GI",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+350"
+    },
+    {
+      "id": 336,
+      "value": "Guernsey",
+      "code": "GG",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+44"
+    },
+    {
+      "id": 337,
+      "value": "Greenland",
+      "code": "GL",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+299"
+    },
+    {
+      "id": 338,
+      "value": "Gambia",
+      "code": "GM",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+220"
+    },
+    {
+      "id": 339,
+      "value": "Guinea",
+      "code": "GN",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+224"
+    },
+    {
+      "id": 340,
+      "value": "Guadeloupe",
+      "code": "GP",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+590"
+    },
+    {
+      "id": 341,
+      "value": "Equatorial Guinea",
+      "code": "GQ",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+240"
+    },
+    {
+      "id": 342,
+      "value": "Greece",
+      "code": "GR",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+30"
+    },
+    {
+      "id": 343,
+      "value": "South Georgia and the South Sandwich Islands",
+      "code": "GS",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+500"
+    },
+    {
+      "id": 344,
+      "value": "Guatemala",
+      "code": "GT",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+502"
+    },
+    {
+      "id": 345,
+      "value": "Guam",
+      "code": "GU",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+1"
+    },
+    {
+      "id": 346,
+      "value": "Guinea-Bissau",
+      "code": "GW",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+245"
+    },
+    {
+      "id": 347,
+      "value": "Guyana",
+      "code": "GY",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+592"
+    },
+    {
+      "id": 348,
+      "value": "Hong Kong",
+      "code": "HK",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+852"
+    },
+    {
+      "id": 349,
+      "value": "Heard Island and McDonald Islands",
+      "code": "HM",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+"
+    },
+    {
+      "id": 350,
+      "value": "Honduras",
+      "code": "HN",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+504"
+    },
+    {
+      "id": 351,
+      "value": "Croatia",
+      "code": "HR",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+385"
+    },
+    {
+      "id": 352,
+      "value": "Haiti",
+      "code": "HT",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+509"
+    },
+    {
+      "id": 353,
+      "value": "Hungary",
+      "code": "HU",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+36"
+    },
+    {
+      "id": 354,
+      "value": "Indonesia",
+      "code": "ID",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+62"
+    },
+    {
+      "id": 355,
+      "value": "Ireland",
+      "code": "IE",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+353"
+    },
+    {
+      "id": 356,
+      "value": "Israel",
+      "code": "IL",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+972"
+    },
+    {
+      "id": 357,
+      "value": "Isle of Man",
+      "code": "IM",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+44"
+    },
+    {
+      "id": 358,
+      "value": "India",
+      "code": "IN",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+91"
+    },
+    {
+      "id": 359,
+      "value": "British Indian Ocean Territory",
+      "code": "IO",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+246"
+    },
+    {
+      "id": 360,
+      "value": "Iraq",
+      "code": "IQ",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+964"
+    },
+    {
+      "id": 361,
+      "value": "Iran",
+      "code": "IR",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+98"
+    },
+    {
+      "id": 362,
+      "value": "Iceland",
+      "code": "IS",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+354"
+    },
+    {
+      "id": 363,
+      "value": "Italy",
+      "code": "IT",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+39"
+    },
+    {
+      "id": 364,
+      "value": "Jersey",
+      "code": "JE",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+44"
+    },
+    {
+      "id": 365,
+      "value": "Jamaica",
+      "code": "JM",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+876"
+    },
+    {
+      "id": 366,
+      "value": "Jordan",
+      "code": "JO",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+962"
+    },
+    {
+      "id": 367,
+      "value": "Japan",
+      "code": "JP",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+81"
+    },
+    {
+      "id": 368,
+      "value": "Kenya",
+      "code": "KE",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+254"
+    },
+    {
+      "id": 369,
+      "value": "Kyrgyzstan",
+      "code": "KG",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+996"
+    },
+    {
+      "id": 370,
+      "value": "Cambodia",
+      "code": "KH",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+855"
+    },
+    {
+      "id": 371,
+      "value": "Kiribati",
+      "code": "KI",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+686"
+    },
+    {
+      "id": 372,
+      "value": "Comoros",
+      "code": "KM",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+269"
+    },
+    {
+      "id": 373,
+      "value": "Saint Kitts and Nevis",
+      "code": "KN",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+869"
+    },
+    {
+      "id": 374,
+      "value": "North Korea",
+      "code": "KP",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+850"
+    },
+    {
+      "id": 375,
+      "value": "South Korea",
+      "code": "KR",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+82"
+    },
+    {
+      "id": 376,
+      "value": "Kuwait",
+      "code": "KW",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+965"
+    },
+    {
+      "id": 377,
+      "value": "Cayman Islands",
+      "code": "KY",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+345"
+    },
+    {
+      "id": 378,
+      "value": "Kazakhstan",
+      "code": "KZ",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+7"
+    },
+    {
+      "id": 379,
+      "value": "Laos",
+      "code": "LA",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+856"
+    },
+    {
+      "id": 380,
+      "value": "Lebanon",
+      "code": "LB",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+961"
+    },
+    {
+      "id": 381,
+      "value": "Saint Lucia",
+      "code": "LC",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+758"
+    },
+    {
+      "id": 382,
+      "value": "Liechtenstein",
+      "code": "LI",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+423"
+    },
+    {
+      "id": 383,
+      "value": "Sri Lanka",
+      "code": "LK",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+94"
+    },
+    {
+      "id": 384,
+      "value": "Liberia",
+      "code": "LR",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+231"
+    },
+    {
+      "id": 385,
+      "value": "Lesotho",
+      "code": "LS",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+266"
+    },
+    {
+      "id": 386,
+      "value": "Lithuania",
+      "code": "LT",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+370"
+    },
+    {
+      "id": 387,
+      "value": "Luxembourg",
+      "code": "LU",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+352"
+    },
+    {
+      "id": 388,
+      "value": "Latvia",
+      "code": "LV",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+371"
+    },
+    {
+      "id": 389,
+      "value": "Libya",
+      "code": "LY",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+218"
+    },
+    {
+      "id": 390,
+      "value": "Morocco",
+      "code": "MA",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+212"
+    },
+    {
+      "id": 391,
+      "value": "Monaco",
+      "code": "MC",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+377"
+    },
+    {
+      "id": 392,
+      "value": "Moldova",
+      "code": "MD",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+373"
+    },
+    {
+      "id": 393,
+      "value": "Montenegro",
+      "code": "ME",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+382"
+    },
+    {
+      "id": 394,
+      "value": "Saint Martin (French part)",
+      "code": "MF",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+590"
+    },
+    {
+      "id": 395,
+      "value": "Madagascar",
+      "code": "MG",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+261"
+    },
+    {
+      "id": 396,
+      "value": "Marshall Islands",
+      "code": "MH",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+692"
+    },
+    {
+      "id": 397,
+      "value": "Macedonia, the former Yugoslav Republic of",
+      "code": "MK",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+389"
+    },
+    {
+      "id": 398,
+      "value": "Mali",
+      "code": "ML",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+223"
+    },
+    {
+      "id": 399,
+      "value": "Myanmar",
+      "code": "MM",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+95"
+    },
+    {
+      "id": 400,
+      "value": "Mongolia",
+      "code": "MN",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+976"
+    },
+    {
+      "id": 401,
+      "value": "Macau",
+      "code": "MO",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+853"
+    },
+    {
+      "id": 402,
+      "value": "Northern Mariana Islands",
+      "code": "MP",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+1"
+    },
+    {
+      "id": 403,
+      "value": "Martinique",
+      "code": "MQ",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+596"
+    },
+    {
+      "id": 404,
+      "value": "Mauritania",
+      "code": "MR",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+222"
+    },
+    {
+      "id": 405,
+      "value": "Montserrat",
+      "code": "MS",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+1"
+    },
+    {
+      "id": 406,
+      "value": "Malta",
+      "code": "MT",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+356"
+    },
+    {
+      "id": 407,
+      "value": "Mauritius",
+      "code": "MU",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+230"
+    },
+    {
+      "id": 408,
+      "value": "Maldives",
+      "code": "MV",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+960"
+    },
+    {
+      "id": 409,
+      "value": "Malawi",
+      "code": "MW",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+265"
+    },
+    {
+      "id": 410,
+      "value": "Mexico",
+      "code": "MX",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+52"
+    },
+    {
+      "id": 411,
+      "value": "Malaysia",
+      "code": "MY",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+60"
+    },
+    {
+      "id": 412,
+      "value": "Mozambique",
+      "code": "MZ",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+258"
+    },
+    {
+      "id": 413,
+      "value": "Namibia",
+      "code": "NA",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+264"
+    },
+    {
+      "id": 414,
+      "value": "New Caledonia",
+      "code": "NC",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+687"
+    },
+    {
+      "id": 415,
+      "value": "Niger",
+      "code": "NE",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+227"
+    },
+    {
+      "id": 416,
+      "value": "Norfolk Island",
+      "code": "NF",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+672"
+    },
+    {
+      "id": 417,
+      "value": "Nigeria",
+      "code": "NG",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+234"
+    },
+    {
+      "id": 418,
+      "value": "Nicaragua",
+      "code": "NI",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+505"
+    },
+    {
+      "id": 419,
+      "value": "Netherlands",
+      "code": "NL",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+31"
+    },
+    {
+      "id": 420,
+      "value": "Norway",
+      "code": "NO",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+47"
+    },
+    {
+      "id": 421,
+      "value": "Nepal",
+      "code": "NP",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+977"
+    },
+    {
+      "id": 422,
+      "value": "Nauru",
+      "code": "NR",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+674"
+    },
+    {
+      "id": 423,
+      "value": "Neutral Zone",
+      "code": "NT",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+"
+    },
+    {
+      "id": 424,
+      "value": "Niue",
+      "code": "NU",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+683"
+    },
+    {
+      "id": 425,
+      "value": "New Zealand",
+      "code": "NZ",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+64"
+    },
+    {
+      "id": 426,
+      "value": "Oman",
+      "code": "OM",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+968"
+    },
+    {
+      "id": 427,
+      "value": "Panama",
+      "code": "PA",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+507"
+    },
+    {
+      "id": 428,
+      "value": "Peru",
+      "code": "PE",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+51"
+    },
+    {
+      "id": 429,
+      "value": "French Polynesia",
+      "code": "PF",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+689"
+    },
+    {
+      "id": 430,
+      "value": "Papua New Guinea",
+      "code": "PG",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+675"
+    },
+    {
+      "id": 431,
+      "value": "Philippines",
+      "code": "PH",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+63"
+    },
+    {
+      "id": 432,
+      "value": "Pakistan",
+      "code": "PK",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+92"
+    },
+    {
+      "id": 433,
+      "value": "Poland",
+      "code": "PL",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+48"
+    },
+    {
+      "id": 434,
+      "value": "Saint Pierre and Miquelon",
+      "code": "PM",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+508"
+    },
+    {
+      "id": 435,
+      "value": "Pitcairn Islands",
+      "code": "PN",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+64"
+    },
+    {
+      "id": 436,
+      "value": "Puerto Rico",
+      "code": "PR",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+1"
+    },
+    {
+      "id": 437,
+      "value": "State of Palestine",
+      "code": "PS",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+970"
+    },
+    {
+      "id": 438,
+      "value": "Portugal",
+      "code": "PT",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+351"
+    },
+    {
+      "id": 439,
+      "value": "Palau",
+      "code": "PW",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+680"
+    },
+    {
+      "id": 440,
+      "value": "Paraguay",
+      "code": "PY",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+595"
+    },
+    {
+      "id": 441,
+      "value": "Qatar",
+      "code": "QA",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+974"
+    },
+    {
+      "id": 442,
+      "value": "Réunion",
+      "code": "RE",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+262"
+    },
+    {
+      "id": 443,
+      "value": "Romania",
+      "code": "RO",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+40"
+    },
+    {
+      "id": 444,
+      "value": "Serbia",
+      "code": "RS",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+381"
+    },
+    {
+      "id": 445,
+      "value": "Russian Federation",
+      "code": "RU",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+7"
+    },
+    {
+      "id": 446,
+      "value": "Rwanda",
+      "code": "RW",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+250"
+    },
+    {
+      "id": 447,
+      "value": "Saudi Arabia",
+      "code": "SA",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+966"
+    },
+    {
+      "id": 448,
+      "value": "Solomon Islands",
+      "code": "SB",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+677"
+    },
+    {
+      "id": 449,
+      "value": "Seychelles",
+      "code": "SC",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+248"
+    },
+    {
+      "id": 450,
+      "value": "Sudan",
+      "code": "SD",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+249"
+    },
+    {
+      "id": 451,
+      "value": "Sweden",
+      "code": "SE",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+46"
+    },
+    {
+      "id": 452,
+      "value": "Singapore",
+      "code": "SG",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+65"
+    },
+    {
+      "id": 453,
+      "value": "Saint Helena, Ascension and Tristan da Cunha",
+      "code": "SH",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+290"
+    },
+    {
+      "id": 454,
+      "value": "Slovenia",
+      "code": "SI",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+386"
+    },
+    {
+      "id": 455,
+      "value": "Svalbard and Jan Mayen",
+      "code": "SJ",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+47"
+    },
+    {
+      "id": 456,
+      "value": "Slovakia",
+      "code": "SK",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+421"
+    },
+    {
+      "id": 457,
+      "value": "Sierra Leone",
+      "code": "SL",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+232"
+    },
+    {
+      "id": 458,
+      "value": "San Marino",
+      "code": "SM",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+378"
+    },
+    {
+      "id": 459,
+      "value": "Senegal",
+      "code": "SN",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+221"
+    },
+    {
+      "id": 460,
+      "value": "Somalia",
+      "code": "SO",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+252"
+    },
+    {
+      "id": 461,
+      "value": "Surivalue",
+      "code": "SR",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+"
+    },
+    {
+      "id": 462,
+      "value": "South Sudan",
+      "code": "SS",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+211"
+    },
+    {
+      "id": 463,
+      "value": "São Tomé and Príncipe",
+      "code": "ST",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+239"
+    },
+    {
+      "id": 464,
+      "value": "El Salvador",
+      "code": "SV",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+503"
+    },
+    {
+      "id": 465,
+      "value": "Sint Maarten (Dutch part)",
+      "code": "SX",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+599"
+    },
+    {
+      "id": 466,
+      "value": "Syria",
+      "code": "SY",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+963"
+    },
+    {
+      "id": 467,
+      "value": "Swaziland",
+      "code": "SZ",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+268"
+    },
+    {
+      "id": 468,
+      "value": "Turks and Caicos Islands",
+      "code": "TC",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+1"
+    },
+    {
+      "id": 469,
+      "value": "Chad",
+      "code": "TD",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+235"
+    },
+    {
+      "id": 470,
+      "value": "French Southern Territories",
+      "code": "TF",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+"
+    },
+    {
+      "id": 471,
+      "value": "Togo",
+      "code": "TG",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+228"
+    },
+    {
+      "id": 472,
+      "value": "Thailand",
+      "code": "TH",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+66"
+    },
+    {
+      "id": 473,
+      "value": "Tajikistan",
+      "code": "TJ",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+992"
+    },
+    {
+      "id": 474,
+      "value": "Tokelau",
+      "code": "TK",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+690"
+    },
+    {
+      "id": 475,
+      "value": "Turkmenistan",
+      "code": "TM",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+993"
+    },
+    {
+      "id": 476,
+      "value": "Tunisia",
+      "code": "TN",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+216"
+    },
+    {
+      "id": 477,
+      "value": "Tonga",
+      "code": "TO",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+676"
+    },
+    {
+      "id": 478,
+      "value": "East Timor",
+      "code": "TP",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+670"
+    },
+    {
+      "id": 479,
+      "value": "Turkey",
+      "code": "TR",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+90"
+    },
+    {
+      "id": 480,
+      "value": "Trinidad and Tobago",
+      "code": "TT",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+868"
+    },
+    {
+      "id": 481,
+      "value": "Tuvalu",
+      "code": "TV",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+688"
+    },
+    {
+      "id": 482,
+      "value": "Taiwan",
+      "code": "TW",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+886"
+    },
+    {
+      "id": 483,
+      "value": "Tanzania",
+      "code": "TZ",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+255"
+    },
+    {
+      "id": 484,
+      "value": "Ukraine",
+      "code": "UA",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+380"
+    },
+    {
+      "id": 485,
+      "value": "Uganda",
+      "code": "UG",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+256"
+    },
+    {
+      "id": 486,
+      "value": "UK",
+      "code": "GB",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+44"
+    },
+    {
+      "id": 487,
+      "value": "USA Minor Outlying Islands",
+      "code": "UM",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+246"
+    },
+    {
+      "id": 488,
+      "value": "USA",
+      "code": "US",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+1"
+    },
+    {
+      "id": 489,
+      "value": "Uruguay",
+      "code": "UY",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+598"
+    },
+    {
+      "id": 490,
+      "value": "Uzbekistan",
+      "code": "UZ",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+998"
+    },
+    {
+      "id": 491,
+      "value": "Holy See (Vatican City State)",
+      "code": "VA",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+379"
+    },
+    {
+      "id": 492,
+      "value": "Saint Vincent and the Grenadines",
+      "code": "VC",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+784"
+    },
+    {
+      "id": 493,
+      "value": "Venezuela",
+      "code": "VE",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+58"
+    },
+    {
+      "id": 494,
+      "value": "Virgin Islands (British)",
+      "code": "VG",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+1"
+    },
+    {
+      "id": 495,
+      "value": "Virgin Islands (USA)",
+      "code": "VI",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+1"
+    },
+    {
+      "id": 496,
+      "value": "Vietnam",
+      "code": "VN",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+84"
+    },
+    {
+      "id": 497,
+      "value": "Vanuatu",
+      "code": "VU",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+678"
+    },
+    {
+      "id": 498,
+      "value": "Wallis and Futuna",
+      "code": "WF",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+681"
+    },
+    {
+      "id": 499,
+      "value": "Samoa",
+      "code": "WS",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+685"
+    },
+    {
+      "id": 500,
+      "value": "Yemen",
+      "code": "YE",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+967"
+    },
+    {
+      "id": 501,
+      "value": "Mayotte",
+      "code": "YT",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+262"
+    },
+    {
+      "id": 502,
+      "value": "Yugoslavia",
+      "code": "YU",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+38"
+    },
+    {
+      "id": 503,
+      "value": "South Africa",
+      "code": "ZA",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+27"
+    },
+    {
+      "id": 504,
+      "value": "Zambia",
+      "code": "ZM",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+260"
+    },
+    {
+      "id": 505,
+      "value": "Zaire",
+      "code": "ZR",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+243"
+    },
+    {
+      "id": 506,
+      "value": "Zimbabwe",
+      "code": "ZW",
+      "latitude": null,
+      "longitude": null,
+      "active": true,
+      "dial_code": "+263"
+    }
+  ]

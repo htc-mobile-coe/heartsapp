@@ -1,0 +1,299 @@
+[
+	{
+	  "title": "Australian Dollar",
+	  "value": "AUD",
+	  "amounts": [
+		"2",
+		"5",
+		"10"
+	  ]
+	},
+	{
+	  "title": "Bulgarian Lev",
+	  "value": "BGN",
+	  "amounts": [
+		"2",
+		"5",
+		"10"
+	  ]
+	},
+	{
+	  "title": "Brazilian Real",
+	  "value": "BRL",
+	  "amounts": [
+		"5",
+		"10",
+		"15"
+	  ]
+	},
+	{
+	  "title": "Canadian Dollar",
+	  "value": "CAD",
+	  "amounts": [
+		"2",
+		"5",
+		"10"
+	  ]
+	},
+	{
+	  "title": "Swiss Franc",
+	  "value": "CHF",
+	  "amounts": [
+		"2",
+		"5",
+		"10"
+	  ]
+	},
+	{
+	  "title": "Chinese Yuan",
+	  "value": "CNY",
+	  "amounts": [
+		"5",
+		"10",
+		"15"
+	  ]
+	},
+	{
+	  "title": "Czech Republic Koruna",
+	  "value": "CZK",
+	  "amounts": [
+		"15",
+		"20",
+		"25"
+	  ]
+	},
+	{
+	  "title": "Danish Krone",
+	  "value": "DKK",
+	  "amounts": [
+		"5",
+		"10",
+		"15"
+	  ]
+	},
+	{
+	  "title": "Euro",
+	  "value": "EUR",
+	  "amounts": [
+		"2",
+		"5",
+		"10"
+	  ]
+	},
+	{
+	  "title": "British Pound Sterling",
+	  "value": "GBP",
+	  "amounts": [
+		"2",
+		"5",
+		"10"
+	  ]
+	},
+	{
+	  "title": "Hong Kong Dollar",
+	  "value": "HKD",
+	  "amounts": [
+		"10",
+		"15",
+		"20"
+	  ]
+	},
+	{
+	  "title": "Croatian Kuna",
+	  "value": "HRK",
+	  "amounts": [
+		"5",
+		"10",
+		"15"
+	  ]
+	},
+	{
+	  "title": "Hungarian Forint",
+	  "value": "HUF",
+	  "amounts": [
+		"70",
+		"100",
+		"150"
+	  ]
+	},
+	{
+	  "title": "Indonesian Rupiah",
+	  "value": "IDR",
+	  "amounts": [
+		"3000",
+		"5000",
+		"10000"
+	  ]
+	},
+	{
+	  "title": "Israeli New Sheqel",
+	  "value": "ILS",
+	  "amounts": [
+		"5",
+		"10",
+		"15"
+	  ]
+	},
+	{
+	  "title": "Indian Rupee",
+	  "value": "INR",
+	  "amounts": [
+		"50",
+		"100",
+		"150"
+	  ]
+	},
+	{
+	  "title": "Icelandic Krona",
+	  "value": "ISK",
+	  "amounts": [
+		"50",
+		"100",
+		"150"
+	  ]
+	},
+	{
+	  "title": "Japanese Yen",
+	  "value": "JPY",
+	  "amounts": [
+		"50",
+		"100",
+		"150"
+	  ]
+	},
+	{
+	  "title": "South Korean Won",
+	  "value": "KRW",
+	  "amounts": [
+		"250",
+		"500",
+		"750"
+	  ]
+	},
+	{
+	  "title": "Mexican Peso",
+	  "value": "MXN",
+	  "amounts": [
+		"15",
+		"20",
+		"25"
+	  ]
+	},
+	{
+	  "title": "Malaysian Ringgit",
+	  "value": "MYR",
+	  "amounts": [
+		"5",
+		"10",
+		"15"
+	  ]
+	},
+	{
+	  "title": "Norwegian Krone",
+	  "value": "NOK",
+	  "amounts": [
+		"10",
+		"15",
+		"20"
+	  ]
+	},
+	{
+	  "title": "New Zealand Dollar",
+	  "value": "NZD",
+	  "amounts": [
+		"2",
+		"5",
+		"10"
+	  ]
+	},
+	{
+	  "title": "Philippine Peso",
+	  "value": "PHP",
+	  "amounts": [
+		"15",
+		"20",
+		"25"
+	  ]
+	},
+	{
+	  "title": "Polish Zloty",
+	  "value": "PLN",
+	  "amounts": [
+		"5",
+		"10",
+		"15"
+	  ]
+	},
+	{
+	  "title": "Romanian Leu",
+	  "value": "RON",
+	  "amounts": [
+		"5",
+		"10",
+		"15"
+	  ]
+	},
+	{
+	  "title": "Russian Ruble",
+	  "value": "RUB",
+	  "amounts": [
+		"50",
+		"100",
+		"150"
+	  ]
+	},
+	{
+	  "title": "Swedish Krona",
+	  "value": "SEK",
+	  "amounts": [
+		"10",
+		"15",
+		"20"
+	  ]
+	},
+	{
+	  "title": "Singapore Dollar",
+	  "value": "SGD",
+	  "amounts": [
+		"2",
+		"5",
+		"10"
+	  ]
+	},
+	{
+	  "title": "Thai Baht",
+	  "value": "THB",
+	  "amounts": [
+		"15",
+		"20",
+		"25"
+	  ]
+	},
+	{
+	  "title": "Turkish Lira",
+	  "value": "TRY",
+	  "amounts": [
+		"10",
+		"15",
+		"20"
+	  ]
+	},
+	{
+	  "title": "US Dollar",
+	  "value": "USD",
+	  "amounts": [
+		"2",
+		"5",
+		"10"
+	  ]
+	},
+	{
+	  "title": "South African Rand",
+	  "value": "ZAR",
+	  "amounts": [
+		"15",
+		"20",
+		"25"
+	  ]
+	}
+  ]

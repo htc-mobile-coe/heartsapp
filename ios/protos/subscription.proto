@@ -1,0 +1,416 @@
+syntax = "proto3";
+//import "federatedIdentity.proto";
+import "google/protobuf/timestamp.proto";
+import "google/protobuf/wrappers.proto";
+
+package unifiedplatform.subscription;
+
+option java_package = "org.heartfulness.unifiedplatform.interfaces.grpc.subscription";
+option java_multiple_files = true;
+option objc_class_prefix = "Platform_Subscription_";
+
+/****
+ The following definitions are mainly for the consumption of low end UI clients 
+ (like mobile phones) for maximum efficiency.
+*****/
+// a subscription item and its plans applicable for a given user
+message UserSubscriptionItem {
+	string id = 1;
+	string name = 2;
+	string description = 3;
+	string contentType = 4;
+	string physicalFormat = 5;
+	string mediaFormat = 6;
+	string deliveryMethod = 7;
+	bool isCurrent = 8;
+	int64 endTime = 9; // max end time of all subscriptions for this item
+    repeated UserSubscriptionPlan userSubscriptionPlans = 10;
+}
+
+// a subscription plan applicable for a user and further info if currently subscribed
+message UserSubscriptionPlan {
+	string id = 1;
+	string name = 2;
+	string description = 3;
+	string frequency = 4;
+	string duration = 5;
+	string region = 6;
+	string currency = 7;
+	double price = 8;
+	// the following fields are set if user subscribed to this plan
+	int64 startTime = 9; // start time of subscription
+	int64 endTime = 10; // end time of subscription
+	bool isCurrent = 11; // whether subscription is currently in effect
+    // the following fields are related to parity price
+    string parityCountryCode = 12;
+    string parityCurrencyCode = 13;
+    float parityFactor = 14;
+    float exchangeFactor = 15;
+    double parityPrice = 16;
+    double defaultPrice = 17;
+}
+
+// parity rate info for a given country
+message ParityRate {
+    string id = 1;
+    string countryCode = 2;
+    string currencyCode = 3;
+    float parityFactor = 4;
+    float exchangeFactor = 5;
+}
+
+// parity price info for a given subscription plan and country
+message ParityPrice {
+    string subscriptionItemId = 1;
+    string subscriptionItemName = 2;
+    string subscriptionPlanId = 3;
+    string subscriptionPlanName = 4;
+	string currencyCode = 5;
+	double price = 6;
+	string parityCountryCode = 7;
+	string parityCurrencyCode = 8;
+	float parityFactor = 9;
+	float exchangeFactor = 10;
+	double parityPrice = 11;
+    double defaultPrice = 12;
+}
+
+/****
+ The following definitions are for consumption of any client with full flexibility.
+*****/
+
+message SubscriptionItem {
+	string id = 1;
+	string name = 2;
+	string description = 3;
+	string contentType = 4;
+	string physicalFormat = 5;
+	string mediaFormat = 6;
+	string deliveryMethod = 7;
+}
+
+enum SubscriptionDeliveryFrequency {
+	ONCE = 0;
+	MONTHLY = 1;
+	QUARTERLY = 2;
+	HALF_YEARLY = 3;
+	YEARLY = 4;
+}
+
+message SubscriptionDuration {
+}
+
+message SubscriptionRegion {
+}
+
+message SubscriptionPlan {
+	string id = 1;
+	string name = 2;
+	string description = 3;
+	string frequency = 4;
+	string duration = 5;
+	string region = 6;
+	string currency = 7;
+	double price = 8;
+	string billingAccountId = 9;
+	bool isActive = 10;
+	SubscriptionItem subscriptionItem = 11;
+}
+
+message SubscriptionStatus {
+}
+
+message SubscriptionLineItem {
+	string id = 1;
+	string subscriptionId = 2;
+	SubscriptionPlan subscriptionPlan = 3;
+	string currency = 4;
+	int32 quantity = 5;
+	double total = 6;
+	int64 startTime = 7;
+	int64 endTime = 8;
+	bool isCurrent = 9;
+}
+
+message UserProfile {
+	string userId = 1;
+	string profileId = 2;
+	string firstName = 3;
+	string lastName = 4;
+	string emailAddress = 5;
+	string phoneNumber = 6;
+}
+
+message Subscription {
+	string id = 1;
+	UserProfile userProfile = 2;
+	string status = 3;
+	string subscriptionDate = 4;
+	string currency = 5;
+	double total = 6;
+    repeated SubscriptionLineItem subscriptionLineItems = 7;
+    SubscriptionPayment payment = 8;
+}
+
+message SubscriptionPayment {
+	string id = 1;
+	string subscriptionId = 2;
+	string paymentStatus = 3;
+	string currency = 4;
+	double total = 5;
+	string trackingId = 6;
+	string transactionId = 7;
+	string transactionDate = 8;
+}
+
+/*
+Requests and Responses for services
+*/
+message FetchUserSubscriptionItemsRequest {
+    string userId = 1;
+    string idToken = 2;
+    string sortBy = 3;
+}
+
+message FetchUserSubscriptionItemsResponse {
+    string userId = 1;
+    repeated UserSubscriptionItem userSubscriptionItems = 2;
+}
+
+message FetchSubscriptionPlansRequest {
+    string userId = 1;
+    string idToken = 2;
+    string sortBy = 3;
+    // Pagination will be supported later if there are too many items
+}
+
+message FetchSubscriptionPlansResponse {
+    string userId = 1;
+    repeated SubscriptionPlan subscriptionPlans = 2;
+}
+
+message SubscribeRequest {
+    string userId = 1;
+    string idToken = 2;
+    repeated SubscriptionLineItem subscriptionLineItems = 3;
+}
+
+message SubscribeResponse {
+    string userId = 1;
+	Subscription subscription = 2;
+	string paymentGatewayUrl = 3;
+	string paymentGatewayRequestMethod = 4;
+	string paymentGatewayRequestParamMap = 5;
+}
+
+message FetchSubscriptionsRequest {
+    string userId = 1;
+    string idToken = 2;
+    string sortBy = 3;
+    // Pagination will be supported later if there are too many items
+}
+
+message FetchSubscriptionsResponse {
+    string userId = 1;
+    repeated Subscription subscriptions = 2;
+}
+
+message PaymentResult {
+    string paymentRequestId = 1;
+    string paymentId = 2;
+}
+
+/***** Feedback service related *****/
+
+message FieldOption {
+	string id = 1;
+	string name = 2;
+}
+
+message FetchFeedbackFieldOptionsRequest {
+}
+
+message FetchFeedbackFieldOptionsResponse {
+    repeated FieldOption problemTypeOptions = 1;
+    repeated FieldOption priorityOptions = 2;
+}
+
+message SubmitFeedbackRequest {
+	string userId = 1;
+	string problemTypeOptionId = 2;
+	string priorityOptionId = 3;
+	string comments = 4;
+}
+
+message SubmitFeedbackResponse {
+	string status = 1;
+}
+
+message SubscriptionReportRequest {
+    string userId = 1;
+    string idToken = 2;
+	// report parameters
+    string fromDate = 3; // yyyy-mm-dd (userId's timezone is used)
+    string toDate = 4; // yyyy-mm-dd (userId's timezone is used)
+    string paymentStatus = 5; // payment status
+    string emailAddress = 6; // subscriber's email
+    string firstName = 7; // subscriber's first name
+    string lastName = 8; // subscriber's last name
+	string sortBy = 9; // sort the report rows by this field
+    int32 pageSize = 10;
+    int32 pageNum = 11;
+}
+
+message SubscriptionReportResponse {
+    string userId = 1;
+    // report parameters
+    string fromDate = 2; // yyyy-mm-dd (userId's timezone is used)
+    string toDate = 3; // yyyy-mm-dd (userId's timezone is used)
+    string paymentStatus = 4; // payment status
+    string emailAddress = 5; // subscriber's email
+    string firstName = 6; // subscriber's first name
+    string lastName = 7; // subscriber's last name
+	string sortBy = 8; // sort the report rows by this field
+    int32 pageSize = 9;
+    int32 pageNum = 10;
+
+	// report result
+    string headerRowJson = 11;
+    repeated SubscriptionReportDataRow dataRowsJson = 12;
+    int32 totalRows = 13;
+    int32 numOfPages = 14;
+}
+
+message SubscriptionReportDataRow {
+    string subscriptionDate = 1;
+   	string subscriptionId = 2;
+   	string currency  = 3;
+   	string subscriptionPlanName  = 4;
+   	string subscriptionPlanAmount  = 5;
+   	string subscriptionAmount  = 6;
+   	string cgstAmount  = 7;
+   	string sgstAmount  = 8;
+   	string igstAmount  = 9;
+   	string paymentStatus  = 10;
+   	string transactionId  = 11;
+   	string subscriberName = 12;
+   	string subscriberEmail= 13;
+   	string subscriberPhone= 14;
+   	string subscriberAddress= 15;
+   	string subscriberCity= 16;
+   	string subscriberState= 17;
+   	string subscriberZipcode= 18;
+   	string subscriberCountry= 19;
+   	string paymentGatewayName= 20;
+   	string paymentErrorMessage= 21;
+   	string trackingId= 22;
+}
+
+message FetchParityRatesRequest {
+    string userId = 1;
+    string idToken = 2;
+    string countryCode = 3;
+}
+
+message FetchParityRatesResponse {
+    string userId = 1;
+    repeated ParityRate parityRates = 2;
+}
+
+message SaveParityRatesRequest {
+    string userId = 1;
+    string idToken = 2;
+	string action = 3;  // add, update, delete
+    repeated ParityRate parityRates = 4;
+}
+
+message SaveParityRatesResponse {
+    string userId = 1;
+    repeated ParityRate parityRates = 2;
+}
+
+message FetchParityPricesRequest {
+    string userId = 1;
+    string idToken = 2;
+    string countryCode = 3;
+    string subscriptionPlanName = 4;
+}
+
+message FetchParityPricesResponse {
+    string userId = 1;
+    repeated ParityPrice parityPrices = 2;
+	string headerRowJson = 3;
+}
+
+message FetchSubscriptionItemsRequest{
+    string userId = 1;
+    string idToken = 2;
+
+}
+message FetchSubscriptionItemsResponse{
+    string userId = 1;
+    repeated SubscriptionItem SubscriptionItems = 2;
+    string headerRowJson = 3;
+}
+
+/**
+Service definitions
+*/
+service SubscriptionService {
+	/** 
+		Fetch all subscription items and corresponding plans applicable/subscribed for the given userId
+	*/
+	rpc FetchUserSubscriptionItems(FetchUserSubscriptionItemsRequest) returns (FetchUserSubscriptionItemsResponse) {}
+	
+	/** 
+		Fetch all available subscription plans and corresponding items applicable for the given userId
+	*/
+	rpc FetchSubscriptionPlans(FetchSubscriptionPlansRequest) returns (FetchSubscriptionPlansResponse) {}
+	
+	/** 
+		Subscribe to the selected subscription plan line items.
+		Request has optional user name, email and phone for payment related communication.
+		Response has the Subscription Id and the payment gateway URL.
+		User should be redirected to this URL.
+	*/
+	rpc Subscribe(SubscribeRequest) returns (SubscribeResponse) {}
+	
+	/**
+		Fetch my subscriptions (made by the requesting user).
+	*/
+	rpc FetchSubscriptions(FetchSubscriptionsRequest) returns (FetchSubscriptionsResponse) {}
+
+
+	/*********** APIs called by Payment Gateway on completion of payment by user ************/
+	/**
+		After payment attempt, Payment Gateway redirects user's browser to this service through HTTP wrapper.
+		The payment status is updated in the database and the Subscription pojo with payment info is returned.
+	*/
+	rpc RedirectedPaymentResponseHandler(PaymentResult) returns (Subscription) {}
+
+	/**
+		After successful payment, Payment Gateway posts to this service through HTTP wrapper.
+		The payment status is updated in the database and the Subscription pojo with payment info is returned.
+	*/
+	rpc DirectPaymentResponseHandler(PaymentResult) returns (Subscription) {}
+		
+	/***** Feedback service related *****/
+	/**
+		Fetches the drop-down field options needed for the "Submit Feedback" screen.
+	*/
+	rpc FetchFeedbackFieldOptions(FetchFeedbackFieldOptionsRequest) returns (FetchFeedbackFieldOptionsResponse) {}
+	
+	rpc SubmitFeedback(SubmitFeedbackRequest) returns (SubmitFeedbackResponse) {}
+
+
+	/**
+    		Generate subscription report.
+    */
+    rpc SubscriptionReport(SubscriptionReportRequest) returns (SubscriptionReportResponse) {}
+
+    rpc FetchParityRates(FetchParityRatesRequest) returns (FetchParityRatesResponse) {}
+    rpc SaveParityRates(SaveParityRatesRequest) returns (SaveParityRatesResponse) {}
+    rpc FetchParityPrices(FetchParityPricesRequest) returns (FetchParityPricesResponse) {}
+    rpc FetchSubscriptionItems(FetchSubscriptionItemsRequest) returns (FetchSubscriptionItemsResponse) {}
+
+}

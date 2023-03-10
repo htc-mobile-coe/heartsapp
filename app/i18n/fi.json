@@ -1,0 +1,12 @@
+{
+    "common": {
+        "next": "Seuraava"
+    },
+    "validations": {
+        "required": "Varmistus",
+        "invalidEmail": "väärä email",
+        "invalidMobileNo": "väärä puhelinnumero",
+        "maxAllowedCharacters": "Max merkkimäärä",
+        "invalidValue": "väärä arvo"
+    }
+}

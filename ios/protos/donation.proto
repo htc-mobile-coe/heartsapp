@@ -1,0 +1,228 @@
+syntax = "proto3";
+import "google/protobuf/timestamp.proto";
+import "google/protobuf/wrappers.proto";
+
+package unifiedplatform.donation;
+
+option java_package = "org.heartfulness.unifiedplatform.interfaces.grpc.donation";
+option java_multiple_files = true;
+option objc_class_prefix = "Platform_Donation_";
+
+message DonationItem {
+	string id = 1;
+	string name = 2;
+	string description = 3;
+	string region = 4;
+	string currency = 5;
+	string billingAccountName = 6;
+	bool isActive = 7;
+}
+
+enum DonationRegion {
+	INDIA = 0;
+	OUTSIDE_INDIA = 1;
+	NORTH_AMERICA = 2;
+	EUROPE = 3;
+}
+
+enum DonationStatus {
+	CREATED = 0;
+	PAID = 1;
+	COMPLETED = 2;
+}
+
+message DonationLineItem {
+	string id = 1;
+	string donationId = 2;
+	DonationItem donationItem = 3;
+	string currency = 4;
+	double amount = 5;
+	bool isRecurring = 6;
+	string recurringStartDate = 7;
+	string recurringFrequency = 8;
+}
+
+message UserProfile {
+	string userId = 1; // from UI
+	string profileId = 2;
+	string firstName = 3; // from UI
+	string lastName = 4; // from UI
+	string emailAddress = 5; // from UI
+	string phoneNumber = 6; // from UI
+	string addressLine1 = 7;
+	string addressLine2 = 8;
+	string city = 9;
+	string state = 10;
+	string postalCode = 11;
+	string country = 12;
+	string memberId = 13;
+	string taxId = 14; // PAN number  from UI
+	string citizenshipCountry = 15; //  from UI
+}
+
+message DonationIdWrapper {
+	int64 donationId = 1;
+	string userId = 2;
+}
+
+message EditDonationUserDetailRequest {
+	int64 donationId = 1;
+	UserProfile userProfile = 2;
+	string userId = 3;
+}
+message Donation {
+	string id = 1;
+	UserProfile userProfile = 2;
+	string status = 3;
+	string donationDate = 4;
+	string currency = 5;
+	double amount = 6;
+	repeated DonationLineItem donationLineItems = 7;
+	DonationPayment payment = 8;
+	DonationReceipt donationReceipt = 9;
+}
+
+message DonationPayment {
+	string id = 1;
+	string donationId = 2;
+	string paymentStatus = 3;
+	string currency = 4;
+	double amount = 5;
+	string trackingId = 6;
+	string transactionId = 7;
+	string transactionDate = 8;
+}
+
+message DonationReceipt {
+	string id = 1;
+	string bookNumber = 2;
+	string receiptNumber =3;
+	string refNumber =4;
+}
+/*
+Requests and Responses for services
+*/
+message FetchDonationItemsRequest {
+    string userId = 1;
+    string citizenshipCountry = 2;
+    string idToken = 3;
+    string sortBy = 4;
+    // Pagination will be supported later if there are too many items
+}
+
+message FetchDonationItemsResponse {
+    string userId = 1;
+    string citizenshipCountry = 2;
+    repeated DonationItem donationItems = 3;
+}
+
+message DonateRequest {
+    string userId = 1;
+    string idToken = 2;
+    repeated DonationLineItem donationLineItems = 3;
+		UserProfile userProfile = 4;
+		string clientSuccessRedirectUrl = 5;
+		string clientFailureRedirectUrl = 6;
+		string clientId = 7;
+		//Json serialised string
+		string extrasJsonString = 8;
+}
+
+message DonateResponse {
+    string userId = 1;
+	Donation donation = 2;
+	string paymentGatewayUrl = 3;
+	string paymentGatewayRequestMethod = 4;
+	string paymentGatewayRequestParamMap = 5;
+}
+
+message FetchDonationsRequest {
+    string userId = 1;
+    string idToken = 2;
+    string sortBy = 3;
+    // Pagination will be supported later if there are too many items
+}
+
+message FetchDonationsResponse {
+    string userId = 1;
+    repeated Donation donations = 2;
+}
+
+message DonationReportRequest {
+    string userId = 1;
+    string idToken = 2;
+	// report parameters
+    string fromDate = 3; // yyyy-mm-dd (userId's timezone is used)
+    string toDate = 4; // yyyy-mm-dd (userId's timezone is used)
+    string paymentStatus = 5; // payment status
+    string emailAddress = 6; // donor's email
+    string firstName = 7; // donor's first name
+    string lastName = 8; // donor's last name
+	string sortBy = 9; // sort the report rows by this field
+    int32 pageSize = 10; 
+    int32 pageNum = 11;
+    int32 totalRows = 12;
+}
+
+message DonationReportResponse {
+    string userId = 1;
+    // report parameters
+    string fromDate = 2; // yyyy-mm-dd (userId's timezone is used)
+    string toDate = 3; // yyyy-mm-dd (userId's timezone is used)
+    string paymentStatus = 4; // payment status
+    string emailAddress = 5; // donor's email
+    string firstName = 6; // donor's first name
+    string lastName = 7; // donor's last name
+		string sortBy = 8; // sort the report rows by this field
+    int32 pageSize = 9; 
+    int32 pageNum = 10;
+
+	// report result
+    string headerRowJson = 11;
+    string dataRowsJson = 12;
+    int32 totalRows = 13;
+    int32 numOfPages = 14;
+    string bookNumber = 15;
+    int64 receiptNumber = 16;
+}
+
+message EmailDonationReportRequest{
+		string userId = 1;
+		DonationReportRequest donationReportRequest = 2;
+		string email = 3;
+}
+/**
+Service definitions
+*/
+service DonationService {
+	/** 
+		Fetch all available donation plans 
+	*/
+	rpc FetchDonationItems(FetchDonationItemsRequest) returns (FetchDonationItemsResponse) {}
+	
+	/** 
+		Donate to the selected donation line items.
+		Request has optional user name, email and phone for payment related communication.
+		Response has the Donation Id and the payment gateway URL.
+		User should be redirected to this URL.
+	*/
+	rpc Donate(DonateRequest) returns (DonateResponse) {}
+	
+	/**
+		Fetch my donations (made by the requesting user).
+	*/
+	rpc FetchDonations(FetchDonationsRequest) returns (FetchDonationsResponse) {}
+			
+	/**
+		Fetch donations report.
+	*/
+	rpc DonationReport(DonationReportRequest) returns (DonationReportResponse) {}
+
+	rpc fetchDonation(DonationIdWrapper) returns (Donation) {}
+
+	rpc editDonationUserDetail(EditDonationUserDetailRequest) returns (Donation) {}
+
+	rpc triggerDonationReceiptEmail(DonationIdWrapper) returns (google.protobuf.BoolValue){}
+
+	rpc triggerDonationReportEmail(EmailDonationReportRequest) returns (google.protobuf.BoolValue){}
+}

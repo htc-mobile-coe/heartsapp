@@ -1,0 +1,5 @@
+export const SET_APPLICATION_SERVER_REACHABLE =
+    'app/deviceState/SET_APPLICATION_SERVER_REACHABLE';
+
+export const SET_CONNECTED_TO_NETWORK =
+    'app/deviceState/SET_CONNECTED_TO_NETWORK';

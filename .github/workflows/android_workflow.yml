@@ -1,0 +1,45 @@
+name: Android/CI-CD
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  push:
+    tags:
+      - v*
+  workflow_dispatch:
+    inputs:
+      git-ref:
+        description: branch (optional)
+        required: false
+jobs:
+ Android_Release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone Repository (Latest)
+        uses: actions/checkout@v2
+        if: github.event.inputs.git-ref == ''
+      - name: Clone Repository (Custom Ref)
+        uses: actions/checkout@v2
+        if: github.event.inputs.git-ref != ''
+        with:
+          ref: ${{ github.event.inputs.git-ref }}
+      - name: Setup kernel for react native, increase watchers
+        run: echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+      - name : Setup Node version
+        uses: actions/setup-node@v2
+        with:
+           node-version: '12.18.3'
+      - name: Install npm dependencies
+        if: ${{ failure() || success() }}
+        run: |
+          npm install
+      - name: Android Build Steps
+        if: ${{ failure() || success() }}
+        run: |
+         cd android && ./gradlew clean buildQaDebug -x lint
+         cd .. && npx react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res
+         cd android && ./gradlew assembleQaDebug
+      - name: Deploy to App Center
+        if: ${{ failure() || success() }}
+        run: |
+          npm install appcenter-cli@2.10.6
+          npx appcenter distribute release --token "098240a77354a1d0e62128bb5ae39bb99f3b2647" --app "Heartfulness-Institute/heartsapp-android-qa" --group "QA Team" --file "$(find android/app/build/outputs/apk/qa/debug -name "*.apk")"

@@ -1,0 +1,244 @@
+{
+    "common": {
+        "next": "Următor"
+    },
+    "validations": {
+        "required": "Câmp obligatoriu",
+        "invalidEmail": "Adresă de email incorectă",
+        "invalidMobileNo": "Număr de telefon incorect",
+        "maxAllowedCharacters": " {{max}} caractere permise",
+        "invalidValue": "Valoare invalidă"
+    },
+    "offlineNotice": {
+        "unableToReachServer": "Conectare la server",
+        "noInternetConnection": "Lipsă conexiune internet"
+    },
+    "appTabs": {
+        "home": "Acasă",
+        "more": "Mai mult",
+        "locate": "Localizare"
+    },
+    "firstTimeLandingScreen": {
+        "newToHeartfulness": "Nou în Heartfulness",
+        "existingPractitioner": "Practicant Heartfulness",
+        "trainer": "Instructor Heartfulness",
+        "heading": "HeartsApp",
+        "subheading": "Însoțitorul tău pe drumul către pacea interioară"
+    },
+    "newbieMasterClassScreen": {
+        "heading": "Masterclass Heartfulness cu Daaji",
+        "aboutHeartfulness": "Despre Heartfulness",
+        "introductionToHeartfulness": "Introducere în Masterclass",
+        "day1": "Ziua 1",
+        "day2": "Ziua a 2-a",
+        "day3": "Ziua a 3-a",
+        "relax": "Relaxare",
+        "rejuvenate": "Rejuvenare",
+        "connect": "Conectare",
+        "continue": "Continuare",
+        "explore": "Descoperă",
+        "introductionToHeartfulnessDescription": "În acest videoclip, Daaji, ghidul global Heartfulness, ne prezintă cele patru tehnici ale practicii Heartfulness inclusiv transmisia, energia unică Heartfulness.",
+        "day1Description": "Înainte de  a învăța să meditezi pe sursa luminii din inimă, în acest prim masterclass vei fi ghidat prin relaxarea Heartfulness, o tehnică care generează o stare de calm atât la nivel fizic cât și la nivel mental.",
+        "day2Description": "În sesiunea a doua masterclass, Daaji te va introduce și te va ghida prin tehnica Heartfulness de curățire, o metodă simplă de întinerire, destinată să purifice mintea și să elimine stresul, gândurile care te împovărează și emoțiile.",
+        "day3Description": "În cel de-al treilea și ultimul masterclass, vei învăța meditația pe inimă, care îți permite să te conectezi cu sinele tău, să îți observi sentimentele cele mai profunde și să îți creezi propriul destin.",
+        "exploreMore": "Acasă",
+        "videoLockedError": "Sesiunea următoare masterclass va fi disponibilă la o zi după vizionarea sesiunii masterclass actuale. Parcurgerea unui masterclass pe zi, îți oferă timpul necesar să exersezi și să interiorizezi ceea ce ai învățat.",
+        "ok": "OK"
+    },
+    "signInScreen": {
+        "heading": "Autentificare",
+        "connectWith": "Autentificare cu",
+        "or": "sau",
+        "login": "Autentificare",
+        "registerWithEmail": "Înregistrare cu email",
+        "skip": "Omite",
+        "email": "Adresă email",
+        "password": "Parola",
+        "forgotPassword": "Ai uitat parola?",
+        "newToHeartfulness": "Nou în Heartfulness?",
+        "createAccount": "Creează cont",
+        "issuesWithLogin": "Probleme la conectare",
+        "helpDesk": "Asistență",
+        "byUsingApp": "Prin utilizarea acestei aplicații sunt de acord cu termenii și condițiile Institutului Heartfulness",
+        "termsOfUse": "Termeni de utilizare",
+        "and": "și",
+        "privacyPolicy": "Politica de confidențialitate"
+    },
+    "seekerMeditationSessionScreen": {
+        "sitComfortably": "Așează-te confortabil, relaxează-te și eliberează-te de orice lucru care te-ar putea distrage",
+        "pleaseWait": "Te rugăm să aștepți... Vei fi conectat la un instructor",
+        "waitingForTrainerToAccept": "Te conectăm acum cu un instructor, te rugăm să aștepți confirmarea acestuia.",
+        "waitingForTrainerToStart": "Te conectăm acum cu un instructor, te rugăm să aștepți confirmarea acestuia pentru a începe sesiunea",
+        "inProgress": "Conectat cu {{preceptorName}}\nMeditație în desfășurare",
+        "masterSittingInProgress": "Conectat cu Daaji\nMeditație în desfășurare",
+        "completed": "Meditația s-a încheiat",
+        "sittingLimitExceeded": "Ai participat recent la o sesiune de meditație. \nTe rugăm să aștepți, trebuie să existe o perioadă de 8 ore între două sesiuni de meditație.",
+        "goToHome": "Acasă",
+        "connectingToATrainer": "Te conectăm acum cu un instructor",
+        "waitingTime": "Te rugăm să aștepți, poate dura până la patru minute.",
+        "meditationSessionHasEnded": "Sesiunea de meditație s-a încheiat",
+        "modalGoToHome": "Mergi Acasă",
+        "noteObservations": "Notează-ți observațiile",
+        "fourMinutes": "patru minute"
+    },
+    "preceptorMeditationSessionScreen": {
+        "requestForMeditation": "Solicită o sesiune de meditație",
+        "canUAcceptRequest": "Accepți solicitarea de meditație?",
+        "seekersRequestingMeditation": "Practicanți care solicită să mediteze {{totalNoOfSeekers}}",
+        "pressStartToBeginSession": "Pentru a începe sesiunea de meditație apasă Start",
+        "pressEndToEndSession": "Apasă Sfârșit pentru a încheia sesiunea de meditație",
+        "sessionInProgress": "Sesiune în desfășurare cu {{totalNoOfSeekers}} practicanți",
+        "notNow": "Nu acum",
+        "accept": "Accept",
+        "start": "Începe",
+        "pressStart": "Pentru a începe sesiunea de meditație apasă Start",
+        "end": "Sfârșitul meditației",
+        "meditationCompleted": "Meditația s-a încheiat",
+        "goToHome": "Acasă",
+        "endConfirmation": "Ești sigur că dorești să închei sesiunea?",
+        "endSession": "Încheie sesiunea",
+        "continue": "Continuă"
+    },
+    "signUpScreen": {
+        "heading": "Creează un cont",
+        "subHeading": "Spune-ne despre tine",
+        "name": "Te rugăm să introduci numele tău complet",
+        "scrmId": "ID Heartfulness / SRCM ",
+        "dob": "Data nașterii DD/MM/YYYY",
+        "doj": "Data înscrierii MM/YY",
+        "email": "Introdu adresa ta de email ",
+        "mobileNo": "Telefon",
+        "password": "Parola",
+        "rePassword": "Reintrodu parola",
+        "submit": "Confirmare",
+        "dobValidationMsg": "Te rugăm să introduci formatul corect DD/MM/YYYY",
+        "dojValidationMsg": "Te rugăm să introduci formatul corect MM/YYYY",
+        "passwordsDidNotMatch": "Parolă incorectă",
+        "successModalHeading": "Cont creat",
+        "verificationLinkSentMessage": "Un link de verificare a fost trimis la adresa de email menționată. Te rugăm să finalizezi crearea contului tău prin accesarea link-ului respectiv.",
+        "login": "Logare",
+        "continueWithoutLogin": "Continuă fără să te autentifici"
+    },
+    "helpDeskScreen": {
+        "heading": "Asistență",
+        "subHeading": "Spune-ne cum te putem ajuta",
+        "name": "Te rugăm să introduci numele tău complet",
+        "email": "Adresa de email",
+        "mobileNo": "Telefon",
+        "issue": "Cum te putem ajuta?",
+        "submit": "Confirmare",
+        "reachUsAt": "Ne poți contacta la",
+        "supportTollFree": "Număr gratuit",
+        "supportMobile": "Telefon mobil",
+        "supportEmail": "Adresa de email",
+        "availableTiming": "(8.00 am-9.00 pm IST)"
+    },
+    "dataDoesNotMatchScreen": {
+        "subHeading": "Informațiile nu corespund",
+        "infoText1": "ID-ul Heartfulness introdus nu corespunde cu informațiile din baza noastră de date",
+        "infoText2": "Te rugăm să reintroduci informațiile și să încerci să te autentifici din nou",
+        "infoText3": "Dacă ai introdus informațiile corecte, dar în continuare nu te poți autentifica, te rugăm să contactezi echipa de asistență.",
+        "tryAgainButton": "Încearcă din nou",
+        "contactHelpDeskButton": "Contactează echipa de asistență"
+    },
+    "forgotPasswordScreen": {
+        "heading": "Resetare parolă",
+        "successModalHeading": "Trimite email",
+        "sentResetPasswordEmailMessage": "Un email cu resetarea parolei a fost trimis la adresa de email menționată. Te rugăm să îți verifici emailul și să urmezi instrucțiunile.",
+        "ok": "OK",
+        "email": "Introdu adresa de email cu care te-ai înregistrat",
+        "send": "Trimite"
+    },
+    "preceptorDashboardCard": {
+        "availableForSittings": "Disponibil",
+        "notAvailableForSittings": "Indisponibil",
+        "yourCurrentStatus": "Stare:"
+    },
+    "onlineMetrics": {
+        "abhyasisWaiting": "Practicanți în așteptare",
+        "trainersAvailable": "Instructori disponibili",
+        "sessionsInProgress": "Sesiune de meditație în desfășurare"
+    },
+    "HomeScreen": {
+        "heading": "Introducere in Heartfulness",
+        "meditate": "Meditează",
+        "withTrainer": "cu un instructor",
+        "basicPractice": "Practică ghidată",
+        "introductorySession": "Sesiune de introducere",
+        "masterClasses": "Masterclass",
+        "welcome": "Bună {{userName}}",
+        "signIn": "Conectare",
+        "signOut": "Deconectare",
+        "attestationPopupHeading": "Sesiunea de meditație cu un instructor va fi disponibilă după ce ai încheiat cele trei sesiuni masterclass introductive.",
+        "completedIntro": "Am încheiat trei sesiuni introductive cu un instructor Heartfulness sau la un eveniment Heartfulness.",
+        "completedIntroWithMasterClasses": "Am finalizat cele trei sesiuni masterclass cu Daaji.",
+        "takeIntro": "Vreau să particip la cele trei sesiuni masterclass cu Daaji.",
+        "connectWithTrainer": "Conectează-te cu un instructor",
+        "numberOfAbhyasis": "Alte persoane care meditează cu tine",
+        "submit": "Trimite",
+        "availableForSittingsWarning": "Ești disponibil pentru a acorda sitting-uri. Te rugăm să îți schimbi disponibilitatea și să încerci din nou.",
+        "ok": "OK",
+        "cancel": "Anulează",
+        "guest": "Invitat",
+        "lifeStyle": "Stilul de viață",
+        "lifeStyleInHeartfulnessWay": "Stilul de viață Heartfulness"
+    },
+    "resourcesScreen": {
+        "readAndReflect": "Citește",
+        "explore": "Explorează",
+        "engage": "Implică-te",
+        "title": "Resurse",
+        "books": "Cărți",
+        "whispers": "Șoapte",
+        "audio": "Audio",
+        "video": "Video"
+    },
+    "readAndReflectScreen": {
+        "title": "Citește și reflectează",
+        "blog": "Blog",
+        "articles": "Articole",
+        "magazine": "Revista",
+        "quote": "Citate",
+        "books": "Cărți",
+        "whispers": "Șoapte"
+    },
+    "exploreScreen": {
+        "title": "Explorează",
+        "heartfulnessOfferings": "Oferte Heartfulness",
+        "daajisDesk": "Biroul lui Daaji",
+        "kanhaShantiVanam": "Kanha Shanti Vanam",
+        "kanhaMeditationHall": "Sala de meditație de la Kanha",
+        "brighterMinds": "Brighter Minds",
+        "theHeartFulnessWay": "Calea Heartfulness",
+        "heartSpots": "Centre de meditație Heartfulness",
+        "liveBroadcast": "Transmisiune live în direct (în curând)",
+        "a_Whisper_A_Day": "Șoapte din tărâmul de lumină",
+        "heartfulnessInstitute": "Institutul Heartfulness"
+    },
+    "moreScreen": {
+        "title": "Mai mult",
+        "updateProfile": "Profil",
+        "privacyPolicy": "Politica de confidențialitate",
+        "termsAndConditions": "Termeni și condiții",
+        "helpAndSupport": "Ajutor ",
+        "deactivateAccount": "Dezactivează contul"
+    },
+    "preceptorsNeededPopup": {
+        "title": "Există solicitări pentru preceptori",
+        "description": "Există practicanți care așteaptă o sesiune de meditație",
+        "snooze": "Oprește temporar pentru {{hours}} ore",
+        "makeMeAvailable": "Permite ca ceilalți să vadă că sunt disponibil"
+    },
+    "dndPermissionsNeededPopup": {
+        "title": "Te rugăm să confirmi mutarea telefonului în modul „nu deranjați”.",
+        "description": "Avem nevoie de permisiunea ta pentru a pune telefonul în modul „nu deranjați”, atunci când meditația a început.",
+        "allow": "Acceptă",
+        "doNotAllow": "Refuză"
+    },
+    "deactivateAccountConfirmationPopup": {
+        "title": "Dezactivează contul",
+        "description": "Ești sigur că dorești să îți ștergi contul?",
+        "yes": "Da",
+        "no": "Nu"
+    }
+}

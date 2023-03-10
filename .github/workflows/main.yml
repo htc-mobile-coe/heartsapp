@@ -1,0 +1,74 @@
+name: IOSBUILD
+on:
+  push:
+    tags:
+      - v*
+  workflow_dispatch:
+    inputs:
+      git-ref:
+        description: branch (optional)
+        required: false
+jobs:
+ IOS_RUN:
+      runs-on: macos-latest
+      env:
+       XC_VERSION: ${{ '13.1' }}
+       ENCRYPTED_CERTS_FILE_PATH: ${{ 'DistributionCertificate.p12.gpg' }}
+       DECRYPTED_CERTS_FILE_PATH: ${{ 'DistributionCertificate.p12' }}
+       ENCRYPTED_PROVISION_FILE_PATH: ${{ 'heartsapp_qa_provisioning.tar.gz.gpg' }}
+       DECRYPTED_PROVISION_FILE_PATH: ${{ 'heartsapp_qa_provisioning.tar.gz' }}
+       CERTS_ENCRYPTION_PWD: ${{ secrets.CERTIFICATE_PASSWORD }}
+       PROVISION_ENCRYPTION_PWD: ${{ secrets.PROVISION_PASSWORD }}
+       CERTS_EXPORT_PWD: ${{ secrets.CERTIFICATE_EXPORT_PASSWORD }}
+       KEYCHAIN: ${{ 'test.keychain' }}
+      steps:
+      - name: Clone Repository (Latest)
+        uses: actions/checkout@v2
+        if: github.event.inputs.git-ref == ''
+      - name: Clone Repository (Custom Ref)
+        uses: actions/checkout@v2
+        if: github.event.inputs.git-ref != ''
+        with:
+          ref: ${{ github.event.inputs.git-ref }}
+      - name : Setup Node version
+        uses: actions/setup-node@v2
+        with:
+           node-version: '12.18.3'
+      - name: Install npm dependencies
+        run: |
+          npm install
+      - name: Install pod dependencies
+        run: |
+          cd ios && npx pod-install
+      - name: Select latest Xcode
+        run: "sudo xcode-select -s /Applications/Xcode_$XC_VERSION.app"
+      - name: Configure Keychain
+        run: |
+         security create-keychain -p "" "$KEYCHAIN"
+         security list-keychains -s "$KEYCHAIN"
+         security default-keychain -s "$KEYCHAIN"
+         security unlock-keychain -p "" "$KEYCHAIN"
+         security set-keychain-settings
+         security list-keychains
+      - name: Configure Code Signing Properties
+        run: |
+         cd ios
+         gpg -d -o "$DECRYPTED_CERTS_FILE_PATH" --pinentry-mode=loopback --passphrase "$CERTS_ENCRYPTION_PWD" "$ENCRYPTED_CERTS_FILE_PATH"
+         gpg -d -o "$DECRYPTED_PROVISION_FILE_PATH" --pinentry-mode=loopback --passphrase "$PROVISION_ENCRYPTION_PWD" "$ENCRYPTED_PROVISION_FILE_PATH"
+         security import "$DECRYPTED_CERTS_FILE_PATH" -k "$KEYCHAIN" -P "$CERTS_EXPORT_PWD" -A
+         security set-key-partition-list -S apple-tool:,apple: -s -k "" "$KEYCHAIN"
+         tar xzvf $DECRYPTED_PROVISION_FILE_PATH
+         mkdir -p "$HOME/Library/MobileDevice/Provisioning Profiles"
+         for PROVISION in `ls ./*.mobileprovision`
+         do
+          UUID=`/usr/libexec/PlistBuddy -c 'Print :UUID' /dev/stdin <<< $(security cms -D -i ./$PROVISION)`
+          cp "./$PROVISION" "$HOME/Library/MobileDevice/Provisioning Profiles/$UUID.mobileprovision"
+         done
+      - name: Build ios app
+        run: |
+          cd ios && xcodebuild -workspace heartsapp.xcworkspace -scheme heartsapp-QA archive -archivePath heartsapp.xcarchive -allowProvisioningUpdates "OTHER_CODE_SIGN_FLAGS=--keychain '$KEYCHAIN'"
+          xcodebuild -exportArchive -archivePath ./heartsapp.xcarchive -exportPath ./build -exportOptionsPlist ExportOptions.plist
+      - name: Deploy to App Center
+        run: |
+          npm install appcenter-cli@2.10.6
+          npx appcenter distribute release --token "1e8ded44135afd999a446ac5f39af071edbe6a45" --app "Heartfulness-Institute/heartsapp.qa" --group "QA Team" --file "$(find ios/build -name "*.ipa")"

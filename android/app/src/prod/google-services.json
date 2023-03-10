@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "995463456479",
+    "firebase_url": "https://unifiedplatform-prod.firebaseio.com",
+    "project_id": "unifiedplatform-prod",
+    "storage_bucket": "unifiedplatform-prod.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995463456479:android:283c7b58697593ec",
+        "android_client_info": {
+          "package_name": "com.hfn.unified"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995463456479-np4n5lu1ce2ot6o9t6o0shu5uigjmubi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hfn.unified",
+            "certificate_hash": "e1657f96964828f1e5af0bf631a0a9bbb9fc041f"
+          }
+        },
+        {
+          "client_id": "995463456479-ftgf8gnufl4t2fj7517c6j739jd175qh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hfn.unified",
+            "certificate_hash": "98a02c9f055138c585076c1e22212ec37a50dc5f"
+          }
+        },
+        {
+          "client_id": "995463456479-u0lg7dtthkp9uloaedtbs643nh0d87tk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrS5yd4xTs4yCtVkZVH3sMZzBmeOEdJqk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "114256702267756677584",
+              "client_type": 3
+            },
+            {
+              "client_id": "995463456479-r0nopvsrhqobemjic6u5cllru4pjjhp5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.heartsapp.heartsapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,122 @@
+syntax = "proto3";
+
+package unifiedplatform.notification;
+
+import "google/protobuf/timestamp.proto";
+import "google/protobuf/wrappers.proto";
+//import "google/type/latlng.proto";
+
+option java_package = "org.heartfulness.unifiedplatform.interfaces.grpc.notification";
+option java_multiple_files = true;
+option objc_class_prefix = "notification_service";
+
+
+enum Version {
+    VERSION_1_0_0 = 0;
+}
+
+message NotificationPreferences {
+    bool obt = 1;
+    bool whisperAday = 2;
+    bool newContent = 3; // includes audio, video and articles.
+    bool announcements = 4; // from ZIC, SahajNet news
+    bool newReleases = 5;
+}
+
+enum Category {
+    MEDITATION_SERVICE = 0;
+    PROFILE_SERVICE = 1;
+    SUBSCRIPTION_SERVICE = 2;
+    CONTENT_SERVICE = 3;
+    DONATION_SERVICE = 4;
+    NOTIFICATION_SERVICE = 5;
+}
+
+enum SubCategory {
+    LOW_PRECEPTOR_CONDITION = 0; // MS
+    WAITING_FOR_PRECEPTOR_TO_START = 1; // MS
+    TIMED_OUT = 2; // MS
+    IN_PROGRESS_TIME_OUT = 3; // MS
+    MEDITATION_COMPLETED = 4; // MS
+    SCHEDULED = 5; // MS - sitting scheduled
+    SEEKER_CANCELLED = 6; // MS - seeker cancelled after the sitting was scheduled.
+    PRECEPTOR_CANCELLED = 7; // MS - preceptor cancelled after the sitting was scheduled.
+    PRECEPTOR_NOT_AVAILABLE = 8; // Legacy - when slots are deleted due to preceptor not showing up
+    PRECEPTOR_NO_SHOW = 9; // New notification type for preceptor to show up.
+    READY_FOR_SITTING = 10; // remote later sitting notification 15 mins or 60 mins before f2f.
+
+    FREE_SUBSCRIPTION = 15; // PS
+}
+
+message Notification {
+    string title = 1;
+    string body = 2;
+    string template = 3;
+    string category = 4;
+    string categorySubType = 5;
+    int32 timeToLiveInSeconds = 6;
+    map<string, string> data = 7;
+}
+
+message TopicNotificationRequest {
+    string topic = 1;
+    string locale = 3;
+    Notification notification = 2;
+}
+
+message TopicNotificationResponse {
+
+}
+
+message TopicSubscribeRequest {
+    string topic = 1;
+    string userId = 2;
+    string deviceId = 3;
+}
+
+message TopicSubscribeResponse {
+
+}
+
+message TopicUnsubscribeRequest {
+    string topic = 1;
+    string userId = 2;
+    string deviceId = 3;
+}
+
+message TopicUnsubscribeResponse {
+
+}
+
+message DeviceNotificationRequest {
+    string deviceRegistrationToken = 1;
+    Notification notification = 2;
+}
+
+message DeviceNotificationResponse {
+
+}
+
+message UserNotificationRequest {
+    string userId = 1; // firebaseId
+    string deviceId = 2; // if present then send to only that device else to all devices.
+    Notification notification = 3;
+}
+
+message UserNotificationResponse {
+
+}
+
+service NotificationService {
+
+    rpc SendTopicNotification(TopicNotificationRequest) returns (TopicNotificationResponse);
+
+    rpc SendDeviceNotification(DeviceNotificationRequest) returns (DeviceNotificationResponse);
+
+    rpc SendUserNotification(UserNotificationRequest) returns (UserNotificationResponse);
+
+    rpc SubscribeToTopic(TopicSubscribeRequest) returns (TopicSubscribeResponse);
+
+    rpc UnSubscribeFromTopic(TopicUnsubscribeRequest) returns (TopicSubscribeResponse);
+}
+

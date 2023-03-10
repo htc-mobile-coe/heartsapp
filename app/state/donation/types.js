@@ -1,0 +1,9 @@
+export const SET_DONATION_AMOUNT = 'app/donation/SET_DONATION_AMOUNT';
+export const SET_CONVERTED_DONATION_AMOUNT =
+    'app/donation/SET_CONVERTED_DONATION_AMOUNT';
+export const SET_CURRENCY = 'app/donation/SET_CURRENCY';
+export const SET_AMOUNT_SUGGESTIONS = 'app/donation/SET_AMOUNT_SUGGESTIONS';
+export const SET_PAYMENT_GATEWAY_REQUEST_METHOD =
+    'app/donation/SET_PAYMENT_GATEWAY_REQUEST_METHOD';
+export const SET_DONATION_PAYMENT_URL = 'app/donation/SET_DONATION_PAYMENT_URL';
+export const SET_USER_EMAIL = 'app/donation/SET_USER_EMAIL';

@@ -1,0 +1,115 @@
+Key,Value
+validations|phoneNumberHint,+(Country code)(phone number) e.g. +919988776655
+seekerMeditationSessionScreen|preceptorName,'{{preceptorName}}'
+seekerMeditationSessionScreen|spent,You have meditated
+seekerMeditationSessionScreen|sessionLimitExceeded,Not more than {{maxMeditationSessionsRecommended}} sessions are recommended in {{timeperiodForSessions}} days
+preceptorMeditationSessionScreen|seekersRequestingMeditation,"{{totalNoOfSeekers}} Abhyasis requesting a 
+ meditation session"
+preceptorMeditationSessionScreen|sessionInProgress,Session in progress with {{totalNoOfSeekers}} Abhyasis..
+preceptorMeditationSessionScreen|spent,You have meditated
+signUpScreen|scrmId,Heartfulness / SRCM ID
+signUpScreen|doj,Date of joining (MM/YYYY)
+onlineMetrics|abhyasisWaiting,Abhyasis Waiting
+onlineMetrics|trainersAvailable,Trainers Available
+onlineMetrics|sessionsInProgress,Ongoing Sessions
+onlineMetrics|seekersMeditating,People Meditating
+additionalAbhyasisScreen|meditateWithTrainer,Meditate with a trainer
+additionalAbhyasisScreen|youWillBeConnectedToTrainer,You will be connected to a live trainer.
+additionalAbhyasisScreen|theSessionCanGoForAround,The session can go on for around 
+additionalAbhyasisScreen|min,min.
+additionalAbhyasisScreen|numberOfAbhyasis,Number of people meditating with you
+additionalAbhyasisScreen|connectWithTrainer, Connect with Trainer
+HomeScreen|withTrainer,With a Trainer
+HomeScreen|introductorySession,Introductory Sessions
+HomeScreen|lifeStyleInHeartfulnessWay,Lifestyle in a Heartfulness Way
+profileScreen|playGuidedAudio,"Play relaxation audio before 
+meditation"
+profileScreen|myAccount,My Account
+profileScreen|profileSettings,Settings
+profileScreen|languageSetting,Language (Coming Soon)
+profileScreen|notificationSetting,Notification (Coming Soon)
+profileScreen|changeThemeSetting,Change Theme
+myAccountScreen|title,My Account
+myAccountScreen|updatePersonalInfo,Personal Info
+myAccountScreen|changePassword,Change Password
+myAccountScreen|deleteAccount,Delete Account
+changePasswordScreen|title,Change Password
+changePasswordScreen|currentPassword,Current Password
+changePasswordScreen|newPassword,New Password
+changePasswordScreen|updatePassword,Update
+changePasswordScreen|wrongPassword,Please enter the correct password
+changePasswordScreen|weakPassword,Password should be at least 6 characters
+changePasswordScreen|successMessage,"Your password has been
+ changed successfully"
+changePasswordPopup|description,"Change password not applicable
+ for this login."
+changePasswordPopup|ok,OK
+deleteAccountConfirmationPopup|title,All history & personal information of the account will be deleted permanently
+deleteAccountConfirmationPopup|description,"Are you sure you want to 
+delete account ?"
+deleteAccountConfirmationPopup|yes,Yes
+deleteAccountConfirmationPopup|no,No
+deleteAccountConfirmationPopup|success,"Your Account has been 
+Successfully Deleted"
+deleteAccountConfirmationPopup|reloginDescription,"For security reasons 
+please re-login to delete this account"
+deleteAccountConfirmationPopup|relogin,Re-Login
+personalInfoScreen|heading,Personal Info
+personalInfoScreen|firstName,First Name*
+personalInfoScreen|lastName,Last Name
+personalInfoScreen|addressLine1,Address Line 1*
+personalInfoScreen|addressLine2,Address Line 2
+personalInfoScreen|postalCode,Postal Code*
+personalInfoScreen|selectCityTown,Select City/Town*
+personalInfoScreen|countryCode,Country Code
+personalInfoScreen|phoneNumber,Phone No*
+personalInfoScreen|update,Update
+personalInfoScreen|successMessage,Your account has been updated successfully
+cityScreen|heading,Select City/Town
+cityScreen|search,Search
+cityScreen|hint,"If your city is not available, please choose a close by city and put details of your city in the Address lines."
+donationPromptingMeditationSessionEndedScreen|sessionEnded,The session has ended.
+donationPromptingMeditationSessionEndedScreen|thankyouForMeditatingWithUs,Thank you for meditating with us
+donationPromptingMeditationSessionEndedScreen|youHaveMeditated,You have meditated
+donationPromptingMeditationSessionEndedScreen|minutes,Minutes
+donationPromptingMeditationSessionEndedScreen|message,"All over the world we conduct program in schools, universities & colleges, hospitals and villages for free. Your donation will help us support these programs."
+donationPromptingMeditationSessionEndedScreen|amount,Amount
+donationPromptingMeditationSessionEndedScreen|donate,Donate
+donationPromptingMeditationSessionEndedScreen|home,Home
+donationPromptingMeditationSessionEndedScreen|selectACurrency,Select a currency
+donationPromptingMeditationSessionEndedScreen|onlineTransactionCouldBeMinimum,Online transaction could be minimum of
+donationPromptingMeditationSessionEndedScreen|pleaseAdjustTheAmountAccordingly,Please adjust the amount accordingly.
+CurrencyConversionPopup|thankYou,Thank you!
+CurrencyConversionPopup|youHaveEntered,You have entered
+CurrencyConversionPopup|asADonationTowardsHeartfulness,as a donation towards Heartfulness.
+CurrencyConversionPopup|wouldYouLikeToContinue,Would you like to continue?
+paymentScreen|thankYou,Thank you!
+paymentScreen|receiptEmail,Receipt sent to your email
+paymentScreen|paymentFailed,Can't complete payment. Any amount deducted will be refunded in 3-5 bussiness days
+paymentScreen|retry,Retry
+paymentScreen|backToHome,Home
+donationFormScreen|heading,Donate
+donationFormScreen|citizen,Are you a citizen of India
+donationFormScreen|yes,Yes
+donationFormScreen|no,No
+donationFormScreen|firstName,First Name*
+donationFormScreen|lastName,Last Name
+donationFormScreen|address,Address*
+donationFormScreen|country,Country*
+donationFormScreen|countryCode,Country Code
+donationFormScreen|state,State
+donationFormScreen|postalCode,Postal Code*
+donationFormScreen|emailId,Email Address*
+donationFormScreen|phoneNumber,Phone*
+donationFormScreen|panNumber,PAN NO
+donationFormScreen|donationInformation,Donation Information
+donationFormScreen|confirmDonation,Confirm Donation
+donationFormScreen|selectACountry,Select a country
+donationFormScreen|selectAState,Select a state
+donationFormScreen|selectACountryCode,Select a country code
+donationFormScreen|statesNotAvailable,State not available. Please ignore and proceed further.
+themeSelectionScreen|title,Themes
+themeSelectionScreen|subTitle,Customize your own theme
+themeSelectionScreen|applyTheme,Apply
+themeSelectionScreen|peachTheme,Peach Theme
+themeSelectionScreen|classicTheme,Classic Sky Theme

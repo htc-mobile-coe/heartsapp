@@ -1,0 +1,96 @@
+syntax = "proto3";
+
+package unifiedplatform.federatedIdentity;
+
+option java_package = "org.heartfulness.unifiedplatform.interfaces.grpc.federatedIdentity";
+option java_multiple_files = true;
+option objc_class_prefix = "federatedIdentity";
+
+enum IdentityType {
+
+    ANONYMOUS = 0;
+    FIREBASE_EMAIL = 1;
+    SOCIAL_GOOGLE = 2;
+    SOCIAL_FACEBOOK = 3;
+    SOCIAL_APPLE = 4;
+}
+
+message IdentityTypeList {
+    repeated IdentityType identityTypes = 1;
+}
+
+message AuthCredentials {
+    string apiKey = 1;
+    string idToken = 2;
+    uint32 expirationTime = 3;
+}
+
+message GoogleProviderData {
+    string uid = 1;
+    string displayName = 2;
+    string photoURL = 3;
+    repeated string email = 4;
+    repeated string phoneNumber = 5;
+    string providerId = 6;
+}
+
+//TODO: Update this with the data provided by Facebook Auth
+message FacebookProviderData {
+    string uid = 1;
+    string displayName = 2;
+    string photoURL = 3;
+    repeated string email = 4;
+    repeated string phoneNumber = 5;
+    string providerId = 6; //Name of the provider such as Google/Facebook/Apple
+}
+
+message FirebaseEmailProviderData {
+    string uid = 1;
+    string displayName = 2;
+    string photoURL = 3;
+    repeated string email = 4;
+    repeated string phoneNumber = 5;
+    string providerId = 6; //Name of the provider such as Google/Facebook/Apple
+}
+
+message AppleProviderData {
+    string uid = 1;
+    string displayName = 2;
+    string photoURL = 3;
+    repeated string email = 4;
+    repeated string phoneNumber = 5;
+    string providerId = 6; //Name of the provider such as Google/Facebook/Apple
+}
+
+message AuthenticatedOnlineProfile {
+    string uId = 1; //Firebase framework should provide this and it would be distinct from the one provided by the Identity Provider
+    IdentityType identityType = 2;
+    oneof ProviderData {
+        GoogleProviderData googleProviderData = 3;
+        FacebookProviderData facebookProviderData = 4;
+        bool anonymous = 5;
+        FirebaseEmailProviderData firebaseEmailProviderData = 6;
+        AppleProviderData appleProviderData = 7;
+    }
+    string screenName = 14; //For anonymous as well as phone auth *mobile app will ask user to provide a screen name in case of phone auth**
+    AuthCredentials authCredentials = 15;
+}
+
+message FederatedIdentity {
+    AuthenticatedOnlineProfile profile = 1;
+}
+
+message LinkedIdentityRequest {
+    AuthenticatedOnlineProfile profile = 1;
+    string uniqueUserId = 2;
+}
+
+message AlternateProfilesFound {
+    bool alternateIdentityFound = 1;
+    //repeated IdentityType alternatedIdentify = 1; // Alternate Identity Types discovered.
+    //This can be used to prompt the user to link their accounts accordingly
+    //TODO: We could probably add more fields to this later such as email address, phone, googleId, facebookId etc
+    //This is subject to clearance from Security team
+}
+
+
